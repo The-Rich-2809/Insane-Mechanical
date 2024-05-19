@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Ultragamma</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Ultragamma.styles.css" asp-append-version="true" />
+    <script src="https://kit.fontawesome.com/7f625253aa.js" crossorigin="anonymous" asp-append-version="true"></script>
+    <script src="https://kit.fontawesome.com/7f625253aa.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header class="site-header sticky-top py-1 bg-black">
+        <nav class="container d-flex flex-column flex-md-row justify-content-between">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <i class="fa-thin fa-cloud-music"></i>
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <li><a class="nav-link px-2 text-white" asp-area="" asp-controller="Home" asp-action="Index"><img src="../Images/Insane-Mechanical.jpg" alt="mdo" width="30" height="30" class="rounded-circle"></a></li>
+                        <li><a class="nav-link px-2 text-white" asp-area="" asp-controller="Productos" asp-action="Hombres">Hombres</a></li>
+                        <li><a class="nav-link px-2 text-white" asp-area="" asp-controller="Productos" asp-action="Mujeres">Mujeres</a></li>
+                        <li><a class="nav-link px-2 text-white" asp-area="" asp-controller="Productos" asp-action="Accesorios">Accesorios</a></li>
+                    </ul>
+
+                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                        <a asp-area="" asp-controller="Productos" asp-action="Carrito"><i class="text-white fa-solid fa-cart-shopping"></i></a>
+                    </form>
+
+                    <div class="dropdown text-end">
+                        <a href="#" class="d-block link-light text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="@ViewBag.FotoPerfil" alt="mdo" width="32" height="32" class="rounded-circle">
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" asp-controller="Usuario" asp-action="Inicio">@ViewBag.Nombre</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="CerrarSesion"><i class="fa-solid fa-right-to-bracket"></i>  Cerrar Sesión</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <style>
+        .bx bxl-facebook-circle {
+            color: white;
+        }
+
+        .bx bxl-instagram-alt {
+            color: white;
+        }
+
+        .bx bxl-gmail bx-lg {
+            color: white;
+        }
+    </style>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/bootstrap.bundle.min.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

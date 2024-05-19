@@ -1,0 +1,117 @@
+﻿@{
+    Layout = "_LayoutLoginRegister";
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #999;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: auto;
+        }
+
+            .login-container h2 {
+                text-align: center;
+                color: #fff;
+            }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+            .form-group label {
+                display: block;
+                margin-bottom: 5px;
+                color: #fff;
+            }
+
+            .form-group input {
+                width: 90%;
+                padding: 10px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                background-color: #555;
+                color: #fff;
+                margin: auto;
+            }
+
+            .form-group button {
+                width: 100%;
+                padding: 10px;
+                border: none;
+                background-color: #555;
+                color: #fff;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+                .form-group button:hover {
+                    background-color: #444;
+                }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.8em;
+            color: #777;
+            background-color: #222;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-between; /* Distribuye los botones uniformemente en la fila */
+        }
+
+            .button-container button {
+                width: 48%; /* Reduce el ancho para que ambos botones quepan en la misma fila */
+            }
+
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Iniciar Sesión</h2>
+        <form asp-action="Login" asp-controller="Home" method="post">
+            <div class="form-group">
+                <label for="username">Nombre de Usuario</label>
+                <input type="text" id="username" name="Correo" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="Contrasena" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Inicia sesion</button>
+            </div>
+        </form>
+            <div class="button-container">
+            <button type="submit" onclick="location.href='@Url.Action("Register", "Home")'">Registrate</button>
+                <!-- Reemplaza "Registro" y "Controlador" con los nombres de acción y controlador de tu vista de registro -->
+            @* <button type="submit" onclick="location.href='@Url.Action("ContrasenaOlvidada", "Home")'">Olvide mi contrasena</button> *@
+            </div>
+
+        <h1 class="text-black">@ViewBag.Mensaje</h1>
+    </div>
+</body>
+</html>
