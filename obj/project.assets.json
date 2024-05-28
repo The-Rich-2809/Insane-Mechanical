@@ -2972,11 +2972,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ricar\\Documents\\Programación\\C#\\Web\\Insane-Mechanical\\Insane-Mechanical.csproj",
+      "projectUniqueName": "C:\\Users\\ricar\\Documents\\GitHub\\Insane-Mechanical\\Insane-Mechanical.csproj",
       "projectName": "Insane-Mechanical",
-      "projectPath": "C:\\Users\\ricar\\Documents\\Programación\\C#\\Web\\Insane-Mechanical\\Insane-Mechanical.csproj",
+      "projectPath": "C:\\Users\\ricar\\Documents\\GitHub\\Insane-Mechanical\\Insane-Mechanical.csproj",
       "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ricar\\Documents\\Programación\\C#\\Web\\Insane-Mechanical\\obj\\",
+      "outputPath": "C:\\Users\\ricar\\Documents\\GitHub\\Insane-Mechanical\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",

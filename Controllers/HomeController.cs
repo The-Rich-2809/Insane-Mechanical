@@ -15,9 +15,8 @@ namespace Insane_Mechanical.Controllers
             _contextDB = contextDB;
         }
 
-        public IActionResult Index()
+        public void Cookies()
         {
-            Initialize();
             var miCookie = HttpContext.Request.Cookies["MiCookie"];
 
             if (miCookie != null)
@@ -33,6 +32,13 @@ namespace Insane_Mechanical.Controllers
                     }
                 }
             }
+            List<Categoria> categorias = _contextDB.Categoria.ToList();
+            ViewBag.Categorias = categorias;
+        }
+        public IActionResult Index()
+        {
+            Initialize();
+            Cookies();
             return View();
         }
 
@@ -120,8 +126,30 @@ namespace Insane_Mechanical.Controllers
                     new Usuario() {Correo = "aserranoacosta841@gmail.com", Contrasena = "1234", TipoUsuario = "Admin", DireccionImagen = "../Images/Usuarios/Alejandro.jpg", Nombre = "Alejandro"}
                 };
 
+            var insertarcategorias = new Categoria[]
+            {
+                new Categoria(){Titulo = "Mantenimiento", Descripcion = "Aqui se encontrara info para reparar tu choche", RutaImagen = "../Images/Categorias/ImgAuto.jpg" }
+            };
+            var insertararticulo = new Articulo[]
+            {
+                new Articulo(){Titulo = "Cambio de aceite", Descripcion = "Info para cambiar tu aceite", RutaImagen = "../Images/Categorias/ImgAuto.jpg", CategoriaId = 1, RutaHTML = "../HTML/1_1_Hola.cshtml" },
+            };
+            var insertarcomentario = new Comentario[]
+            {
+                new Comentario(){IdArticulo = 1, IdUsuario = 1, Texto = "Hola, este es mi primer comentario" }
+            };
+
             foreach (var u in insertarusuarios)
                 _contextDB.Usuario.Add(u);
+
+            foreach(var u in insertarcategorias)
+                _contextDB.Categoria.Add(u);
+
+            foreach (var u in insertararticulo)
+                _contextDB.Articulo.Add(u);
+
+            foreach(var u in insertarcomentario)
+                _contextDB.Comentario.Add(u);
 
             _contextDB.SaveChanges();
         }
