@@ -128,11 +128,13 @@ namespace Insane_Mechanical.Controllers
 
             var insertarcategorias = new Categoria[]
             {
-                new Categoria(){Titulo = "Mantenimiento", Descripcion = "Aqui se encontrara info para reparar tu choche", RutaImagen = "../Images/Categorias/ImgAuto.jpg" }
+                new Categoria(){Titulo = "Mantenimiento", Descripcion = "Aqui se encontrara info para mantener tu choche", RutaImagen = "../Images/Categorias/ImgAuto.jpg" },
+                new Categoria(){Titulo = "Reparaciones", Descripcion = "Aqui se encontrara info para reparar tu choche", RutaImagen = "../Images/Categorias/ImgAuto.jpg" }
             };
             var insertararticulo = new Articulo[]
             {
                 new Articulo(){Titulo = "Cambio de aceite", Descripcion = "Info para cambiar tu aceite", RutaImagen = "../Images/Categorias/ImgAuto.jpg", CategoriaId = 1, RutaHTML = "../HTML/1_1_Hola.cshtml" },
+                new Articulo(){Titulo = "Cambio de marcha", Descripcion = "Info para cambiar tu marcha", RutaImagen = "../Images/Categorias/ImgAuto.jpg", CategoriaId = 2, RutaHTML = "../HTML/1_1_Hola.cshtml" },
             };
             var insertarcomentario = new Comentario[]
             {
