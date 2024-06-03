@@ -17,6 +17,8 @@ namespace Insane_Mechanical.Controllers
         {
             var miCookie = HttpContext.Request.Cookies["MiCookie"];
 
+            ViewBag.cookie = miCookie;
+
             if (miCookie != null)
             {
                 List<Usuario> listaUsuarios = _contextDB.Usuario.ToList();
@@ -24,6 +26,7 @@ namespace Insane_Mechanical.Controllers
                 {
                     if (miCookie == user.Correo)
                     {
+                        ViewBag.ID = user.ID;
                         ViewBag.Nombre = user.Nombre;
                         ViewBag.Nivel = user.TipoUsuario;
                         ViewBag.FotoPerfil = user.DireccionImagen;

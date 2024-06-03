@@ -122,8 +122,8 @@ namespace Insane_Mechanical.Controllers
 
             var insertarusuarios = new Usuario[]
                 {
-                    new Usuario() {Correo = "ricardo_138@outlook.com", Contrasena = "1234", TipoUsuario = "Admin", DireccionImagen = "../Images/Usuarios/Rich.jpg", Nombre = "Rich"},
-                    new Usuario() {Correo = "aserranoacosta841@gmail.com", Contrasena = "1234", TipoUsuario = "Admin", DireccionImagen = "../Images/Usuarios/Alejandro.jpg", Nombre = "Alejandro"}
+                    new Usuario() {Correo = "ricardo_138@outlook.com", Contrasena = "1234", TipoUsuario = "Admin", DireccionImagen = "/Images/Usuarios/Rich.jpg", Nombre = "Rich"},
+                    new Usuario() {Correo = "aserranoacosta841@gmail.com", Contrasena = "1234", TipoUsuario = "Admin", DireccionImagen = "/Images/Usuarios/Alejandro.jpg", Nombre = "Alejandro"}
                 };
 
             var insertarcategorias = new Categoria[]
