@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Bienvenida Administrador";
+
+    if (ViewBag.Nivel == "Admin")
+    {
+        Layout = "_LayoutAdmin2";
+    }
+}
+
+<div class="d-flex justify-content-between align-items-center mt-5">
+    <div>
+        <h1>Bienvenido, @ViewBag.Nombre</h1>
+        <p>Hoy es @DateTime.Now.ToString("D")</p>
+        <div id="clock" class="h4"></div>
+    </div>
+    <div>
+        <img src="@ViewBag.FotoPerfil" alt="Imagen de usuario" class="rounded-circle" width="150" height="150">
+    </div>
+</div>
+
+<script>
+    function updateClock() {
+        var now = new Date();
+        var hours = now.getHours();
+        var minutes = now.getMinutes();
+        var seconds = now.getSeconds();
+        minutes = minutes < 10 ? '0' + minutes : minutes;
+        seconds = seconds < 10 ? '0' + seconds : seconds;
+        var timeString = hours + ':' + minutes + ':' + seconds;
+        document.getElementById('clock').innerText = timeString;
+    }
+
+    setInterval(updateClock, 1000);
+    updateClock();
+</script>

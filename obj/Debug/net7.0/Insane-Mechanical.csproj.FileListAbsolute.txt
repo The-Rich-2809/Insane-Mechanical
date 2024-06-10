@@ -234,3 +234,4 @@ C:\Github\Kapicentro\Insane-Mechanical\obj\Debug\net7.0\refint\Insane-Mechanical
 C:\Github\Kapicentro\Insane-Mechanical\obj\Debug\net7.0\Insane-Mechanical.pdb
 C:\Github\Kapicentro\Insane-Mechanical\obj\Debug\net7.0\Insane-Mechanical.genruntimeconfig.cache
 C:\Github\Kapicentro\Insane-Mechanical\obj\Debug\net7.0\ref\Insane-Mechanical.dll
+C:\Github\Kapicentro\Insane-Mechanical\obj\Debug\net7.0\scopedcss\Views\Shared\_LayoutAdmin2.cshtml.rz.scp.css
