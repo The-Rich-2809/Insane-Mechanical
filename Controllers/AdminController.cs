@@ -15,11 +15,13 @@ namespace Insane_Mechanical.Controllers
     {
         public readonly Insane_MechanicalDB _contextDB;
         private HelperUploadFiles helperUpload;
+        private IWebHostEnvironment hostEnvironment;
 
-        public AdminController(Insane_MechanicalDB contextDB, HelperUploadFiles helperUploadFiles)
+        public AdminController(Insane_MechanicalDB contextDB, HelperUploadFiles helperUploadFiles, IWebHostEnvironment hostEnvironment)
         {
             _contextDB = contextDB;
             this.helperUpload = helperUploadFiles;
+            this.hostEnvironment = hostEnvironment;
         }
 
         public void Cookies()
@@ -74,7 +76,7 @@ namespace Insane_Mechanical.Controllers
         {
             var htmlStream = new MemoryStream(Encoding.UTF8.GetBytes(content));
             var id = _contextDB.Articulo.Max(c => c.ID) + 1;
-            string fileName = post.CategoriaId+"_"+ id + ".cshtml";
+            string fileName = post.CategoriaId + "_" + id + ".cshtml";
             string imageName = $"{Guid.NewGuid()}.png";
 
             string imagePath = await helperUpload.UploadFilesAsync(Imagen, imageName, Folders.Articulos);
@@ -107,6 +109,82 @@ namespace Insane_Mechanical.Controllers
 
             _contextDB.Categoria.Add(categoria);
             _contextDB.SaveChanges();
+
+            return RedirectToAction("Articulos");
+        }
+
+        [HttpGet]
+        public IActionResult EditarArticulo(int ID)
+        {
+            Cookies();
+            var post = _contextDB.Articulo.Find(ID);
+            if (post == null)
+            {
+                return NotFound();
+            }
+
+            ViewBag.Categorias = new SelectList(_contextDB.Categoria, "ID", "Titulo");
+
+            // Leer el contenido HTML desde el archivo
+            var htmlFilePath = Path.Combine(hostEnvironment.ContentRootPath, "Views", "HTML", Path.GetFileName(post.RutaHTML));
+
+            // Depurar la ruta generada
+            Console.WriteLine("Ruta del archivo HTML: " + htmlFilePath);
+
+            if (System.IO.File.Exists(htmlFilePath))
+            {
+                Console.WriteLine("El archivo HTML existe.");
+                ViewBag.HtmlContent = System.IO.File.ReadAllText(htmlFilePath);
+            }
+            else
+            {
+                Console.WriteLine("El archivo HTML no existe.");
+                ViewBag.HtmlContent = string.Empty; // o manejar el caso en el que el archivo no exista
+            }
+
+            return View(post);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> EditarArticulo(Articulo post, string content, IFormFile Imagen)
+        {
+            Cookies();
+            var existingPost = _contextDB.Articulo.Find(post.ID);
+            if (existingPost == null)
+            {
+                return NotFound();
+            }
+
+            string imageName = $"{Guid.NewGuid()}.png";
+
+            existingPost.Descripcion = post.Descripcion;
+            existingPost.CategoriaId = post.CategoriaId;
+            existingPost.Titulo = post.Titulo;
+
+            var htmlFilePath = Path.Combine(hostEnvironment.ContentRootPath, "Views", "HTML", Path.GetFileName(existingPost.RutaHTML));
+
+            // Actualizar el contenido HTML en el archivo
+            string imagePath = await helperUpload.UploadFilesAsync(Imagen, imageName, Folders.Articulos);
+            // Guardar el archivo HTML usando el método UploadHtmlAsync
+            try
+            {
+                using (var writer = new StreamWriter(htmlFilePath, false, Encoding.UTF8))
+                {
+                    await writer.WriteAsync(content);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error al escribir el archivo: " + ex.Message);
+                ModelState.AddModelError("", "No se pudo guardar el contenido HTML.");
+                ViewBag.Categorias = new SelectList(_contextDB.Categoria, "ID", "Titulo", post.CategoriaId);
+                return View(post);
+            }
+
+            existingPost.RutaImagen = "../Images/Articulos/" + imageName;
+
+            _contextDB.Articulo.Update(existingPost);
+            await _contextDB.SaveChangesAsync();
 
             return RedirectToAction("Articulos");
         }

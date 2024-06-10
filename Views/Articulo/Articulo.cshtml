@@ -15,19 +15,49 @@
     <title>Vista Principal</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    @{
-        foreach(var i in Model)
+    <div id="articulo-content">
+        @foreach (var i in Model)
         {
-            if(i.RutaHTML == ViewBag.RutaHTML)
+            if (i.RutaHTML == ViewBag.RutaHTML)
             {
                 @Html.Partial(i.RutaHTML)
                 @Html.Partial("../Shared/Comentarios.cshtml");
                 break;
             }
         }
-    }
-    <!-- O usando RenderPartial -->
+    </div>
+
+    @* <script>
+        $(document).ready(function () {
+            function loadHtmlContent() {
+                var idArticulo = $('#IdArticulo').val();
+                $.ajax({
+                    type: 'GET',
+                    url: '/api/Articulos?idArticulo=' + idArticulo,
+                    success: function (response) {
+                        var rutaHtml = response.rutaHtml;
+
+                        $('#articulo-content').html('');
+
+                        $.get(rutaHtml, function (data) {
+                            $('#articulo-content').append(data);
+                        });
+                    },
+                    error: function (error) {
+                        console.log(error);
+                    }
+                });
+            }
+
+            // Cargar el contenido HTML inicial
+            loadHtmlContent();
+
+            // Actualizar el contenido HTML automáticamente cada 5 segundos
+            setInterval(loadHtmlContent, 5000);
+        });
+    </script> *@
 </body>
-</html> 
+</html>

@@ -26,6 +26,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXJ0aWN1bG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/EditarArticulo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdGFyQXJ0aWN1bG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -58,16 +62,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/0_4.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwwXzQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_1_Hola.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzFfSG9sYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_2.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzIuY3NodG1s
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/2_3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwyXzMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Github/Kapicentro/Insane-Mechanical/Views/Shared/Comentarios.cshtml]
