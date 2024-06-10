@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using System.IO;
 
-namespace Ultragamma.Providers
+namespace Insane_Mechanical.Providers
 {
     public enum Folders
     {
-        HTML = 0, Articulos = 1
+        HTML = 0, Articulos = 1, Documents = 2, Temp = 3
     }
 
     public class PathProvider
@@ -26,12 +26,12 @@ namespace Ultragamma.Providers
             string path = "";
             if(folder == Folders.HTML)
             {
-                string carpeta = "HTML/";
-                path = Path.Combine(this.hostEnvironment.WebRootPath, carpeta, fileName);
+                string carpeta = "Views/HTML/";
+                path = Path.Combine(this.hostEnvironment.ContentRootPath, carpeta, fileName);
             }
             if (folder == Folders.Articulos)
             {
-                string carpeta = "Articulos/";
+                string carpeta = "Images/Articulos/";
                 path = Path.Combine(this.hostEnvironment.WebRootPath, carpeta, fileName);
             }
 

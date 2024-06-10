@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="wwwroot\HTML\1_1_Hola.cshtml.cs" />
+    <Content Include="Views\HTML\1_1_Hola.cshtml.cs" />
   </ItemGroup>
 
   <ItemGroup>

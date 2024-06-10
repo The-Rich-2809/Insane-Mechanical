@@ -6,8 +6,8 @@ using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.IO;
 using System.Text;
-using Ultragamma.Helpers;
-using Ultragamma.Providers;
+using Insane_Mechanical.Helpers;
+using Insane_Mechanical.Providers;
 
 namespace Insane_Mechanical.Controllers
 {
@@ -73,21 +73,42 @@ namespace Insane_Mechanical.Controllers
         public async Task<IActionResult> AgregarArticulos(Articulo post, string content, IFormFile Imagen)
         {
             var htmlStream = new MemoryStream(Encoding.UTF8.GetBytes(content));
-            string fileName = $"{Guid.NewGuid()}.html";
-            string imageName = $"{Guid.NewGuid()}";
+            var id = _contextDB.Articulo.Max(c => c.ID) + 1;
+            string fileName = post.CategoriaId+"_"+ id + ".cshtml";
+            string imageName = $"{Guid.NewGuid()}.png";
 
+            string imagePath = await helperUpload.UploadFilesAsync(Imagen, imageName, Folders.Articulos);
             // Guardar el archivo HTML usando el método UploadHtmlAsync
             string filePath = await helperUpload.UploadHtmlAsync(htmlStream, fileName, Folders.HTML);
-            string imagePath = await helperUpload.UploadFilesAsync(Imagen, imageName, Folders.Articulos);
 
 
-            post.RutaHTML = "HTML/" + fileName;
-            post.RutaImagen = "HTML/" + imageName;
+            post.RutaHTML = "../HTML/" + fileName;
+            post.RutaImagen = "../Images/Articulos/" + imageName;
 
             _contextDB.Articulo.Add(post);
             _contextDB.SaveChanges();
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Articulos");
+        }
+
+        [HttpGet]
+        public IActionResult NuevaCategoria()
+        {
+            Cookies();
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult NuevaCategoria(Categoria categoria)
+        {
+            Cookies();
+
+            categoria.RutaImagen = "../Images/Categorias/ImgAuto.jpg";
+
+            _contextDB.Categoria.Add(categoria);
+            _contextDB.SaveChanges();
+
+            return RedirectToAction("Articulos");
         }
     }
 }

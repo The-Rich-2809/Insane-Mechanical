@@ -1,0 +1,33 @@
+﻿@{
+    if (ViewBag.Nivel == "Admin")
+    {
+        Layout = "_LayoutAdmin2";
+    }
+}
+
+<body>
+    <main class="container">
+        <div class="m-3 rounded">
+            <form class="needs-validation bg-light p-4 rounded" style="max-width: 400px; margin: 0 auto;" novalidate method="post" enctype="multipart/form-data">
+                <div class="row justify-content-center mb-3">
+                    <div class="row justify-content-center mb-3">
+                        <div class="col-12">
+                            <label name="Titulo" class="form-label">Nombre de la categoria</label>
+                            <input name="Titulo" type="text" class="form-control" required>
+                            <div class="invalid-feedback">
+                                Se requiere un nombre válido.
+                            </div>
+                            <label name="Descripcion" class="form-label">Descripcion de la categoria</label>
+                            <input name="Descripcion" type="text" class="form-control" required>
+                            <div class="invalid-feedback">
+                                Se requiere un nombre válido.
+                            </div>
+                        </div>
+                    </div>
+
+                    <button asp-controller="Admin" asp-action="NuevaCategoria" class="btn btn-primary btn-lg" type="submit">Agregar Categoria</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>

@@ -1,7 +1,7 @@
 using Insane_Mechanical.Models;
 using Microsoft.EntityFrameworkCore;
-using Ultragamma.Helpers;
-using Ultragamma.Providers;
+using Insane_Mechanical.Helpers;
+using Insane_Mechanical.Providers;
 
 var builder = WebApplication.CreateBuilder(args);
 

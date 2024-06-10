@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Ultragamma.Providers;
+using Insane_Mechanical.Providers;
 using Microsoft.AspNetCore.Http;
 using System.IO;
 
-namespace Ultragamma.Helpers
+namespace Insane_Mechanical.Helpers
 {
     public class HelperUploadFiles
     {
@@ -17,7 +17,7 @@ namespace Ultragamma.Helpers
             this.pathProvider = pathProvider;
         }
 
-        public async Task<String> UploadFilesAsync(IFormFile formFile, string nombreImagen, Folders folder)
+        public async Task<string> UploadFilesAsync(IFormFile formFile, string nombreImagen, Folders folder)
         {
             string path = this.pathProvider.MapPath(nombreImagen, folder);
 
