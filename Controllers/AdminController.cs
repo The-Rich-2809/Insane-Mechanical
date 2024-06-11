@@ -74,23 +74,35 @@ namespace Insane_Mechanical.Controllers
         [HttpPost]
         public async Task<IActionResult> AgregarArticulos(Articulo post, string content, IFormFile Imagen)
         {
-            var htmlStream = new MemoryStream(Encoding.UTF8.GetBytes(content));
-            var id = _contextDB.Articulo.Max(c => c.ID) + 1;
-            string fileName = post.CategoriaId + "_" + id + ".cshtml";
-            string imageName = $"{Guid.NewGuid()}.png";
+            if (Imagen != null)
+            {
+                var htmlStream = new MemoryStream(Encoding.UTF8.GetBytes(content));
+                var id = _contextDB.Articulo.Max(c => c.ID) + 1;
+                string fileName = post.CategoriaId + "_" + id + post.Titulo + ".cshtml";
+                string imageName = $"{Guid.NewGuid()}.png";
 
-            string imagePath = await helperUpload.UploadFilesAsync(Imagen, imageName, Folders.Articulos);
-            // Guardar el archivo HTML usando el método UploadHtmlAsync
-            string filePath = await helperUpload.UploadHtmlAsync(htmlStream, fileName, Folders.HTML);
+                string imagePath = await helperUpload.UploadFilesAsync(Imagen, imageName, Folders.Articulos);
+                // Guardar el archivo HTML usando el método UploadHtmlAsync
+                string filePath = await helperUpload.UploadHtmlAsync(htmlStream, fileName, Folders.HTML);
 
 
-            post.RutaHTML = "../HTML/" + fileName;
-            post.RutaImagen = "../Images/Articulos/" + imageName;
+                post.RutaHTML = "../HTML/" + fileName;
+                post.RutaImagen = "../Images/Articulos/" + imageName;
 
-            _contextDB.Articulo.Add(post);
-            _contextDB.SaveChanges();
+                _contextDB.Articulo.Add(post);
+                _contextDB.SaveChanges();
 
-            return RedirectToAction("Articulos");
+                return RedirectToAction("Articulos");
+            }
+            else
+            {
+                Cookies();
+
+                ViewBag.Mensaje = "Seleccione una imagen";
+                ViewBag.Categorias = new SelectList(_contextDB.Categoria, "ID", "Titulo");
+
+                return View();
+            }                
         }
 
         [HttpGet]
@@ -155,17 +167,19 @@ namespace Insane_Mechanical.Controllers
                 return NotFound();
             }
 
-            string imageName = $"{Guid.NewGuid()}.png";
-
             existingPost.Descripcion = post.Descripcion;
             existingPost.CategoriaId = post.CategoriaId;
             existingPost.Titulo = post.Titulo;
 
             var htmlFilePath = Path.Combine(hostEnvironment.ContentRootPath, "Views", "HTML", Path.GetFileName(existingPost.RutaHTML));
 
-            // Actualizar el contenido HTML en el archivo
-            string imagePath = await helperUpload.UploadFilesAsync(Imagen, imageName, Folders.Articulos);
-            // Guardar el archivo HTML usando el método UploadHtmlAsync
+            if (Imagen != null)
+            {
+                string imageName = $"{Guid.NewGuid()}.png";
+                string imagePath = await helperUpload.UploadFilesAsync(Imagen, imageName, Folders.Articulos);
+                existingPost.RutaImagen = "../Images/Articulos/" + imageName;
+            }
+
             try
             {
                 using (var writer = new StreamWriter(htmlFilePath, false, Encoding.UTF8))
@@ -181,9 +195,49 @@ namespace Insane_Mechanical.Controllers
                 return View(post);
             }
 
-            existingPost.RutaImagen = "../Images/Articulos/" + imageName;
-
             _contextDB.Articulo.Update(existingPost);
+            await _contextDB.SaveChangesAsync();
+
+            return RedirectToAction("Articulos");
+        }
+
+        [HttpGet]
+        public IActionResult EliminarArticulo(int id)
+        {
+            Cookies();
+
+            var articulo = _contextDB.Articulo.Find(id);
+            if (articulo == null)
+            {
+                return NotFound();
+            }
+
+            return View(articulo);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> EliminarArticuloConfirmado(int id)
+        {
+            var articulo = _contextDB.Articulo.Find(id);
+            if (articulo == null)
+            {
+                return NotFound();
+            }
+
+            // Eliminar archivos asociados
+            var htmlFilePath = Path.Combine("Views", "BlogPosts", Path.GetFileName(articulo.RutaHTML));
+            if (System.IO.File.Exists(htmlFilePath))
+            {
+                System.IO.File.Delete(htmlFilePath);
+            }
+
+            var imageFilePath = Path.Combine("Images", "Articulos", Path.GetFileName(articulo.RutaImagen));
+            if (System.IO.File.Exists(imageFilePath))
+            {
+                System.IO.File.Delete(imageFilePath);
+            }
+
+            _contextDB.Articulo.Remove(articulo);
             await _contextDB.SaveChangesAsync();
 
             return RedirectToAction("Articulos");

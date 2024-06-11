@@ -18,46 +18,14 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <div id="articulo-content">
-        @foreach (var i in Model)
+    @foreach (var i in Model)
+    {
+        if (i.RutaHTML == ViewBag.RutaHTML)
         {
-            if (i.RutaHTML == ViewBag.RutaHTML)
-            {
-                @Html.Partial(i.RutaHTML)
-                @Html.Partial("../Shared/Comentarios.cshtml");
-                break;
-            }
+            @Html.Raw(ViewBag.HtmlContent)
+            @Html.Partial("../Shared/Comentarios.cshtml");
+            break;
         }
-    </div>
-
-    @* <script>
-        $(document).ready(function () {
-            function loadHtmlContent() {
-                var idArticulo = $('#IdArticulo').val();
-                $.ajax({
-                    type: 'GET',
-                    url: '/api/Articulos?idArticulo=' + idArticulo,
-                    success: function (response) {
-                        var rutaHtml = response.rutaHtml;
-
-                        $('#articulo-content').html('');
-
-                        $.get(rutaHtml, function (data) {
-                            $('#articulo-content').append(data);
-                        });
-                    },
-                    error: function (error) {
-                        console.log(error);
-                    }
-                });
-            }
-
-            // Cargar el contenido HTML inicial
-            loadHtmlContent();
-
-            // Actualizar el contenido HTML automáticamente cada 5 segundos
-            setInterval(loadHtmlContent, 5000);
-        });
-    </script> *@
+    }
 </body>
 </html>

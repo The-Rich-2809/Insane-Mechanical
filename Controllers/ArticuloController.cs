@@ -61,6 +61,10 @@ namespace Insane_Mechanical.Controllers
 
             List<Articulo> articulos = _contextDB.Articulo.ToList();
             Cookies();
+
+            var htmlFilePath = Path.Combine("Views", "HTML", Path.GetFileName(RutaHtml));
+            string htmlContent = System.IO.File.Exists(htmlFilePath) ? System.IO.File.ReadAllText(htmlFilePath) : string.Empty;
+            ViewBag.HtmlContent = htmlContent;
             return View(articulos);
         }
     }

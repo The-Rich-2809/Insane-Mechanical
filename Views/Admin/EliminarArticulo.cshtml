@@ -1,0 +1,28 @@
+﻿@model Insane_Mechanical.Models.Articulo
+
+@{
+    if (ViewBag.Nivel == "Admin")
+    {
+        Layout = "_LayoutAdmin2";
+    }
+}
+
+<h2>Eliminar Entrada de Blog</h2>
+
+<div class="alert alert-warning" role="alert">
+    ¿Estás seguro que deseas eliminar este artículo?
+</div>
+
+<div>
+    <h3>@Model.Titulo</h3>
+    <p>@Model.Descripcion</p>
+</div>
+
+@using (Html.BeginForm("EliminarArticuloConfirmado", "Admin", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(model => model.ID)
+
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a href="@Url.Action("Articulos", "Admin")" class="btn btn-secondary">Cancelar</a>
+}
