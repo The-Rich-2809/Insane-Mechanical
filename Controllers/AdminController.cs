@@ -372,16 +372,12 @@ namespace Insane_Mechanical.Controllers
                 .ToList();
 
             var preguntasMenosErrores = datosPorPregunta
-                .OrderBy(x => x.RespuestasIncorrectas)
+                .OrderBy(x => x.RespuestasCorrectas)
                 .ToList();
 
             ViewBag.PreguntasMasErrores = preguntasMasErrores.Select(x => x.Pregunta).ToList();
             ViewBag.RespuestasIncorrectasMasErrores = preguntasMasErrores.Select(x => x.RespuestasIncorrectas).ToList();
             ViewBag.RespuestasCorrectasMasErrores = preguntasMasErrores.Select(x => x.RespuestasCorrectas).ToList();
-
-            ViewBag.PreguntasMenosErrores = preguntasMenosErrores.Select(x => x.Pregunta).ToList();
-            ViewBag.RespuestasIncorrectasMenosErrores = preguntasMenosErrores.Select(x => x.RespuestasIncorrectas).ToList();
-            ViewBag.RespuestasCorrectasMenosErrores = preguntasMenosErrores.Select(x => x.RespuestasCorrectas).ToList();
 
             return View();
         }

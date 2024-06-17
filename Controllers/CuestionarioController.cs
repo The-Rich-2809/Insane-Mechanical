@@ -86,21 +86,34 @@ namespace Insane_Mechanical.Controllers
 
                 if (opcionCorrecta == null)
                 {
+                    var res = await _contextDB.Opciones
+                        .FirstOrDefaultAsync(o => o.ID == respuesta.idOpcion);
                     respuestasIncorrectas.Add(respuesta.idPregunta);
+                    _contextDB.RespuestaUsuario.Add(new RespuestasUsuario
+                    {
+                        idPregunta = respuesta.idPregunta,
+                        idOpcion = respuesta.idOpcion,
+                        idUsuario = usuarioActual,
+                        Respuesta = res.Texto
+                    });
+                    await _contextDB.SaveChangesAsync();
                 }
                 else
                 {
+                    var res = await _contextDB.Opciones
+                        .FirstOrDefaultAsync(o => o.ID == respuesta.idOpcion);
+
                     respuestasCorrectas.Add(respuesta.idPregunta);
                     _contextDB.RespuestaUsuario.Add(new RespuestasUsuario
                     {
                         idPregunta = respuesta.idPregunta,
                         idOpcion = respuesta.idOpcion,
-                        idUsuario = respuesta.idUsuario
+                        idUsuario = usuarioActual,
+                        Respuesta = res.Texto
                     });
+                    await _contextDB.SaveChangesAsync();
                 }
             }
-
-            await _contextDB.SaveChangesAsync();
 
             if (respuestasIncorrectas.Any())
             {

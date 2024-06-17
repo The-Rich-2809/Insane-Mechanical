@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Insane-Mechanical")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59807774c351d09c17b84adac267f26a555c1138")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb63079d18213b5e0500de134548c9257bcb01ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("Insane-Mechanical")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Insane-Mechanical")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

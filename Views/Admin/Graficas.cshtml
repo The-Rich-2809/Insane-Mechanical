@@ -16,15 +16,6 @@
     </div>
 </div>
 
-<div class="d-flex justify-content-center mt-4">
-    <div class="card" style="width: 80%;">
-        <div class="card-body">
-            <h2 class="text-center">Preguntas con menos errores</h2>
-            <canvas id="menosErroresChart"></canvas>
-        </div>
-    </div>
-</div>
-
 @section Scripts {
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
@@ -45,37 +36,6 @@
                         {
                             label: 'Respuestas Correctas',
                             data: @Html.Raw(Json.Serialize(ViewBag.RespuestasCorrectasMasErrores)),
-                            backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                            borderColor: 'rgba(75, 192, 192, 1)',
-                            borderWidth: 1
-                        }
-                    ]
-                },
-                options: {
-                    scales: {
-                        y: {
-                            beginAtZero: true
-                        }
-                    }
-                }
-            });
-
-            var ctxMenosErrores = document.getElementById('menosErroresChart').getContext('2d');
-            var menosErroresChart = new Chart(ctxMenosErrores, {
-                type: 'bar',
-                data: {
-                    labels: @Html.Raw(Json.Serialize(ViewBag.PreguntasMenosErrores)),
-                    datasets: [
-                        {
-                            label: 'Respuestas Incorrectas',
-                            data: @Html.Raw(Json.Serialize(ViewBag.RespuestasIncorrectasMenosErrores)),
-                            backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                            borderColor: 'rgba(255, 99, 132, 1)',
-                            borderWidth: 1
-                        },
-                        {
-                            label: 'Respuestas Correctas',
-                            data: @Html.Raw(Json.Serialize(ViewBag.RespuestasCorrectasMenosErrores)),
                             backgroundColor: 'rgba(75, 192, 192, 0.2)',
                             borderColor: 'rgba(75, 192, 192, 1)',
                             borderWidth: 1

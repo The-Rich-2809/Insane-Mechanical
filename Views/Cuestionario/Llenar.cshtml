@@ -71,11 +71,11 @@
                                     <label>@pregunta.Nombre</label>
                                     @if (pregunta.Tipo == "Seleccion")
                                     {
-                                        <select class="form-control" name="respuestas[@i].Respuesta" required>
+                                        <select class="form-control" name="respuestas[@i].idOpcion" required>
                                             <option value="">Seleccione una opción</option>
                                             @foreach (var opcion in pregunta.Opciones)
                                             {
-                                                <option value="@opcion.Texto">@opcion.Texto</option>
+                                                <option value="@opcion.ID">@opcion.Texto</option>
                                             }
                                         </select>
                                         <input type="hidden" name="respuestas[@i].idPregunta" value="@pregunta.ID" />
