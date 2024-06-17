@@ -1,0 +1,168 @@
+﻿@model IEnumerable<Insane_Mechanical.Models.Pregunta>
+
+@{
+    if (ViewBag.Nivel == "Admin")
+    {
+        Layout = "_LayoutAdmin2";
+    }
+}
+
+<h1 class="text-center">Lista de Preguntas</h1>
+
+<div class="d-flex justify-content-center">
+    <div class="card" style="width: 80%;">
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Pregunta</th>
+                        <th>Tipo</th>
+                        <th>Opciones</th>
+                        <th>Acciones</th>
+                        <th><a asp-action="CrearPregunta" asp-controller="Admin" class="btn btn-primary">Agregar Pregunta</a></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var pregunta in Model)
+                    {
+                        <tr>
+                            <td>@pregunta.ID</td>
+                            <td>@pregunta.Nombre</td>
+                            <td>@pregunta.Tipo</td>
+                            <td>
+                                <ul>
+                                    @foreach (var opcion in pregunta.Opciones)
+                                    {
+                                        <li>
+                                            @opcion.Texto @if (opcion.EsCorrecta)
+                                            {
+                                                <strong>(Correcta)</strong>
+                                            }
+                                        </li>
+                                    }
+                                </ul>
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#editarPreguntaModal-@pregunta.ID">Editar Pregunta</button>
+                                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#editarOpcionModalSelect-@pregunta.ID">Editar Opción</button>
+                                <br />
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#eliminarPreguntaModal-@pregunta.ID">Eliminar Pregunta</button>
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#eliminarOpcionModalSelect-@pregunta.ID">Eliminar Opción</button>
+                                <br />
+                                <a href="@Url.Action("CrearOpcion", new { preguntaId = pregunta.ID })" class="btn btn-primary">Agregar Opción</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+@foreach (var pregunta in Model)
+{
+    <!-- Modal de Confirmación para Editar Pregunta -->
+    <div class="modal fade" id="editarPreguntaModal-@pregunta.ID" tabindex="-1" aria-labelledby="editarPreguntaModalLabel-@pregunta.ID" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editarPreguntaModalLabel-@pregunta.ID">Confirmar Edición</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ¿Estás seguro de que deseas editar esta pregunta?
+                    <p><strong>Pregunta:</strong> @pregunta.Nombre</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <a href="@Url.Action("EditarPregunta", new { id = pregunta.ID })" class="btn btn-warning">Editar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Confirmación para Eliminar Pregunta -->
+    <div class="modal fade" id="eliminarPreguntaModal-@pregunta.ID" tabindex="-1" aria-labelledby="eliminarPreguntaModalLabel-@pregunta.ID" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="eliminarPreguntaModalLabel-@pregunta.ID">Confirmar Eliminación</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ¿Estás seguro de que deseas eliminar esta pregunta y todas sus opciones asociadas?
+                    <p><strong>Pregunta:</strong> @pregunta.Nombre</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <a href="@Url.Action("EliminarPregunta", new { id = pregunta.ID })" class="btn btn-danger">Eliminar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editarOpcionModalSelect-@pregunta.ID" tabindex="-1" aria-labelledby="editarOpcionModalSelectLabel-@pregunta.ID" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editarOpcionModalSelectLabel-@pregunta.ID">Seleccionar Opción a Editar</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="editarOpcionForm-@pregunta.ID" method="get" asp-action="EditarOpcion" asp-controller="Admin">
+                        <div class="form-group">
+                            <label for="opcionSelect">Selecciona una opción</label>
+                            <select class="form-control" id="opcionSelect-@pregunta.ID" name="id">
+                                @foreach (var opcion in pregunta.Opciones)
+                                {
+                                    <option value="@opcion.ID">@opcion.Texto</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="submit" class="btn btn-warning">Editar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Selección de Opción para Eliminar -->
+    <div class="modal fade" id="eliminarOpcionModalSelect-@pregunta.ID" tabindex="-1" aria-labelledby="eliminarOpcionModalSelectLabel-@pregunta.ID" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="eliminarOpcionModalSelectLabel-@pregunta.ID">Seleccionar Opción a Eliminar</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="eliminarOpcionForm-@pregunta.ID" method="get" action="@Url.Action("EliminarOpcion")">
+                        <div class="form-group">
+                            <label for="opcionSelect">Selecciona una opción</label>
+                            <select class="form-control" id="opcionSelect-@pregunta.ID" name="id">
+                                @foreach (var opcion in pregunta.Opciones)
+                                {
+                                    <option value="@opcion.ID">@opcion.Texto</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="submit" class="btn btn-danger">Eliminar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+}

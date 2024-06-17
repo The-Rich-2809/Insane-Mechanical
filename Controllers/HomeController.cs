@@ -111,6 +111,7 @@ namespace Insane_Mechanical.Controllers
             return RedirectToAction("Index");
         }
 
+
         public void Initialize()
         {
             _contextDB.Database.EnsureCreated();

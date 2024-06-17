@@ -1,0 +1,30 @@
+﻿@model Insane_Mechanical.Models.Opcion
+
+@{
+    if (ViewBag.Nivel == "Admin")
+    {
+        Layout = "_LayoutAdmin2";
+    }
+}
+
+<h1>Crear Opción para la Pregunta @Model.idPregunta</h1>
+
+<div class="d-flex justify-content-center">
+    <div class="card" style="width: 50%;">
+        <div class="card-body">
+            <form asp-action="CrearOpcion" method="post">
+                <div class="form-group">
+                    <label for="Texto">Opción</label>
+                    <input type="text" class="form-control" asp-for="Texto" placeholder="Escribe la opción">
+                    <span asp-validation-for="Texto" class="text-danger"></span>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" asp-for="EsCorrecta">
+                    <label class="form-check-label" asp-for="EsCorrecta">Es la respuesta correcta</label>
+                </div>
+                <input type="hidden" asp-for="idPregunta" />
+                <button type="submit" class="btn btn-primary">Agregar Opción</button>
+            </form>
+        </div>
+    </div>
+</div>

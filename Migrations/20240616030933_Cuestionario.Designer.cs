@@ -4,6 +4,7 @@ using Insane_Mechanical.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Insane_Mechanical.Migrations
 {
     [DbContext(typeof(Insane_MechanicalDB))]
-    partial class Insane_MechanicalDBModelSnapshot : ModelSnapshot
+    [Migration("20240616030933_Cuestionario")]
+    partial class Cuestionario
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

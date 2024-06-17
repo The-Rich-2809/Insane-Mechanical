@@ -1,0 +1,13 @@
+﻿@{
+    if (ViewBag.Nivel == "Cliente")
+    {
+        Layout = "_LayoutCliente";
+    }
+    if (ViewBag.Nivel == "Admin")
+    {
+        Layout = "_LayoutAdmin";
+    }
+}
+
+<h1 class="text-center">¡Gracias por completar el cuestionario!</h1>
+<h3 class="text-center">Se le enviara un correo con sus respuestas</h3>

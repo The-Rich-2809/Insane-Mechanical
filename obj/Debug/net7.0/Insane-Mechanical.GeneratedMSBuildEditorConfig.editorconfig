@@ -26,16 +26,40 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXJ0aWN1bG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/CrearOpcion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXJPcGNpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/CrearPregunta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXJQcmVndW50YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/EditarArticulo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdGFyQXJ0aWN1bG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/EditarOpcion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdGFyT3BjaW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/EditarPregunta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdGFyUHJlZ3VudGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/EliminarArticulo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWxpbWluYXJBcnRpY3Vsby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/Graficas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR3JhZmljYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/ListarPreguntas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTGlzdGFyUHJlZ3VudGFzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/NuevaCategoria.cshtml]
@@ -46,12 +70,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWN1bG9cQXJ0aWN1bG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Articulo/Categorias.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWN1bG9cQ2F0ZWdvcmlhcy5jc2h0bWw=
+[C:/Github/Kapicentro/Insane-Mechanical/Views/Cuestionario/Gracias.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vlc3Rpb25hcmlvXEdyYWNpYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/Cuestionario/Llenar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vlc3Rpb25hcmlvXExsZW5hci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Github/Kapicentro/Insane-Mechanical/Views/Home/ContrasenaOlvidada.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250cmFzZW5hT2x2aWRhZGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/Home/Cuestionario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDdWVzdGlvbmFyaW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Github/Kapicentro/Insane-Mechanical/Views/Home/Index.cshtml]
@@ -68,30 +100,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_1_Hola.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzFfSG9sYS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_6.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzYuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_7hola.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzdob2xhLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/2_3.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwyXzMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/3_4.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwzXzQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/3_5.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwzXzUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/3_8richie.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwzXzhyaWNoaWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Github/Kapicentro/Insane-Mechanical/Views/Shared/Comentarios.cshtml]

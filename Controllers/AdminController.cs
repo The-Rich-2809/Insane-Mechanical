@@ -242,5 +242,148 @@ namespace Insane_Mechanical.Controllers
 
             return RedirectToAction("Articulos");
         }
+
+        [HttpGet]
+        public IActionResult ListarPreguntas()
+        {
+            Cookies();
+            var preguntas = _contextDB.Preguntas.Include(p => p.Opciones).ToList();
+            return View(preguntas);
+        }
+
+        [HttpGet]
+        public IActionResult CrearPregunta()
+        {
+            Cookies();
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CrearPregunta(Pregunta pregunta)
+        {
+            _contextDB.Preguntas.Add(pregunta);
+            await _contextDB.SaveChangesAsync();
+            return RedirectToAction(nameof(ListarPreguntas));
+        }
+
+        [HttpGet]
+        public IActionResult CrearOpcion(int preguntaId)
+        {
+            Cookies();
+            var opcion = new Opcion { idPregunta = preguntaId };
+            return View(opcion);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CrearOpcion(Opcion opcion)
+        {
+            _contextDB.Opciones.Add(opcion);
+            await _contextDB.SaveChangesAsync();
+            return RedirectToAction(nameof(ListarPreguntas));
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> EditarPregunta(int id)
+        {
+            Cookies();
+
+            var pregunta = await _contextDB.Preguntas.FindAsync(id);
+            if (pregunta == null)
+            {
+                return NotFound();
+            }
+            return View(pregunta);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> EditarPregunta(Pregunta pregunta)
+        {
+            _contextDB.Entry(pregunta).State = EntityState.Modified;
+            await _contextDB.SaveChangesAsync();
+            return RedirectToAction(nameof(ListarPreguntas));
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> EditarOpcion(int id)
+        {
+            Cookies();
+
+            var opcion = await _contextDB.Opciones.FindAsync(id);
+            if (opcion == null)
+            {
+                return NotFound();
+            }
+            return View(opcion);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> EditarOpcion(Opcion opcion)
+        {
+            _contextDB.Opciones.Update(opcion);
+            await _contextDB.SaveChangesAsync();
+            return RedirectToAction(nameof(ListarPreguntas));
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> EliminarPregunta(int id)
+        {
+            var pregunta = await _contextDB.Preguntas.FindAsync(id);
+            if (pregunta == null)
+            {
+                return NotFound();
+            }
+
+            _contextDB.Preguntas.Remove(pregunta);
+            await _contextDB.SaveChangesAsync();
+            return RedirectToAction(nameof(ListarPreguntas));
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> EliminarOpcion(int id)
+        {
+            var opcion = await _contextDB.Opciones.FindAsync(id);
+            if (opcion == null)
+            {
+                return NotFound();
+            }
+
+            _contextDB.Opciones.Remove(opcion);
+            await _contextDB.SaveChangesAsync();
+            return RedirectToAction(nameof(ListarPreguntas));
+        }
+
+        public async Task<IActionResult> Graficas()
+        {
+            Cookies();
+            var preguntas = await _contextDB.Preguntas.ToListAsync();
+            var respuestas = await _contextDB.RespuestaUsuario.Include(r => r.Opcion).ToListAsync();
+
+            var datosPorPregunta = preguntas
+                .Select(p => new
+                {
+                    Pregunta = p.Nombre,
+                    RespuestasIncorrectas = respuestas.Count(r => r.idPregunta == p.ID && !r.Opcion.EsCorrecta),
+                    RespuestasCorrectas = respuestas.Count(r => r.idPregunta == p.ID && r.Opcion.EsCorrecta)
+                })
+                .ToList();
+
+            var preguntasMasErrores = datosPorPregunta
+                .OrderByDescending(x => x.RespuestasIncorrectas)
+                .ToList();
+
+            var preguntasMenosErrores = datosPorPregunta
+                .OrderBy(x => x.RespuestasIncorrectas)
+                .ToList();
+
+            ViewBag.PreguntasMasErrores = preguntasMasErrores.Select(x => x.Pregunta).ToList();
+            ViewBag.RespuestasIncorrectasMasErrores = preguntasMasErrores.Select(x => x.RespuestasIncorrectas).ToList();
+            ViewBag.RespuestasCorrectasMasErrores = preguntasMasErrores.Select(x => x.RespuestasCorrectas).ToList();
+
+            ViewBag.PreguntasMenosErrores = preguntasMenosErrores.Select(x => x.Pregunta).ToList();
+            ViewBag.RespuestasIncorrectasMenosErrores = preguntasMenosErrores.Select(x => x.RespuestasIncorrectas).ToList();
+            ViewBag.RespuestasCorrectasMenosErrores = preguntasMenosErrores.Select(x => x.RespuestasCorrectas).ToList();
+
+            return View();
+        }
     }
 }

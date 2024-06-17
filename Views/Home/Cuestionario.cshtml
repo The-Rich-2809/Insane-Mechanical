@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario de Vialidad</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Cuestionario</h1>
+        <form>
+            <div class="form-group">
+                <label>1. ¿Con qué frecuencia utilizas el transporte público?</label>
+                <select class="form-control">
+                    <option>Diariamente</option>
+                    <option>Semanalmente</option>
+                    <option>Mensualmente</option>
+                    <option>Raramente</option>
+                    <option>Nunca</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>2. ¿Consideras que las señales de tránsito son claras y suficientes?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="senales" id="senales1" value="si">
+                    <label class="form-check-label" for="senales1">
+                        Sí
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="senales" id="senales2" value="no">
+                    <label class="form-check-label" for="senales2">
+                        No
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>3. ¿Cómo calificarías el estado de las carreteras en tu ciudad?</label>
+                <select class="form-control">
+                    <option>Excelente</option>
+                    <option>Bueno</option>
+                    <option>Regular</option>
+                    <option>Malo</option>
+                    <option>Muy malo</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>4. ¿Qué tan seguido observas que los conductores respetan los límites de velocidad?</label>
+                <select class="form-control">
+                    <option>Siempre</option>
+                    <option>Frecuentemente</option>
+                    <option>Ocasionalmente</option>
+                    <option>Raramente</option>
+                    <option>Nunca</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>5. ¿Qué tan seguro/a te sientes al caminar por tu ciudad?</label>
+                <select class="form-control">
+                    <option>Muy seguro/a</option>
+                    <option>Seguro/a</option>
+                    <option>Indiferente</option>
+                    <option>Inseguro/a</option>
+                    <option>Muy inseguro/a</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>6. ¿Consideras que las ciclovías están bien diseñadas y son seguras?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="ciclovias" id="ciclovias1" value="si">
+                    <label class="form-check-label" for="ciclovias1">
+                        Sí
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="ciclovias" id="ciclovias2" value="no">
+                    <label class="form-check-label" for="ciclovias2">
+                        No
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="comentarios">Comentarios adicionales</label>
+                <textarea class="form-control" id="comentarios" rows="3" placeholder="Escribe tus comentarios aquí"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
