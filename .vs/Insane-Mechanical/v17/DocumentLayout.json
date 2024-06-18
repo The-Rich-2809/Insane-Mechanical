@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{B3C7DF5A-6F11-410D-AA31-A7C1BFCAD4DB}|Insane-Mechanical.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3C7DF5A-6F11-410D-AA31-A7C1BFCAD4DB}|Insane-Mechanical.csproj|c:\\github\\kapicentro\\insane-mechanical\\views\\home\\contrasenaolvidada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B3C7DF5A-6F11-410D-AA31-A7C1BFCAD4DB}|Insane-Mechanical.csproj|solutionrelative:views\\home\\contrasenaolvidada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B3C7DF5A-6F11-410D-AA31-A7C1BFCAD4DB}|Insane-Mechanical.csproj|c:\\github\\kapicentro\\insane-mechanical\\views\\home\\cambiarcontrasena.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B3C7DF5A-6F11-410D-AA31-A7C1BFCAD4DB}|Insane-Mechanical.csproj|solutionrelative:views\\home\\cambiarcontrasena.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -82,24 +78,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ContrasenaOlvidada.cshtml",
-              "DocumentMoniker": "C:\\Github\\Kapicentro\\Insane-Mechanical\\Views\\Home\\ContrasenaOlvidada.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\ContrasenaOlvidada.cshtml",
-              "ToolTip": "C:\\Github\\Kapicentro\\Insane-Mechanical\\Views\\Home\\ContrasenaOlvidada.cshtml",
-              "RelativeToolTip": "Views\\Home\\ContrasenaOlvidada.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-18T20:01:14.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "CambiarContrasena.cshtml",
               "DocumentMoniker": "C:\\Github\\Kapicentro\\Insane-Mechanical\\Views\\Home\\CambiarContrasena.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\CambiarContrasena.cshtml",
@@ -112,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Github\\Kapicentro\\Insane-Mechanical\\Views\\Home\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Login.cshtml",
@@ -120,12 +103,11 @@
               "RelativeToolTip": "Views\\Home\\Login.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-18T19:16:48.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T19:16:48.63Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "VerificacionExitosa.cshtml",
               "DocumentMoniker": "C:\\Github\\Kapicentro\\Insane-Mechanical\\Views\\Home\\VerificacionExitosa.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\VerificacionExitosa.cshtml",
@@ -133,8 +115,7 @@
               "RelativeToolTip": "Views\\Home\\VerificacionExitosa.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-18T07:29:11.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T07:29:11.771Z"
             },
             {
               "$type": "Document",
@@ -151,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Github\\Kapicentro\\Insane-Mechanical\\Views\\Home\\Register.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Register.cshtml",
@@ -159,12 +140,11 @@
               "RelativeToolTip": "Views\\Home\\Register.cshtml",
               "ViewState": "AQIAADEAAAAAAAAAAAAQwFkAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-18T19:30:08.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T19:30:08.983Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Verificar.cshtml",
               "DocumentMoniker": "C:\\Github\\Kapicentro\\Insane-Mechanical\\Views\\Home\\Verificar.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Verificar.cshtml",
@@ -172,12 +152,11 @@
               "RelativeToolTip": "Views\\Home\\Verificar.cshtml",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-18T07:28:02.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T07:28:02.13Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "VerificationService.cs",
               "DocumentMoniker": "C:\\Github\\Kapicentro\\Insane-Mechanical\\Services\\VerificationService.cs",
               "RelativeDocumentMoniker": "Services\\VerificationService.cs",
@@ -185,12 +164,11 @@
               "RelativeToolTip": "Services\\VerificationService.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAqwA0AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T06:06:14.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T06:06:14.603Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Github\\Kapicentro\\Insane-Mechanical\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -198,12 +176,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T05:51:34.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T05:51:34.991Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "_LayoutV.cshtml",
               "DocumentMoniker": "C:\\Github\\Kapicentro\\Insane-Mechanical\\Views\\Shared\\_LayoutV.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LayoutV.cshtml",
@@ -211,12 +188,11 @@
               "RelativeToolTip": "Views\\Shared\\_LayoutV.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAAABUAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-18T18:18:52.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T18:18:52.177Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "ListarPreguntas.cshtml",
               "DocumentMoniker": "C:\\Github\\Kapicentro\\Insane-Mechanical\\Views\\Admin\\ListarPreguntas.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\ListarPreguntas.cshtml",
@@ -224,12 +200,11 @@
               "RelativeToolTip": "Views\\Admin\\ListarPreguntas.cshtml",
               "ViewState": "AQIAAGwAAAAAAAAAAAAAAHQAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-18T18:45:30.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T18:45:30.729Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "WhatsAppServices.cs",
               "DocumentMoniker": "C:\\Github\\Kapicentro\\Insane-Mechanical\\Services\\WhatsAppServices.cs",
               "RelativeDocumentMoniker": "Services\\WhatsAppServices.cs",
@@ -237,12 +212,11 @@
               "RelativeToolTip": "Services\\WhatsAppServices.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T05:52:33.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T05:52:33.76Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "VerificacionFallida.cshtml",
               "DocumentMoniker": "C:\\Github\\Kapicentro\\Insane-Mechanical\\Views\\Home\\VerificacionFallida.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\VerificacionFallida.cshtml",
@@ -250,12 +224,11 @@
               "RelativeToolTip": "Views\\Home\\VerificacionFallida.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-18T07:30:48.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T07:30:48.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "Insane-MechanicalDB.cs",
               "DocumentMoniker": "C:\\Github\\Kapicentro\\Insane-Mechanical\\Models\\Insane-MechanicalDB.cs",
               "RelativeDocumentMoniker": "Models\\Insane-MechanicalDB.cs",
@@ -267,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Github\\Kapicentro\\Insane-Mechanical\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "Models\\Usuario.cs",
@@ -279,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "VerifyViewModel.cs",
               "DocumentMoniker": "C:\\Github\\Kapicentro\\Insane-Mechanical\\Models\\VerifyViewModel.cs",
               "RelativeDocumentMoniker": "Models\\VerifyViewModel.cs",
@@ -291,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "20240618070948_InitDB.cs",
               "DocumentMoniker": "C:\\Github\\Kapicentro\\Insane-Mechanical\\Migrations\\20240618070948_InitDB.cs",
               "RelativeDocumentMoniker": "Migrations\\20240618070948_InitDB.cs",
@@ -303,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Github\\Kapicentro\\Insane-Mechanical\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8+X7pFyjKDkoq56qvcEK8On0JWfIi+8PE7mOzlaPOtg=",
+  "Hash": "x2fV6S2lozXmNQQDw2NhMcwLSlRiyntCHgw60ukR5Qg=",
   "Source": "Insane-Mechanical",
   "BasePath": "_content/Insane-Mechanical",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\f2d49bdd-9ea0-42af-b672-cd96eb5d310e.png",
+      "SourceId": "Insane-Mechanical",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\",
+      "BasePath": "_content/Insane-Mechanical",
+      "RelativePath": "Images/Articulos/f2d49bdd-9ea0-42af-b672-cd96eb5d310e.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Articulos\\f2d49bdd-9ea0-42af-b672-cd96eb5d310e.png"
     },
     {
       "Identity": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Categorias\\ImgAuto.jpg",

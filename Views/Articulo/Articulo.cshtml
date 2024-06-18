@@ -18,14 +18,20 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    @foreach (var i in Model)
-    {
-        if (i.RutaHTML == ViewBag.RutaHTML)
-        {
-            @Html.Raw(ViewBag.HtmlContent)
-            @Html.Partial("../Shared/Comentarios.cshtml");
-            break;
-        }
-    }
+    <div class="d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+        <div class="container mt-5">
+            @foreach (var i in Model)
+            {
+                if (i.RutaHTML == ViewBag.RutaHTML)
+                {
+                    @Html.Raw(ViewBag.HtmlContent)
+                    @Html.Partial("../Shared/Comentarios.cshtml")
+                    ;
+                    break;
+                }
+            }
+        </div>
+    </div>
+    
 </body>
 </html>
