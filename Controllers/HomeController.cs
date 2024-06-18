@@ -21,6 +21,7 @@ namespace Insane_Mechanical.Controllers
 
         public static Usuario usuario1 { get; set; }
         public static string Correo {  get; set; }
+        public static int opcion {  get; set; }
 
         public HomeController(ILogger<HomeController> logger, Insane_MechanicalDB contextDB, VerificationService verificationService, WhatsAppServices whatsappService)
         {
@@ -87,20 +88,23 @@ namespace Insane_Mechanical.Controllers
                     var smtpClient = new SmtpClient("smtp.gmail.com")
                     {
                         Port = 587,
-                        Credentials = new NetworkCredential("centrokarpi@gmail.com", "aawjbzinzxsseuma"),
+                        Credentials = new NetworkCredential("insanusmechanica@gmail.com", "kgfzujdveakfnlip"),
                         EnableSsl = true,
                     };
 
                     var mailMessage = new MailMessage
                     {
-                        From = new MailAddress("centrokarpi@gmail.com"),
-                        Subject = "Resultados del Cuestionario",
+                        From = new MailAddress("insanusmechanica@gmail.com"),
+                        Subject = "Codigo de verificacion",
                         Body =  $"Tu codigo de verificacion es {verificationCode}",
                         IsBodyHtml = true,
                     };
                     mailMessage.To.Add($"{usuario.Correo}");
 
                     smtpClient.Send(mailMessage);
+
+                    opcion = 1;
+
                     return RedirectToAction("Verificar", new { userId = usuario1.ID });
                 }
                 else
@@ -128,7 +132,7 @@ namespace Insane_Mechanical.Controllers
         }
 
         [HttpPost]
-        public IActionResult Register(string Contrasena2, Usuario usuario)
+        public IActionResult Register(string Contrasena2, Usuario usuario, string selectedOption)
         {
             UsuarioModel register = new UsuarioModel(_contextDB);
 
@@ -140,14 +144,53 @@ namespace Insane_Mechanical.Controllers
 
             if (register.Register())
             {
-                CookieOptions options = new CookieOptions();
-                options.Expires = DateTime.Now.AddDays(365);
-                options.IsEssential = true;
-                options.Path = "/";
-                HttpContext.Response.Cookies.Append("MiCookie", usuario.Correo, options);
+                opcion = 2;
 
-                if (register.Login())
-                    return RedirectToAction("Index");
+                string verificationCode = GenerateVerificationCode();
+
+                var idusuario = _contextDB.Usuario.FirstOrDefault(u => u.Correo == usuario.Correo).ID;
+                usuario1 = usuario;
+                usuario1.ID = idusuario;
+
+                if (selectedOption == "Correo")
+                {
+                    _verificationService.SaveVerificationCode(idusuario, verificationCode);
+
+                    var smtpClient = new SmtpClient("smtp.gmail.com")
+                    {
+                        Port = 587,
+                        Credentials = new NetworkCredential("insanusmechanica@gmail.com", "kgfzujdveakfnlip"),
+                        EnableSsl = true,
+                    };
+
+                    var mailMessage = new MailMessage
+                    {
+                        From = new MailAddress("insanusmechanica@gmail.com"),
+                        Subject = "Codigo de Verificacion",
+                        Body = $"Tu codigo de verificacion es {verificationCode}",
+                        IsBodyHtml = true,
+                    };
+                    mailMessage.To.Add($"{usuario.Correo}");
+
+                    smtpClient.Send(mailMessage);
+
+                    opcion = 2;
+
+                    return RedirectToAction("Verificar", new { userId = usuario1.ID });
+                }
+                else
+                {
+                    var whatsappNumber = _contextDB.Usuario.FirstOrDefault(u => u.Correo == usuario.Correo).Telefono;
+
+                    // Guardar el código de verificación en la base de datos
+                    _verificationService.SaveVerificationCode(idusuario, verificationCode);
+
+                    // Enviar el código de verificación a WhatsApp
+                    _whatsappService.SendVerificationCode(whatsappNumber, verificationCode);
+
+                    // Redirigir al usuario a la página de verificación
+                    return RedirectToAction("Verificar", new { userId = usuario1.ID });
+                }
             }
             else
                 ViewBag.Mensaje = UsuarioModel.Mensaje;
@@ -167,13 +210,28 @@ namespace Insane_Mechanical.Controllers
         {
             if (_verificationService.VerifyCode(model.idUsuario, model.CodigoIngresado))
             {
-                // Marcar al usuario como verificado en la base de datos
                 MarkUserAsVerified(model.idUsuario);
                 CookieOptions options = new CookieOptions();
                 options.Expires = DateTime.Now.AddDays(365);
                 options.IsEssential = true;
                 options.Path = "/";
                 HttpContext.Response.Cookies.Append("MiCookie", usuario1.Correo, options);
+
+                if (opcion == 1)
+                    return RedirectToAction("VerificacionExitosa");
+                else
+                {
+                    UsuarioModel register = new UsuarioModel(_contextDB);
+
+                    var usuario = _contextDB.Usuario.Find(model.idUsuario);
+
+                    register.Contrasena = usuario.Contrasena;
+                    register.Correo = usuario.Correo;
+
+                    if (register.Login())
+                        return RedirectToAction("VerificacionExitosa");
+                }
+
                 return RedirectToAction("VerificacionExitosa");
             }
             else
@@ -318,6 +376,28 @@ namespace Insane_Mechanical.Controllers
                 user.Verificado = true;
                 _contextDB.SaveChanges();
             }
+        }
+
+        public IActionResult Buscar(string query)
+        {
+            Cookies();
+
+            if (string.IsNullOrEmpty(query))
+            {
+                ViewBag.Message = "Por favor, ingrese un término de búsqueda.";
+                return View(new List<Articulo>());
+            }
+
+            var resultados = _contextDB.Articulo
+                .Where(a => a.Titulo.Contains(query) || a.Descripcion.Contains(query))
+                .ToList();
+
+            if (!resultados.Any())
+            {
+                ViewBag.Message = "No se encontraron artículos que coincidan con su búsqueda.";
+            }
+
+            return View(resultados);
         }
     }
 }

@@ -91,7 +91,7 @@
 <body>
     <div class="login-container">
         <h2>Registrate</h2>
-        <form asp-action="Register" asp-controller="Home" method="post">
+        <form id="loginForm" asp-action="Register" asp-controller="Home" method="post">
             <div class="form-group">
                 <label for="username">Nombre de Usuario</label>
                 <input type="text" id="name" name="Nombre" required>
@@ -110,13 +110,49 @@
             </div>
             <div class="form-group">
                 <label for="password">Telefono</label>
-                <input type="password" id="password2" name="Telefono" required>
+                <input type="text" id="password2" name="Telefono" required>
             </div>
             <div class="form-group">
-                <button type="submit">Registrate</button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#confirmationModal">Iniciar sesión</button>
             </div>
+            <input type="hidden" id="selectedOption" name="SelectedOption" />
         </form>
         <h1 class="text-black">@ViewBag.Mensaje</h1>
     </div>
+
+    <div class="modal fade" id="confirmationModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel" style="color: black;">Confirmación</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p style="color: black;">Por favor, seleccione a donde se enviara su codigo de verificacion:</p>
+                    <select id="modalSelect" class="form-control">
+                        <option value="Correo">Correo</option>
+                        <option value="WhatsApp">WhatsApp</option>
+                    </select>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" onclick="submitForm()">Confirmar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        function submitForm() {
+            var selectedOption = document.getElementById("modalSelect").value;
+            document.getElementById("selectedOption").value = selectedOption;
+            document.getElementById("loginForm").submit();
+        }
+    </script>
 </body>
 </html>

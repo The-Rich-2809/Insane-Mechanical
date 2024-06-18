@@ -38,6 +38,11 @@
                         </li>
                     </ul>
 
+                    <form method="get" asp-action="Buscar" asp-controller="Home" class="d-flex me-3">
+                        <input type="text" name="query" class="form-control me-2" placeholder="Buscar..." />
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+
                     <div class="dropdown text-end">
                         <a href="#" class="d-block link-light text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
                             <img src="@ViewBag.FotoPerfil" alt="mdo" width="32" height="32" class="rounded-circle">

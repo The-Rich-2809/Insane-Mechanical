@@ -64,7 +64,7 @@ namespace Insane_Mechanical.Models
                 {
                     var u = new Usuario[]
                         {
-                            new Usuario() {Correo = Correo, Contrasena = Contrasena, TipoUsuario = "Cliente", Nombre = Nombre, DireccionImagen = "../Images/Usuarios/Usuario.png"}
+                            new Usuario() {Correo = Correo, Contrasena = Contrasena, TipoUsuario = "Cliente", Nombre = Nombre, DireccionImagen = "../Images/Usuarios/Usuario.png", Telefono = Telefono}
                         };
 
                     foreach (var us in u)
