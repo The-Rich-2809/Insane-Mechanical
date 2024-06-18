@@ -161,43 +161,5 @@ namespace Insane_Mechanical.Controllers
             Cookies();
             return View();
         }
-
-        //public async void MandarCorreo()
-        //{
-        //    //xqqn prqe jrje culx
-        //    var smtpClient = new SmtpClient("smtp.gmail.com")
-        //    {
-        //        Port = 587,
-        //        Credentials = new NetworkCredential("tiendaperashop@gmail.com", "shjsvtgehcqnflgl"),
-        //        EnableSsl = true,
-        //    };
-
-        //    var mailMessage = new MailMessage
-        //    {
-        //        From = new MailAddress("tiendaperashop@gmail.com"),
-        //        Subject = "Confirmacion de la compra",
-        //        Body = $@"
-        //        <html>
-        //        <body>
-        //            <h1>¡Gracias por tu compra!</h1>
-        //            <p>Tu pedido ha sido procesado exitosamente.</p>
-        //            <div>
-        //                <p><strong>Detalles del Pedido:</strong></p>
-        //                <p>Nombre: <strong>{usuario.Nombre}</strong></p>
-        //                <p>Telefono: <strong>{usuario.NumeroTelefono}</strong></p>
-        //                <p>Correo: <strong>{usuario.Correo}</strong></p>
-        //                <p>Fecha: <strong>{DateTime.Now}</strong></p>
-        //                <p>ID de Pedido: <strong>{pedidoid}</strong></p>
-        //                <p>Total: <strong>${Total}</strong></p>
-        //            </div>
-        //            <p>Debe presentar este correo en la tienda para que se le pueda entregar su compra</p>
-        //        </body>
-        //        </html>",
-        //        IsBodyHtml = true,
-        //    };
-        //    mailMessage.To.Add($"{usuario.Correo}");
-
-        //    smtpClient.Send(mailMessage);
-        //}
     }
 }

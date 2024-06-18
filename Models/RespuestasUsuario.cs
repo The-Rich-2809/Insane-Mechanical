@@ -16,10 +16,10 @@ namespace Insane_Mechanical.Models
         [ForeignKey("idOpcion")]
         public virtual Opcion Opcion { get; set; }
 
-        [ForeignKey("idPregunta")]
+        [ForeignKey("idUsuario")]
         public virtual Usuario Usuario { get; set; }
 
-        [ForeignKey("idUsuario")]
+        [ForeignKey("idPregunta")]
         public virtual Pregunta Pregunta { get; set; }
     }
 }

@@ -191,6 +191,10 @@ namespace Insane_Mechanical.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
+                    b.Property<string>("Codigcadena")
+                        .HasMaxLength(6)
+                        .HasColumnType("nvarchar(6)");
+
                     b.Property<string>("Contrasena")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -203,6 +207,9 @@ namespace Insane_Mechanical.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime?>("FechadeExpiracion")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Nombre")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -210,6 +217,9 @@ namespace Insane_Mechanical.Migrations
                     b.Property<string>("TipoUsuario")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Verificado")
+                        .HasColumnType("bit");
 
                     b.HasKey("ID");
 

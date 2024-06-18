@@ -38,6 +38,13 @@ namespace Insane_Mechanical.Models
                 .WithMany()
                 .HasForeignKey(r => r.idOpcion)
                 .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Usuario>()
+            .Property(u => u.Codigcadena)
+            .HasMaxLength(6);
+
+            modelBuilder.Entity<Usuario>()
+                .Property(u => u.FechadeExpiracion);
         }
     }
 }

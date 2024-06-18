@@ -12,6 +12,7 @@ namespace Insane_Mechanical.Models
         }
 
         public string Correo { get; set; }
+        public static string Telefono { get; set; }
         public string Contrasena { get; set; }
         public string Contrasena2 { get; set; }
         public static string Mensaje { get; set; }

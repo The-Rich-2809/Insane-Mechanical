@@ -99,3 +99,16 @@ button.accept-policy[b-965k8ywt28] {
   white-space: nowrap;
   line-height: 60px;
 }
+/* _content/Insane-Mechanical/Views/Shared/_LayoutV.cshtml.rz.scp.css */
+.form-control-dark[b-7km6nnks0c] {
+  color: #fff;
+  background-color: var(--bs-dark);
+  border-color: var(--bs-gray);
+}
+
+.form-control-dark:focus[b-7km6nnks0c] {
+  color: #fff;
+  background-color: var(--bs-dark);
+  border-color: #fff;
+  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}

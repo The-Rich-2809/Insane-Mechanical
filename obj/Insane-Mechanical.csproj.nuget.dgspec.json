@@ -54,6 +54,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.19, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[111.3.0, )"
+            },
+            "Twilio": {
+              "target": "Package",
+              "version": "[7.1.1, )"
             }
           },
           "imports": [

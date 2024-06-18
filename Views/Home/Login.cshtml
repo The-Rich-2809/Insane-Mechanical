@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -25,7 +26,7 @@
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 300px;
+            width: 400px;
             margin: auto;
         }
 
@@ -45,13 +46,12 @@
             }
 
             .form-group input {
-                width: 90%;
+                width: 100%;
                 padding: 10px;
                 border: 1px solid #ddd;
                 border-radius: 5px;
                 background-color: #555;
                 color: #fff;
-                margin: auto;
             }
 
             .form-group button {
@@ -80,19 +80,19 @@
 
         .button-container {
             display: flex;
-            justify-content: space-between; /* Distribuye los botones uniformemente en la fila */
+            justify-content: space-between;
         }
 
             .button-container button {
-                width: 48%; /* Reduce el ancho para que ambos botones quepan en la misma fila */
+                width: 48%;
             }
-
     </style>
 </head>
+
 <body>
     <div class="login-container">
         <h2>Iniciar Sesión</h2>
-        <form asp-action="Login" asp-controller="Home" method="post">
+        <form id="loginForm" asp-action="Login" asp-controller="Home" method="post">
             <div class="form-group">
                 <label for="username">Nombre de Usuario</label>
                 <input type="text" id="username" name="Correo" required>
@@ -102,16 +102,53 @@
                 <input type="password" id="password" name="Contrasena" required>
             </div>
             <div class="form-group">
-                <button type="submit">Inicia sesion</button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#confirmationModal">Iniciar sesión</button>
             </div>
+            <input type="hidden" id="selectedOption" name="SelectedOption" />
         </form>
-            <div class="button-container">
-            <button type="submit" onclick="location.href='@Url.Action("Register", "Home")'">Registrate</button>
-                <!-- Reemplaza "Registro" y "Controlador" con los nombres de acción y controlador de tu vista de registro -->
-            @* <button type="submit" onclick="location.href='@Url.Action("ContrasenaOlvidada", "Home")'">Olvide mi contrasena</button> *@
-            </div>
+        <div class="button-container">
+            <button type="button" class="btn btn-secondary" onclick="location.href='@Url.Action("Register", "Home")'">Registrarse</button>
+            <button type="button" class="btn btn-secondary" onclick="location.href='@Url.Action("ContrasenaOlvidada", "Home")'">Olvidé mi contraseña</button>
+        </div>
 
         <h1 class="text-black">@ViewBag.Mensaje</h1>
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="confirmationModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel" style="color: black;">Confirmación</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p style="color: black;">Por favor, seleccione a donde se enviara su codigo de verificacion:</p>
+                    <select id="modalSelect" class="form-control">
+                        <option value="Correo">Correo</option>
+                        <option value="WhatsApp">WhatsApp</option>
+                    </select>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" onclick="submitForm()">Confirmar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        function submitForm() {
+            var selectedOption = document.getElementById("modalSelect").value;
+            document.getElementById("selectedOption").value = selectedOption;
+            document.getElementById("loginForm").submit();
+        }
+    </script>
 </body>
+
 </html>

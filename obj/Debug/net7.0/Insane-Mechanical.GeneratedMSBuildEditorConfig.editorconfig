@@ -82,6 +82,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vlc3Rpb25hcmlvXExsZW5hci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Github/Kapicentro/Insane-Mechanical/Views/Home/CambiarContrasena.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYW1iaWFyQ29udHJhc2VuYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Github/Kapicentro/Insane-Mechanical/Views/Home/ContrasenaOlvidada.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250cmFzZW5hT2x2aWRhZGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -100,6 +104,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Github/Kapicentro/Insane-Mechanical/Views/Home/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/Home/VerificacionExitosa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJpZmljYWNpb25FeGl0b3NhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/Home/VerificacionFallida.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJpZmljYWNpb25GYWxsaWRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/Home/Verificar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJpZmljYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_1_Hola.cshtml]
@@ -145,3 +161,7 @@ build_metadata.AdditionalFiles.CssScope = b-e5352w7yic
 [C:/Github/Kapicentro/Insane-Mechanical/Views/Shared/_LayoutLoginRegister.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2dpblJlZ2lzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-965k8ywt28
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/Shared/_LayoutV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRWLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-7km6nnks0c

@@ -13,6 +13,10 @@ namespace Insane_Mechanical.Models
         public string DireccionImagen { get; set; }
         public string Nombre { get; set; }
         public string TipoUsuario { get; set; }
+        public string? Codigcadena { get; set; }
+        public DateTime? FechadeExpiracion { get; set; }
+        public bool Verificado { get; set; }
+        public string Telefono { get; set; }
         public virtual ICollection<RespuestasUsuario> Respuestas { get; set; }
     }
 }
