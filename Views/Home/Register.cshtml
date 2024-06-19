@@ -6,161 +6,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar Sesión</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Registro</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #999;
-            color: #fff;
-            margin: 0;
+        * {
             padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            margin: 0;
+            box-sizing: border-box;
         }
 
-        .login-container {
-            background-color: #333;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 400px;
-            margin: auto;
+        body {
+            background-color: rgb(0, 0, 0);
         }
 
-            .login-container h2 {
-                text-align: center;
-                color: #fff;
-            }
-
-        .form-group {
-            margin-bottom: 15px;
+        .row {
+            background-color: white;
+            border-radius: 30px;
+            box-shadow: 12px 12px 22px grey;
         }
 
-            .form-group label {
-                display: block;
-                margin-bottom: 5px;
-                color: #fff;
-            }
-
-            .form-group input {
-                width: 100%;
-                padding: 10px;
-                border: 1px solid #ddd;
-                border-radius: 5px;
-                background-color: #555;
-                color: #fff;
-            }
-
-            .form-group button {
-                width: 100%;
-                padding: 10px;
-                border: none;
-                background-color: #555;
-                color: #fff;
-                border-radius: 5px;
-                cursor: pointer;
-            }
-
-                .form-group button:hover {
-                    background-color: #444;
-                }
-
-        .footer {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 0.8em;
-            color: #777;
-            background-color: #222;
-            padding: 10px;
-            border-radius: 5px;
+        img {
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
         }
 
-        .button-container {
-            display: flex;
-            justify-content: space-between;
+        .btn1 {
+            border: none;
+            outline: none;
+            height: 50px;
+            width: 100%;
+            background-color: black;
+            color: white;
+            border-radius: 4px;
+            font-weight: bold;
         }
 
-            .button-container button {
-                width: 48%;
+            .btn1:hover {
+                background-color: white;
+                border: 1px solid;
+                color: black;
             }
+
     </style>
 </head>
 <body>
-    <div class="login-container">
-        <h2>Registrate</h2>
-        <form id="loginForm" asp-action="Register" asp-controller="Home" method="post">
-            <div class="form-group">
-                <label for="username">Nombre de Usuario</label>
-                <input type="text" id="name" name="Nombre" required>
-            </div>
-            <div class="form-group">
-                <label for="username">Correo electronico</label>
-                <input type="email" id="email" name="Correo" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Contraseña</label>
-                <input type="password" id="password" name="Contrasena" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Repite la Contraseña</label>
-                <input type="password" id="password2" name="Contrasena2" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Telefono</label>
-                <input type="text" id="password2" name="Telefono" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Genero</label>
-                <select class="form-control" name="Genero">
-                    <option value="Hombre">Hombre</option>
-                    <option value="Mujer">Mujer</option>
-                    <option value="Prefiero no decirlo">Prefiero no decirlo</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#confirmationModal">Iniciar sesión</button>
-            </div>
-            <input type="hidden" id="selectedOption" name="SelectedOption" />
-        </form>
-        <h1 class="text-black">@ViewBag.Mensaje</h1>
-    </div>
-
-    <div class="modal fade" id="confirmationModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel" style="color: black;">Confirmación</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+    <section class="Form my-4 mx-5">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-7 px-5 pt-5">
+                    <h1 class="font-weight-bold py-3">Insane Mechanical</h1>
+                    <h2>Registrate aqui!</h2>
+                    <form asp-action="Register" asp-controller="Home" method="post" id="loginForm">
+                        <div class="form-row">
+                            <div class="col-lg-12">
+                                <label for="username">Nombre de Usuario</label>
+                                <br />
+                                <input type="text" id="username" name="Nombre" maxlength="8" oninput="validateLength(this)" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-12">
+                                <label for="email">Correo electrónico</label>
+                                <br />
+                                <input type="email" id="email" name="Correo" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-12">
+                                <label for="password">Contraseña</label>
+                                <br />
+                                <input type="password" id="password" name="Contrasena" maxlength="8" oninput="validateLength(this)" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-12">
+                                <label for="confirm-password">Repetir Contraseña</label>
+                                <br />
+                                <input type="password" id="confirm-password" name="Contrasena2" maxlength="8" oninput="validateLength(this)" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-12">
+                                <label for="confirm-password">Telefono</label>
+                                <br />
+                                <input type="Telfono" name="Telefono" maxlength="10" oninput="validateLengthTelefono(this)" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-12">
+                                <label for="gender">Género</label>
+                                <select class="form-control" id="gender" name="Genero">
+                                    <option value="Hombre">Hombre</option>
+                                    <option value="Mujer">Mujer</option>
+                                    <option value="Prefiero no decirlo">Prefiero no decirlo</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-12">
+                                <button type="button" class="btn1 mt-3 mb-5" data-toggle="modal" data-target="#confirmationModal">Registrarse</button>
+                                <input type="hidden" id="selectedOption" name="SelectedOption" />
+                            </div>
+                        </div>
+                    </form>
+                    <p>¿Ya tienes cuenta?, <a href="@Url.Action("Login", "Home")">Inicia sesión aquí</a></p>
+                    <br>
+                    <br>
+                    <h1 class="text-black">@ViewBag.Mensaje</h1>
                 </div>
-                <div class="modal-body">
-                    <p style="color: black;">Por favor, seleccione a donde se enviara su codigo de verificacion:</p>
-                    <select id="modalSelect" class="form-control">
-                        <option value="Correo">Correo</option>
-                        <option value="WhatsApp">WhatsApp</option>
-                    </select>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-                    <button type="button" class="btn btn-primary" onclick="submitForm()">Confirmar</button>
+                <div class="col-lg-5">
+                    <img src="https://i.pinimg.com/originals/52/f5/c2/52f5c2dd3eeb2cafdc3fe36d485a41a9.jpg" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
-    </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script>
-        function submitForm() {
-            var selectedOption = document.getElementById("modalSelect").value;
-            document.getElementById("selectedOption").value = selectedOption;
-            document.getElementById("loginForm").submit();
-        }
-    </script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <div class="modal fade" id="confirmationModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel" style="color: black;">Confirmación</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p style="color: black;">Por favor, seleccione a donde se enviara su codigo de verificacion:</p>
+                        <select id="modalSelect" class="form-control">
+                            <option value="Correo">Correo</option>
+                            <option value="WhatsApp">WhatsApp</option>
+                        </select>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary" onclick="submitForm()">Confirmar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script>
+            function submitForm() {
+                var selectedOption = document.getElementById("modalSelect").value;
+                document.getElementById("selectedOption").value = selectedOption;
+                document.getElementById("loginForm").submit();
+            }
+
+            function validateLength(input) {
+                if (input.value.length > 8) {
+                    input.value = input.value.slice(0, 8);
+                }
+            }
+            function validateLengthTelefono(input) {
+                if (input.value.length > 10) {
+                    input.value = input.value.slice(0, 12);
+                }
+            }
+        </script>
 </body>
 </html>
