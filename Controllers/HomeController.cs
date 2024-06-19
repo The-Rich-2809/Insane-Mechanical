@@ -141,6 +141,7 @@ namespace Insane_Mechanical.Controllers
             register.Contrasena2 = Contrasena2;
             UsuarioModel.Telefono = usuario.Telefono;
             UsuarioModel.Nombre = usuario.Nombre;
+            register.Genero = usuario.Genero;
 
             if (register.Register())
             {
@@ -320,8 +321,8 @@ namespace Insane_Mechanical.Controllers
 
             var insertarusuarios = new Usuario[]
             {
-                new Usuario() {Correo = "ricardo_138@outlook.com", Contrasena = "1234", TipoUsuario = "Admin", DireccionImagen = "/Images/Usuarios/Rich.jpg", Nombre = "Rich", Telefono = "56 1898 4344"},
-                new Usuario() {Correo = "aserranoacosta841@gmail.com", Contrasena = "1234", TipoUsuario = "Admin", DireccionImagen = "/Images/Usuarios/Alejandro.jpg", Nombre = "Alejandro", Telefono = "5541278159"}
+                new Usuario() {Correo = "ricardo_138@outlook.com", Contrasena = "1234", TipoUsuario = "Admin", DireccionImagen = "/Images/Usuarios/Rich.jpg", Nombre = "Rich", Telefono = "56 1898 4344", Genero="Hombre"},
+                new Usuario() {Correo = "aserranoacosta841@gmail.com", Contrasena = "1234", TipoUsuario = "Admin", DireccionImagen = "/Images/Usuarios/Alejandro.jpg", Nombre = "Alejandro", Telefono = "5541278159", Genero="Hombre"}
             };
 
             var insertarcategorias = new Categoria[]

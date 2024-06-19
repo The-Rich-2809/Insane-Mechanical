@@ -15,6 +15,7 @@ namespace Insane_Mechanical.Models
         public static string Telefono { get; set; }
         public string Contrasena { get; set; }
         public string Contrasena2 { get; set; }
+        public string Genero { get; set; }
         public static string Mensaje { get; set; }
         public static string Nombre { get; set; }
         public static string TipoUsuario { get; set; }
@@ -64,7 +65,7 @@ namespace Insane_Mechanical.Models
                 {
                     var u = new Usuario[]
                         {
-                            new Usuario() {Correo = Correo, Contrasena = Contrasena, TipoUsuario = "Cliente", Nombre = Nombre, DireccionImagen = "../Images/Usuarios/Usuario.png", Telefono = Telefono}
+                            new Usuario() {Correo = Correo, Contrasena = Contrasena, TipoUsuario = "Cliente", Nombre = Nombre, DireccionImagen = "../Images/Usuarios/Usuario.png", Telefono = Telefono, Genero = Genero}
                         };
 
                     foreach (var us in u)

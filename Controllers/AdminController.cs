@@ -357,6 +357,7 @@ namespace Insane_Mechanical.Controllers
             Cookies();
             var preguntas = await _contextDB.Preguntas.ToListAsync();
             var respuestas = await _contextDB.RespuestaUsuario.Include(r => r.Opcion).ToListAsync();
+            var usuarios = await _contextDB.Usuario.ToListAsync();
 
             var datosPorPregunta = preguntas
                 .Select(p => new
@@ -375,11 +376,23 @@ namespace Insane_Mechanical.Controllers
                 .OrderBy(x => x.RespuestasCorrectas)
                 .ToList();
 
+            var generoCounts = usuarios.GroupBy(u => u.Genero)
+                .Select(g => new
+                {
+                    Genero = g.Key,
+                    Count = g.Count()
+                })
+                .ToList();
+
             ViewBag.PreguntasMasErrores = preguntasMasErrores.Select(x => x.Pregunta).ToList();
             ViewBag.RespuestasIncorrectasMasErrores = preguntasMasErrores.Select(x => x.RespuestasIncorrectas).ToList();
             ViewBag.RespuestasCorrectasMasErrores = preguntasMasErrores.Select(x => x.RespuestasCorrectas).ToList();
 
+            ViewBag.Generos = generoCounts.Select(g => g.Genero).ToList();
+            ViewBag.GeneroCounts = generoCounts.Select(g => g.Count).ToList();
+
             return View();
         }
+
     }
 }

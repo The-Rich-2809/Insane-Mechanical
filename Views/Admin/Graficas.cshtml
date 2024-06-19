@@ -16,6 +16,15 @@
     </div>
 </div>
 
+<div class="d-flex justify-content-center mt-4">
+    <div class="card" style="width: 80%;">
+        <div class="card-body">
+            <h2 class="text-center">Distribución de Géneros</h2>
+            <canvas id="generoChart"></canvas>
+        </div>
+    </div>
+</div>
+
 @section Scripts {
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
@@ -46,6 +55,40 @@
                     scales: {
                         y: {
                             beginAtZero: true
+                        }
+                    }
+                }
+            });
+
+            var ctxGenero = document.getElementById('generoChart').getContext('2d');
+            var generoChart = new Chart(ctxGenero, {
+                type: 'pie',
+                data: {
+                    labels: @Html.Raw(Json.Serialize(ViewBag.Generos)),
+                    datasets: [{
+                        data: @Html.Raw(Json.Serialize(ViewBag.GeneroCounts)),
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(255, 206, 86, 0.2)'
+                        ],
+                        borderColor: [
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                        },
+                        title: {
+                            display: true,
+                            text: 'Distribución de Géneros'
                         }
                     }
                 }

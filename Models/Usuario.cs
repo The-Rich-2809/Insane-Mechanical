@@ -17,6 +17,7 @@ namespace Insane_Mechanical.Models
         public DateTime? FechadeExpiracion { get; set; }
         public bool Verificado { get; set; }
         public string Telefono { get; set; }
+        public string Genero { get; set; }
         public virtual ICollection<RespuestasUsuario> Respuestas { get; set; }
     }
 }
