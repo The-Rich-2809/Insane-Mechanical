@@ -1,5 +1,4 @@
-﻿
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -74,6 +73,11 @@
             border-radius: 5px;
             margin-bottom: 20px;
         }
+
+        .respuesta {
+            margin-left: 40px;
+            background-color: #f1f1f1;
+        }
     </style>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -87,7 +91,6 @@
                         <h2>Deja tu comentario</h2>
                     </div>
                     @{
-
                         if (ViewBag.cookie == null)
                         {
                             <div class="card-body">
@@ -102,18 +105,13 @@
                                 <div class="form-group">
                                     <textarea id="cadenaInput" class="form-control" rows="5" placeholder="Escribe tu comentario aquí..."></textarea>
                                     <input id="IdArticulo" name="IdArticulo" type="hidden" value="@ViewBag.IdArticulo">
+                                    <input id="ComentarioPadreId" name="ComentarioPadreId" type="hidden" value="">
                                 </div>
                                 <button id="updateButton" class="btn btn-primary btn-block">Enviar</button>
                             </div>
                             <div class="mt-4">
                                 <h3>Comentarios</h3>
-                                <ul class="list-group">
-                                    <li class="list-group-item">
-                                        <div class="d-flex align-items-start">
-                                            <div id="container"></div>
-                                        </div>
-                                    </li>
-                                </ul>
+                                <ul class="list-group" id="commentList"></ul>
                             </div>
                         }
                     }
@@ -124,40 +122,57 @@
 
     <script>
         $(document).ready(function () {
+            var nivelUsuario = '@ViewBag.Nivel';
+            var isAdmin = nivelUsuario === 'Admin';
+
             function loadComments() {
                 var IdArticulo = $('#IdArticulo').val();
                 $.ajax({
                     type: 'GET',
                     url: '/api/Comentario?idArticulo=' + IdArticulo,
                     success: function (response) {
-                        var container = $('#container');
+                        var container = $('#commentList');
                         container.empty();
 
                         var comentarios = response.comentarios;
                         var usuarios = response.usuarios;
 
-                        comentarios.forEach(function (comentario) {
-                            var usuario = usuarios.find(u => u.id === comentario.idUsuario);
+                        function renderComments(comentarios, usuarios, parentId, indent = 0) {
+                            comentarios.filter(c => c.comentarioPadreId === parentId).forEach(function (comentario) {
+                                var usuario = usuarios.find(u => u.id === comentario.idUsuario);
 
-                            var divUsuario = $('<div>').addClass('usuario');
-                            if (usuario.tipoUsuario === 'Admin') {
-                                divUsuario.addClass('admin');
-                                var badge = $('<span>').addClass('badge badge-primary').text('Administrador');
-                                divUsuario.append(badge);
-                            }
+                                var divUsuario = $('<div>').addClass('usuario').css('margin-left', indent + 'px');
+                                if (usuario.tipoUsuario === 'Admin') {
+                                    divUsuario.addClass('admin');
+                                    var badge = $('<span>').addClass('badge badge-primary').text('Administrador');
+                                    divUsuario.append(badge);
+                                }
 
-                            var img = $('<img>').attr('src', usuario?.direccionImagen || '/Images/Usuarios/usuario.png').addClass('rounded-circle mr-3').attr('alt', 'User Image');
-                            var userInfo = $('<div>').addClass('infousuario');
-                            var commentHeader = $('<div>').addClass('headercomentario');
-                            var strong = $('<strong>').text(usuario?.nombre || 'Usuario ' + comentario.IdUsuario);
-                            var span = $('<span>').addClass('fechacomentario').text(new Date(comentario.fecha).toLocaleDateString());
-                            var divTexto = $('<div>').addClass('texto').text(comentario.texto);
+                                var img = $('<img>').attr('src', usuario?.direccionImagen || '/Images/Usuarios/usuario.png').addClass('rounded-circle mr-3').attr('alt', 'User Image');
+                                var userInfo = $('<div>').addClass('infousuario');
+                                var commentHeader = $('<div>').addClass('headercomentario');
+                                var strong = $('<strong>').text(usuario?.nombre || 'Usuario ' + comentario.idUsuario);
+                                var span = $('<span>').addClass('fechacomentario').text(new Date(comentario.fecha).toLocaleDateString());
+                                var divTexto = $('<div>').addClass('texto').text(comentario.texto);
 
-                            commentHeader.append(strong).append(span);
-                            userInfo.append(commentHeader).append(divTexto);
-                            divUsuario.append(img).append(userInfo);
-                            container.append(divUsuario);
-                        });
+                                commentHeader.append(strong).append(span);
+                                userInfo.append(commentHeader).append(divTexto);
+                                divUsuario.append(img).append(userInfo);
+
+                                if (isAdmin) {
+                                    var responderButton = $('<button>').text('Responder').addClass('btn btn-secondary btn-sm ml-2').click(function () {
+                                        $('#ComentarioPadreId').val(comentario.id);
+                                        $('#cadenaInput').focus();
+                                    });
+                                    userInfo.append(responderButton);
+                                }
+
+                                container.append(divUsuario);
+                                renderComments(comentarios, usuarios, comentario.id, indent + 40); // Render child comments
+                            });
+                        }
+
+                        renderComments(comentarios, usuarios, null); // Start rendering from root comments
                     },
                     error: function (error) {
                         console.log(error);
@@ -167,14 +182,15 @@
 
             loadComments();
 
-            // Enviar nuevo comentario
             $('#updateButton').click(function () {
                 var mensaje = $('#cadenaInput').val();
                 var IdArticulo = $('#IdArticulo').val();
+                var ComentarioPadreId = $('#ComentarioPadreId').val() || null;
                 var nuevoComentario = {
                     IdArticulo: IdArticulo,
                     IdUsuario: '@ViewBag.ID',
-                    Texto: mensaje
+                    Texto: mensaje,
+                    ComentarioPadreId: ComentarioPadreId
                 };
 
                 $.ajax({
@@ -184,6 +200,7 @@
                     data: JSON.stringify(nuevoComentario),
                     success: function (response) {
                         $('#cadenaInput').val('');
+                        $('#ComentarioPadreId').val('');
                         loadComments();
                     },
                     error: function (error) {

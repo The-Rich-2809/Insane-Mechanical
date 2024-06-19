@@ -1,5 +1,17 @@
 ﻿@model List<Insane_Mechanical.Models.Articulo>
 
+@{
+    if (ViewBag.Nivel == "Cliente")
+    {
+        Layout = "_LayoutCliente";
+    }
+    if (ViewBag.Nivel == "Admin")
+    {
+        Layout = "_LayoutAdmin";
+    }
+}
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

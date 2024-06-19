@@ -12,5 +12,6 @@ namespace Insane_Mechanical.Models
         public int IdUsuario { get; set; }
         public string Texto { get; set; }
         public DateTime Fecha { get; set; }
+        public int? ComentarioPadreId { get; set; }
     }
 }
