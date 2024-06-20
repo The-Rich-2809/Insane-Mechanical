@@ -18,33 +18,62 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>Document</title>
+
+    <style>
+        .autenticado {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+    </style>
+
 </head>
 <body>
     <div class="album py-5 bg-light">
         <div class="container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                @foreach (var i in Model)
-                {
-                    if (i.CategoriaId == ViewBag.CategoriaId)
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 d-flex justify-content-center align-items-center">
+                @{
+                    if (ViewBag.cookie == null)
                     {
-                        <form method="get">
-                            <input name="RutaHtml" type="hidden" value="@i.RutaHTML">
-                            <input name="IdArticulo" type="hidden" value="@i.ID">
-                            <button asp-action="Articulo" method="Get" style="padding: 0; border: none;background: none;">
-                                <div class="col">
-                                    <div class="card shadow-sm">
-
-                                        <div style="height: 30vh; width: 50vh; background: url(@i.RutaImagen); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
-
-                                        <div class="card-body">
-                                            <p class="card-text">
-                                                @i.Descripcion
-                                            </p>
-                                        </div>
-                                    </div>
+                        <div class="card" style="width: 80%;">
+                            <div class="card-body">
+                                <div class="autenticado">
+                                    <p>Por favor, <a asp-controller="Home" asp-action="Login">inicia sesión</a> o <a asp-controller="Home" asp-action="Register">regístrate</a> para ver los articulos.</p>
                                 </div>
-                            </button>
-                        </form>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                        @foreach (var i in Model)
+                        {
+                            if (i.CategoriaId == ViewBag.CategoriaId)
+                            {
+                                <form method="get">
+                                    <input name="RutaHtml" type="hidden" value="@i.RutaHTML">
+                                    <input name="IdArticulo" type="hidden" value="@i.ID">
+                                    <button asp-action="Articulo" method="Get" style="padding: 0; border: none;background: none;">
+                                        <div class="col">
+                                            <div class="card shadow-sm">
+
+                                                <div style="height: 30vh; width: 50vh; background: url(@i.RutaImagen); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
+
+                                                <div class="card-body">
+                                                    <h3 class="card-title">@i.Titulo</h3>
+                                                    <p class="card-text">
+                                                        @i.Descripcion
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </form>
+                            }
+                        }
                     }
                 }
             </div>

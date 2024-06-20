@@ -5,6 +5,8 @@
     {
         Layout = "_LayoutAdmin2";
     }
+
+    bool existeOpcionCorrecta = ViewBag.ExisteOpcionCorrecta ?? false;
 }
 
 <h1>Crear Opción para la Pregunta @Model.idPregunta</h1>
@@ -19,7 +21,14 @@
                     <span asp-validation-for="Texto" class="text-danger"></span>
                 </div>
                 <div class="form-check">
-                    <input type="checkbox" class="form-check-input" asp-for="EsCorrecta">
+                    @if (existeOpcionCorrecta)
+                    {
+                        <input type="checkbox" class="form-check-input" asp-for="EsCorrecta" disabled />
+                    }
+                    else
+                    {
+                        <input type="checkbox" class="form-check-input" asp-for="EsCorrecta" />
+                    }
                     <label class="form-check-label" asp-for="EsCorrecta">Es la respuesta correcta</label>
                 </div>
                 <input type="hidden" asp-for="idPregunta" />
@@ -28,3 +37,7 @@
         </div>
     </div>
 </div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

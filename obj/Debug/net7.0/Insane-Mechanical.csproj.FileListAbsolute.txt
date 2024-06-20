@@ -239,3 +239,4 @@ C:\Github\Kapicentro\Insane-Mechanical\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Github\Kapicentro\Insane-Mechanical\bin\Debug\net7.0\Twilio.dll
 C:\Github\Kapicentro\Insane-Mechanical\bin\Debug\net7.0\RestSharp.dll
 C:\Github\Kapicentro\Insane-Mechanical\obj\Debug\net7.0\scopedcss\Views\Shared\_LayoutV.cshtml.rz.scp.css
+C:\Github\Kapicentro\Insane-Mechanical\obj\Debug\net7.0\scopedcss\Views\Shared\_LayoutUsuario.cshtml.rz.scp.css

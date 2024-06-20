@@ -1,0 +1,34 @@
+﻿@{
+    Layout = "_LayoutUsuario";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/UsarioIndex.css" />
+</head>
+
+<body>
+    <section id="hero">
+        <h1>Bienvenido @ViewBag.Nombre!</h1>
+        <div id="clock"></div>
+        <div class="col-md-6 text-center">
+            <img src="@ViewBag.FotoPerfil" alt="Foto de perfil del Usuario" class="img-fluid profile-picture">
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function updateClock() {
+            const now = new Date();
+            const hours = now.getHours().toString().padStart(2, '0');
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            const seconds = now.getSeconds().toString().padStart(2, '0');
+            document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`;
+        }
+
+        // Actualizar el reloj cada segundo
+        setInterval(updateClock, 1000);
+
+        // Llamar a la función de actualización para mostrar el reloj desde el principio
+        updateClock();
+    </script>
+</body>

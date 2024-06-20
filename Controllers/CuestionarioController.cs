@@ -117,7 +117,10 @@ namespace Insane_Mechanical.Controllers
 
             if (respuestasIncorrectas.Any())
             {
-                var emailBody = "Tus respuestas:<br><br>";
+                var totalpreguntas = respuestas.Count;
+                var totalcorrectas = respuestasCorrectas.Count;
+                var totalincorrectas = respuestasIncorrectas.Count;
+                var emailBody = $"Preguntas: {totalpreguntas}.<br>Correctas: {totalcorrectas} correctas.<br>Incorrectas: {totalincorrectas}.<br> Aqui se muestran cuales fueron tus respuestas:<br><br>";
                 foreach (var respuesta in respuestas)
                 {
                     var pregunta = await _contextDB.Preguntas
@@ -137,13 +140,13 @@ namespace Insane_Mechanical.Controllers
                 var smtpClient = new SmtpClient("smtp.gmail.com")
                 {
                     Port = 587,
-                    Credentials = new NetworkCredential("centrokarpi@gmail.com", "aawjbzinzxsseuma"),
+                    Credentials = new NetworkCredential("insanusmechanica@gmail.com", "kgfzujdveakfnlip"),
                     EnableSsl = true,
                 };
 
                 var mailMessage = new MailMessage
                 {
-                    From = new MailAddress("centrokarpi@gmail.com"),
+                    From = new MailAddress("insanusmechanica@gmail.com"),
                     Subject = "Resultados del Cuestionario",
                     Body = emailBody,
                     IsBodyHtml = true,

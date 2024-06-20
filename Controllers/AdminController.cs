@@ -74,35 +74,49 @@ namespace Insane_Mechanical.Controllers
         [HttpPost]
         public async Task<IActionResult> AgregarArticulos(Articulo post, string content, IFormFile Imagen)
         {
-            if (Imagen != null)
-            {
-                var htmlStream = new MemoryStream(Encoding.UTF8.GetBytes(content));
-                var id = _contextDB.Articulo.Max(c => c.ID) + 1;
-                string fileName = post.CategoriaId + "_" + id + post.Titulo + ".cshtml";
-                string imageName = $"{Guid.NewGuid()}.png";
-
-                string imagePath = await helperUpload.UploadFilesAsync(Imagen, imageName, Folders.Articulos);
-                // Guardar el archivo HTML usando el método UploadHtmlAsync
-                string filePath = await helperUpload.UploadHtmlAsync(htmlStream, fileName, Folders.HTML);
-
-
-                post.RutaHTML = "../HTML/" + fileName;
-                post.RutaImagen = "../Images/Articulos/" + imageName;
-
-                _contextDB.Articulo.Add(post);
-                _contextDB.SaveChanges();
-
-                return RedirectToAction("Articulos");
-            }
-            else
+            if (post.CategoriaId == 0)
             {
                 Cookies();
 
-                ViewBag.Mensaje = "Seleccione una imagen";
+                ViewBag.Mensaje = "Seleccione una categoria valida";
                 ViewBag.Categorias = new SelectList(_contextDB.Categoria, "ID", "Titulo");
 
                 return View();
-            }                
+            }
+            else
+            {
+                if (Imagen != null)
+                {
+                    var htmlStream = new MemoryStream(Encoding.UTF8.GetBytes(content));
+                    var id = _contextDB.Articulo.Max(c => c.ID) + 1;
+                    string fileName = post.CategoriaId + "_" + id + post.Titulo + ".cshtml";
+                    string imageName = $"{Guid.NewGuid()}.png";
+
+                    string imagePath = await helperUpload.UploadFilesAsync(Imagen, imageName, Folders.Articulos);
+                    string filePath = await helperUpload.UploadHtmlAsync(htmlStream, fileName, Folders.HTML);
+
+                    if (post.Descripcion == null)
+                        post.Descripcion = "...";
+
+
+                    post.RutaHTML = "../HTML/" + fileName;
+                    post.RutaImagen = "../Images/Articulos/" + imageName;
+
+                    _contextDB.Articulo.Add(post);
+                    _contextDB.SaveChanges();
+
+                    return RedirectToAction("Articulos");
+                }
+                else
+                {
+                    Cookies();
+
+                    ViewBag.Mensaje = "Seleccione una imagen";
+                    ViewBag.Categorias = new SelectList(_contextDB.Categoria, "ID", "Titulo");
+
+                    return View();
+                }
+            }
         }
 
         [HttpGet]
@@ -224,7 +238,6 @@ namespace Insane_Mechanical.Controllers
                 return NotFound();
             }
 
-            // Eliminar archivos asociados
             var htmlFilePath = Path.Combine("Views", "BlogPosts", Path.GetFileName(articulo.RutaHTML));
             if (System.IO.File.Exists(htmlFilePath))
             {
@@ -271,12 +284,26 @@ namespace Insane_Mechanical.Controllers
         {
             Cookies();
             var opcion = new Opcion { idPregunta = preguntaId };
+
+            ViewBag.ExisteOpcionCorrecta = _contextDB.Opciones
+                .Any(o => o.idPregunta == preguntaId && o.EsCorrecta);
+
             return View(opcion);
         }
 
         [HttpPost]
         public async Task<IActionResult> CrearOpcion(Opcion opcion)
         {
+            var existeOpcionCorrecta = _contextDB.Opciones
+                .Any(o => o.idPregunta == opcion.idPregunta && o.EsCorrecta);
+
+            if (opcion.EsCorrecta && existeOpcionCorrecta)
+            {
+                ModelState.AddModelError("", "Ya existe una opción correcta para esta pregunta.");
+                ViewBag.ExisteOpcionCorrecta = existeOpcionCorrecta;
+                return View(opcion);
+            }
+
             _contextDB.Opciones.Add(opcion);
             await _contextDB.SaveChangesAsync();
             return RedirectToAction(nameof(ListarPreguntas));
@@ -313,12 +340,27 @@ namespace Insane_Mechanical.Controllers
             {
                 return NotFound();
             }
+
+            // Verificar si ya existe una opción correcta para la pregunta
+            ViewBag.ExisteOpcionCorrecta = _contextDB.Opciones
+                .Any(o => o.idPregunta == opcion.idPregunta && o.EsCorrecta && o.ID != id);
+
             return View(opcion);
         }
 
         [HttpPost]
         public async Task<IActionResult> EditarOpcion(Opcion opcion)
         {
+            var existeOpcionCorrecta = _contextDB.Opciones
+                .Any(o => o.idPregunta == opcion.idPregunta && o.EsCorrecta && o.ID != opcion.ID);
+
+            if (opcion.EsCorrecta && existeOpcionCorrecta)
+            {
+                ModelState.AddModelError("", "Ya existe una opción correcta para esta pregunta.");
+                ViewBag.ExisteOpcionCorrecta = existeOpcionCorrecta;
+                return View(opcion);
+            }
+
             _contextDB.Opciones.Update(opcion);
             await _contextDB.SaveChangesAsync();
             return RedirectToAction(nameof(ListarPreguntas));

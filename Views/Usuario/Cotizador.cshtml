@@ -1,0 +1,200 @@
+﻿@{
+    Layout = "_LayoutUsuario";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizador de Partes de Carro</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #e9ecef;
+        }
+
+        .cotizador-container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+            padding: 30px;
+            margin-top: 50px;
+        }
+
+        .cotizador-header {
+            background-color: #343a40;
+            color: white;
+            padding: 15px;
+            border-radius: 10px 10px 0 0;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .form-group label {
+            font-weight: bold;
+            width: 150px; /* Ancho fijo para labels */
+        }
+
+        .form-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .select-container {
+            flex-grow: 1;
+        }
+
+        .form-group select {
+            border: 2px solid #343a40;
+            width: 100%;
+        }
+
+        .total-display {
+            font-size: 24px;
+            font-weight: bold;
+            color: #343a40;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cotizador-container">
+            <div class="cotizador-header">
+                <h1>Cotizador de Partes de Carro</h1>
+            </div>
+            <form id="cotizadorForm">
+                <div class="form-group">
+                    <label for="parte1">Motor</label>
+                    <div class="select-container">
+                        <select class="form-control" id="parte1" onchange="actualizarTotal()">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="1500">Motor V4 - $1500</option>
+                            <option value="2500">Motor V6 - $2500</option>
+                            <option value="3500">Motor V8 - $3500</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="parte2">Transmisión</label>
+                    <div class="select-container">
+                        <select class="form-control" id="parte2" onchange="actualizarTotal()">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="1200">Manual - $1200</option>
+                            <option value="2200">Automática - $2200</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="parte3">Frenos</label>
+                    <div class="select-container">
+                        <select class="form-control" id="parte3" onchange="actualizarTotal()">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="300">Disco - $300</option>
+                            <option value="500">ABS - $500</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="parte4">Neumáticos</label>
+                    <div class="select-container">
+                        <select class="form-control" id="parte4" onchange="actualizarTotal()">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="400">Neumáticos estándar - $400</option>
+                            <option value="600">Neumáticos deportivos - $600</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="parte5">Suspensión</label>
+                    <div class="select-container">
+                        <select class="form-control" id="parte5" onchange="actualizarTotal()">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="800">Suspensión estándar - $800</option>
+                            <option value="1200">Suspensión deportiva - $1200</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="parte6">Anticongelante</label>
+                    <div class="select-container">
+                        <select class="form-control" id="parte6" onchange="actualizarTotal()">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="100">Anticongelante estándar - $100</option>
+                            <option value="200">Anticongelante de alto rendimiento - $200</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="parte7">Bujías</label>
+                    <div class="select-container">
+                        <select class="form-control" id="parte7" onchange="actualizarTotal()">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="50">Bujías estándar - $50</option>
+                            <option value="100">Bujías de iridio - $100</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="parte8">Aceite de motor</label>
+                    <div class="select-container">
+                        <select class="form-control" id="parte8" onchange="actualizarTotal()">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="30">Aceite mineral - $30</option>
+                            <option value="60">Aceite sintético - $60</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="parte9">Filtro de aire</label>
+                    <div class="select-container">
+                        <select class="form-control" id="parte9" onchange="actualizarTotal()">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="20">Filtro estándar - $20</option>
+                            <option value="40">Filtro de alto rendimiento - $40</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="parte10">Batería</label>
+                    <div class="select-container">
+                        <select class="form-control" id="parte10" onchange="actualizarTotal()">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="100">Batería estándar - $100</option>
+                            <option value="200">Batería de alto rendimiento - $200</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+            <div class="text-center mt-4">
+                <h2>Total: $<span id="total" class="total-display">0</span></h2>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function actualizarTotal() {
+            const parte1 = parseInt(document.getElementById('parte1').value);
+            const parte2 = parseInt(document.getElementById('parte2').value);
+            const parte3 = parseInt(document.getElementById('parte3').value);
+            const parte4 = parseInt(document.getElementById('parte4').value);
+            const parte5 = parseInt(document.getElementById('parte5').value);
+            const parte6 = parseInt(document.getElementById('parte6').value);
+            const parte7 = parseInt(document.getElementById('parte7').value);
+            const parte8 = parseInt(document.getElementById('parte8').value);
+            const parte9 = parseInt(document.getElementById('parte9').value);
+            const parte10 = parseInt(document.getElementById('parte10').value);
+
+            const total = parte1 + parte2 + parte3 + parte4 + parte5 + parte6 + parte7 + parte8 + parte9 + parte10;
+
+            document.getElementById('total').textContent = total;
+        }
+    </script>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

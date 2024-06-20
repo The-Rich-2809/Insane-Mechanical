@@ -1,4 +1,6 @@
 ﻿using Insane_Mechanical.Models;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal;
+using System.Threading.RateLimiting;
 
 namespace Insane_Mechanical.Models
 {
@@ -50,6 +52,7 @@ namespace Insane_Mechanical.Models
         {
             if (Contrasena == Contrasena2)
             {
+                string mensaje = "";
                 int i = 0;
 
                 List<Usuario> ListaUsuarios = _contextDB.Usuario.ToList();
@@ -57,7 +60,15 @@ namespace Insane_Mechanical.Models
                 foreach (var user in ListaUsuarios)
                 {
                     if (user.Correo == Correo)
+                    {
+                        mensaje = "Correo";
                         break;
+                    }
+                    else if (user.Telefono == Telefono)
+                    {
+                        mensaje = "Telefono";
+                        break;
+                    }
                     else
                         i++;
                 }
@@ -78,7 +89,7 @@ namespace Insane_Mechanical.Models
                 }
                 else
                 {
-                    Mensaje = "El correo ya esta registrado";
+                    Mensaje = $"El {mensaje} ya esta registrado";
                     return false;
                 }
             }
