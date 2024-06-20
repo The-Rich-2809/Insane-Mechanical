@@ -100,9 +100,10 @@ namespace Insane_Mechanical.Models
             }
         }
 
-        //public bool EditarUsuario()
-        //{
-
-        //}
+        public void EditarUsuario(Usuario usuario)
+        {
+            _contextDB.Usuario.Update(usuario);
+            _contextDB.SaveChanges();
+        }
     }
 }

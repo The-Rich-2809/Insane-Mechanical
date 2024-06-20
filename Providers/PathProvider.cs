@@ -9,7 +9,7 @@ namespace Insane_Mechanical.Providers
 {
     public enum Folders
     {
-        HTML = 0, Articulos = 1, Documents = 2, Temp = 3
+        HTML = 0, Articulos = 1, Documents = 2, Temp = 3, Images = 4
     }
 
     public class PathProvider

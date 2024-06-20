@@ -16,6 +16,8 @@ namespace Insane_Mechanical.Controllers
         public readonly Insane_MechanicalDB _contextDB;
         private HelperUploadFiles helperUpload;
         private IWebHostEnvironment hostEnvironment;
+        private static string FotoPerfil { get; set; } = String.Empty;
+        public static int idusuario { get; set; }
 
         public AdminController(Insane_MechanicalDB contextDB, HelperUploadFiles helperUploadFiles, IWebHostEnvironment hostEnvironment)
         {
@@ -436,5 +438,47 @@ namespace Insane_Mechanical.Controllers
             return View();
         }
 
+        public IActionResult Usuarios()
+        {
+            List<Usuario> listaUsuarios = _contextDB.Usuario.ToList();
+            Cookies();
+            return View(listaUsuarios);
+        }
+
+        [HttpGet]
+        public IActionResult EditarUsuarios(string id)
+        {
+            var Usuario = _contextDB.Usuario.FirstOrDefault(c => c.Correo == id);
+            FotoPerfil = Usuario.DireccionImagen;
+            Cookies();
+            return View(Usuario);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> EditarUsuarios(IFormFile Imagen, Usuario usuario, string id, string Contrasena1, string Contrasena2)
+        {
+            var usuarios = new UsuarioModel(_contextDB);
+            if (Imagen != null)
+            {
+                string nombreImagen = usuario.Correo + Imagen.FileName;
+                await this.helperUpload.UploadFilesAsync(Imagen, nombreImagen, Folders.Images);
+                usuario.DireccionImagen = "../Images/Usuarios/" + nombreImagen;
+            }
+            else
+            {
+                usuario.DireccionImagen = FotoPerfil;
+            }
+            if (Contrasena1 != null)
+            {
+                usuario.Contrasena = Contrasena1;
+            }
+
+            
+
+            _contextDB.Usuario.Update(usuario);
+            _contextDB.SaveChanges();
+            Cookies();
+            return RedirectToAction(nameof(Usuarios));
+        }
     }
 }
