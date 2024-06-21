@@ -35,6 +35,8 @@ namespace Insane_Mechanical.Controllers
         {
             var miCookie = HttpContext.Request.Cookies["MiCookie"];
 
+            ViewBag.cookie = miCookie;
+
             if (miCookie != null)
             {
                 List<Usuario> listaUsuarios = _contextDB.Usuario.ToList();
@@ -66,6 +68,16 @@ namespace Insane_Mechanical.Controllers
         [HttpGet]
         public IActionResult Login()
         {
+            return View();
+        }
+
+        public IActionResult IndexLogeado()
+        {
+            Cookies();
+
+            for (int i = 0; i < 10; i++)
+                Console.WriteLine("Arteaga es un pendejo");
+
             return View();
         }
 
@@ -136,7 +148,7 @@ namespace Insane_Mechanical.Controllers
         }
 
         [HttpPost]
-        public IActionResult Register(string Contrasena2, Usuario usuario, string selectedOption)
+        public IActionResult Register(string Contrasena2, Usuario usuario, string selectedOption, string Correo2, string Telefono2)
         {
             UsuarioModel register = new UsuarioModel(_contextDB);
 
@@ -146,6 +158,8 @@ namespace Insane_Mechanical.Controllers
             UsuarioModel.Telefono = usuario.Telefono;
             UsuarioModel.Nombre = usuario.Nombre;
             register.Genero = usuario.Genero;
+            UsuarioModel.Telefono2 = Telefono2;
+            register.Correo2 = Correo2;
 
             if (register.Register())
             {
@@ -332,8 +346,8 @@ namespace Insane_Mechanical.Controllers
 
             var insertarcategorias = new Categoria[]
             {
-                new Categoria(){Titulo = "Mantenimiento", Descripcion = "Aqui se encontrara info para mantener tu choche", RutaImagen = "../Images/Categorias/ImgAuto.jpg" },
-                new Categoria(){Titulo = "Reparaciones", Descripcion = "Aqui se encontrara info para reparar tu choche", RutaImagen = "../Images/Categorias/ImgAuto.jpg" }
+                new Categoria(){Titulo = "Estandar", Descripcion = "Aqui se encontrara info para mantener tu choche", RutaImagen = "../Images/Categorias/ImgAuto.jpg" },
+                new Categoria(){Titulo = "Automatico", Descripcion = "Aqui se encontrara info para reparar tu choche", RutaImagen = "../Images/Categorias/ImgAuto.jpg" }
             };
 
             var insertararticulo = new Articulo[]

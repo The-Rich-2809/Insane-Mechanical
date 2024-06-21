@@ -1,5 +1,12 @@
 ﻿@{
-    Layout = "_LayoutUsuario";
+    if (ViewBag.Nivel == "Cliente")
+    {
+        Layout = "_LayoutCliente";
+    }
+    if (ViewBag.Nivel == "Admin")
+    {
+        Layout = "_LayoutAdmin";
+    }
 }
 
 <!DOCTYPE html>

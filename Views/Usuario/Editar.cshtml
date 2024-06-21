@@ -1,0 +1,91 @@
+﻿@model Insane_Mechanical.Models.Usuario
+
+@{
+    if (ViewBag.Nivel == "Cliente")
+    {
+        Layout = "_LayoutCliente";
+    }
+    if (ViewBag.Nivel == "Admin")
+    {
+        Layout = "_LayoutAdmin";
+    }
+}
+
+<style>
+    .profile-picture {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 20px auto;
+    }
+
+    .form-control-custom {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .file-input-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+</style>
+
+<div class="container mt-4">
+    <h1 class="display-4 text-center">Editar Datos</h1>
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8 col-sm-10">
+            <div class="card mt-4">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="card-title mb-0">User Information</h4>
+                </div>
+                <div class="card-body text-center">
+                    <img src="@ViewBag.FotoPerfil" alt="Foto de perfil del Usuario" class="img-fluid profile-picture">
+                    <form asp-action="Editar" class="mt-4" method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label asp-for="Nombre" class="control-label font-weight-bold"></label>
+                            <input asp-for="Nombre" class="form-control form-control-custom" />
+                            <span asp-validation-for="Nombre" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Correo" class="control-label font-weight-bold"></label>
+                            <input asp-for="Correo" class="form-control form-control-custom" />
+                            <span asp-validation-for="Correo" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Telefono" class="control-label font-weight-bold"></label>
+                            <input asp-for="Telefono" class="form-control form-control-custom" />
+                            <span asp-validation-for="Telefono" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Genero" class="control-label font-weight-bold"></label>
+                            <select asp-for="Genero" class="form-control form-control-custom" id="gender" name="Genero">
+                                <option value="Hombre">Hombre</option>
+                                <option value="Mujer">Mujer</option>
+                                <option value="Prefiero no decirlo">Prefiero no decirlo</option>
+                            </select>
+                            <span asp-validation-for="Genero" class="text-danger"></span>
+                        </div>
+                        <div class="form-group file-input-container">
+                            <label for="formFileMultiple" class="control-label font-weight-bold">Seleccione la imagen del usuario</label>
+                            <input name="Imag" class="form-control form-control-custom" type="file" id="formFileMultiple" multiple>
+                            <span class="invalid-feedback">
+                                Zip code required.
+                            </span>
+                        </div>
+                        <input type="hidden" asp-for="ID" />
+                        <div class="form-group text-center">
+                            <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -4190,11 +4190,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\Insane-Mechanical.csproj",
+      "projectUniqueName": "C:\\Github\\Kapicentro\\Insane-Mechanical\\Insane-Mechanical.csproj",
       "projectName": "Insane-Mechanical",
-      "projectPath": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\Insane-Mechanical.csproj",
+      "projectPath": "C:\\Github\\Kapicentro\\Insane-Mechanical\\Insane-Mechanical.csproj",
       "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\obj\\",
+      "outputPath": "C:\\Github\\Kapicentro\\Insane-Mechanical\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",

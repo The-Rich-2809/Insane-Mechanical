@@ -19,19 +19,6 @@
                     <i class="fa-thin fa-cloud-music"></i>
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                         <li><a class="nav-link px-2 text-white" asp-area="" asp-controller="Home" asp-action="Index"><img src="../Images/Insane-Mechanical.jpg" alt="mdo" width="30" height="30" class="rounded-circle"></a></li>
-                        <li>
-                            <div class="dropdown text-end">
-                                <a class="nav-link px-2 text-white d-block link-light text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Categorias
-                                </a>
-                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton">
-                                    @foreach (var i in ViewBag.Categorias)
-                                    {
-                                        <li><a class="dropdown-item" href="@Url.Action("Categorias", "Articulo", new { CategoriaId = i.ID })">@i.Titulo</a></li>
-                                    }
-                                </ul>
-                            </div>
-                        </li>
                     </ul>
 
                     <div class="text-end">

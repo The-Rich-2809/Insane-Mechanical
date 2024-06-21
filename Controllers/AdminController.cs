@@ -478,7 +478,7 @@ namespace Insane_Mechanical.Controllers
             _contextDB.Usuario.Update(usuario);
             _contextDB.SaveChanges();
             Cookies();
-            return RedirectToAction(nameof(Usuarios));
+            return RedirectToAction("Editar");
         }
     }
 }
