@@ -1,0 +1,385 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Insane-Mechanical.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Insane-Mechanical.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\Articulos\\0b19e909-8423-40f0-ad1e-70e9eb7a7c36.png",
+      "PackagePath": "staticwebassets\\Images\\Articulos\\0b19e909-8423-40f0-ad1e-70e9eb7a7c36.png"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\Articulos\\28231e4c-7d73-4d63-9ff9-682b9f956c87.png",
+      "PackagePath": "staticwebassets\\Images\\Articulos\\28231e4c-7d73-4d63-9ff9-682b9f956c87.png"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\Articulos\\795142d8-55ef-4e2c-92c7-2d71110cd78f.png",
+      "PackagePath": "staticwebassets\\Images\\Articulos\\795142d8-55ef-4e2c-92c7-2d71110cd78f.png"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\Articulos\\957ae416-88dc-4b93-bb40-f68b353b0264.png",
+      "PackagePath": "staticwebassets\\Images\\Articulos\\957ae416-88dc-4b93-bb40-f68b353b0264.png"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\Articulos\\98e5f5cb-814a-40bb-89c3-2cfc859ff1b4.png",
+      "PackagePath": "staticwebassets\\Images\\Articulos\\98e5f5cb-814a-40bb-89c3-2cfc859ff1b4.png"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\Articulos\\b2456e59-472f-40ee-93f9-df02d0185428.png",
+      "PackagePath": "staticwebassets\\Images\\Articulos\\b2456e59-472f-40ee-93f9-df02d0185428.png"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\Categorias\\ImgAuto.jpg",
+      "PackagePath": "staticwebassets\\Images\\Categorias\\ImgAuto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\FondoTecnologia.jpg",
+      "PackagePath": "staticwebassets\\Images\\FondoTecnologia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\HtmlLogo (2).jpg",
+      "PackagePath": "staticwebassets\\Images\\HtmlLogo (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\HtmlLogo.jpg",
+      "PackagePath": "staticwebassets\\Images\\HtmlLogo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\Imagen_1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagen_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\ImgAcuaman.jpg",
+      "PackagePath": "staticwebassets\\Images\\ImgAcuaman.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\ImgAstronauta.jpg",
+      "PackagePath": "staticwebassets\\Images\\ImgAstronauta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\ImgBatman.jpg",
+      "PackagePath": "staticwebassets\\Images\\ImgBatman.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\ImgDeadPool2.jpg",
+      "PackagePath": "staticwebassets\\Images\\ImgDeadPool2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\ImgIronMan.jpg",
+      "PackagePath": "staticwebassets\\Images\\ImgIronMan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\ImgPaisajeChino.jpg",
+      "PackagePath": "staticwebassets\\Images\\ImgPaisajeChino.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\ImgPlaneta.jpg",
+      "PackagePath": "staticwebassets\\Images\\ImgPlaneta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\ImgSpiderMan.jpg",
+      "PackagePath": "staticwebassets\\Images\\ImgSpiderMan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\Insane-Mechanical.jpg",
+      "PackagePath": "staticwebassets\\Images\\Insane-Mechanical.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\Tal.webp",
+      "PackagePath": "staticwebassets\\Images\\Tal.webp"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\Taller.jpg",
+      "PackagePath": "staticwebassets\\Images\\Taller.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\Usuarios\\Alejandro.jpg",
+      "PackagePath": "staticwebassets\\Images\\Usuarios\\Alejandro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\Usuarios\\Rich.jpg",
+      "PackagePath": "staticwebassets\\Images\\Usuarios\\Rich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\Usuarios\\robert.pg556@gmail.comNimrod.png",
+      "PackagePath": "staticwebassets\\Images\\Usuarios\\robert.pg556@gmail.comNimrod.png"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\Images\\Usuarios\\usuario.png",
+      "PackagePath": "staticwebassets\\Images\\Usuarios\\usuario.png"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\css\\UsarioIndex.css",
+      "PackagePath": "staticwebassets\\css\\UsarioIndex.css"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\js\\form-validation.js",
+      "PackagePath": "staticwebassets\\js\\form-validation.js"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\js\\mercado.js",
+      "PackagePath": "staticwebassets\\js\\mercado.js"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Insane-Mechanical.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Insane-Mechanical.props",
+      "PackagePath": "build\\Insane-Mechanical.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Insane-Mechanical.props",
+      "PackagePath": "buildMultiTargeting\\Insane-Mechanical.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Insane-Mechanical.props",
+      "PackagePath": "buildTransitive\\Insane-Mechanical.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

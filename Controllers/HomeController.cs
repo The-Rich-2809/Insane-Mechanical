@@ -56,6 +56,10 @@ namespace Insane_Mechanical.Controllers
         {
             Initialize();
             Cookies();
+
+            for (int i = 0; i < 10; i++)
+                Console.WriteLine("Arteaga es un pendejo");
+
             return View();
         }
 
@@ -322,6 +326,7 @@ namespace Insane_Mechanical.Controllers
             var insertarusuarios = new Usuario[]
             {
                 new Usuario() {Correo = "ricardo_138@outlook.com", Contrasena = "1234", TipoUsuario = "Admin", DireccionImagen = "/Images/Usuarios/Rich.jpg", Nombre = "Rich", Telefono = "56 1898 4344", Genero="Hombre"},
+                new Usuario() {Correo = "robert.pg556@gmail.com", Contrasena = "1234", TipoUsuario = "Admin", DireccionImagen = "/Images/Usuarios/Rich.jpg", Nombre = "Roberto", Telefono = "55 3556 9942", Genero="Hombre"},
                 new Usuario() {Correo = "aserranoacosta841@gmail.com", Contrasena = "1234", TipoUsuario = "Admin", DireccionImagen = "/Images/Usuarios/Alejandro.jpg", Nombre = "Alejandro", Telefono = "5541278159", Genero="Hombre"}
             };
 
@@ -335,6 +340,12 @@ namespace Insane_Mechanical.Controllers
             {
                 new Articulo(){Titulo = "Cambio de aceite", Descripcion = "Info para cambiar tu aceite", RutaImagen = "../Images/Categorias/ImgAuto.jpg", CategoriaId = 1, RutaHTML = "../HTML/1_1_Hola.cshtml" },
                 new Articulo(){Titulo = "Cambio de marcha", Descripcion = "Info para cambiar tu marcha", RutaImagen = "../Images/Categorias/ImgAuto.jpg", CategoriaId = 2, RutaHTML = "../HTML/1_1_Hola.cshtml" },
+                new Articulo(){Titulo = "Cambio de discos de freno", Descripcion = "Info para cambiar tus discos de freno", RutaImagen = "../Images/Categorias/ImgAuto.jpg", CategoriaId = 1, RutaHTML = "../HTML/1_3Frenos.cshtml" },
+                new Articulo(){Titulo = "Cambio de bateria", Descripcion = "Info para cambiar la batería de tú vehículo", RutaImagen = "../Images/Categorias/ImgAuto.jpg", CategoriaId = 1, RutaHTML = "../HTML/2_4Como cambiar la bateria de tu vehículo..cshtml" },
+                new Articulo(){Titulo = "Cambio de cojinete de rueda en un coche", Descripcion = "Info para cambiar el cojinete de tu rueda", RutaImagen = "../Images/Categorias/ImgAuto.jpg", CategoriaId = 1, RutaHTML = "../HTML/2_4Como cambiar la bateria de tu vehículo..cshtml" },
+                 //new Articulo(){Titulo = "Cambio de correa Poli V", Descripcion = "Info para cambiar la correa de tu vehículo", RutaImagen = "../Images/Categorias/ImgAuto.jpg", CategoriaId = 1, RutaHTML = "../HTML/1_6Cambio de correo poli V" },
+                 new Articulo(){Titulo = "Cambio de filtro de combustible", Descripcion = "Info para cambiar el filtro de combustible", RutaImagen = "../Images/Categorias/ImgAuto.jpg", CategoriaId = 1, RutaHTML = "../HTML/1_7Como cambiar el filtro de combustible.cshtml" },
+                 //new Articulo(){Titulo = "Cambio de bujia ", Descripcion = "Info para cambiar la bujia", RutaImagen = "../Images/Categorias/ImgAuto.jpg", CategoriaId = 1, RutaHTML = "../HTML/1_3Cambio una Bujía de Coche.cshtml" },
             };
 
             var insertarcomentario = new Comentario[]

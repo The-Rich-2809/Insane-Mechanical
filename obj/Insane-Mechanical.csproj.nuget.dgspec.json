@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Github\\Kapicentro\\Insane-Mechanical\\Insane-Mechanical.csproj": {}
+    "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\Insane-Mechanical.csproj": {}
   },
   "projects": {
-    "C:\\Github\\Kapicentro\\Insane-Mechanical\\Insane-Mechanical.csproj": {
+    "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\Insane-Mechanical.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Github\\Kapicentro\\Insane-Mechanical\\Insane-Mechanical.csproj",
+        "projectUniqueName": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\Insane-Mechanical.csproj",
         "projectName": "Insane-Mechanical",
-        "projectPath": "C:\\Github\\Kapicentro\\Insane-Mechanical\\Insane-Mechanical.csproj",
+        "projectPath": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\Insane-Mechanical.csproj",
         "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-        "outputPath": "C:\\Github\\Kapicentro\\Insane-Mechanical\\obj\\",
+        "outputPath": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -42,8 +42,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -83,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

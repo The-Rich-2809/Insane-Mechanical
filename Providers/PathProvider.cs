@@ -34,6 +34,11 @@ namespace Insane_Mechanical.Providers
                 string carpeta = "Images/Articulos/";
                 path = Path.Combine(this.hostEnvironment.WebRootPath, carpeta, fileName);
             }
+            if (folder == Folders.Images)
+            {
+                string carpeta = "Images/Usuarios/";
+                path = Path.Combine(this.hostEnvironment.WebRootPath, carpeta, fileName);
+            }
 
             return path;
         }

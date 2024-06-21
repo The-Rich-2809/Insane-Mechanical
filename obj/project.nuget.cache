@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WhhgGor5pzMzLKxbIlPLG6ddgigc7REK8/tT0NphZUzpdt6rDMBUlAIzSFrBnG2xKIzACJXV3RJbKSwdTF7Ptg==",
+  "dgSpecHash": "wE32r/4Jq9ZqYEqGFAC2530qOyApTIvDImECkUFKE3tkSn2fsvDNp084xN7v3WMGFG/ZMbtS8LCnBhbhHX1R0g==",
   "success": true,
-  "projectFilePath": "C:\\Github\\Kapicentro\\Insane-Mechanical\\Insane-Mechanical.csproj",
+  "projectFilePath": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\Insane-Mechanical-main (4)\\Insane-Mechanical-main\\Insane-Mechanical.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexa\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

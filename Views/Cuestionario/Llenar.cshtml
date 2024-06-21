@@ -11,99 +11,148 @@
     }
 }
 
-<style>
-    .autenticado {
-        text-align: center;
-        padding: 20px;
-        background-color: #f8d7da;
-        color: #721c24;
-        border: 1px solid #f5c6cb;
-        border-radius: 5px;
-        margin-bottom: 20px;
-    }
-</style>
-
-<h1 class="text-center">Cuestionario de Vialidad</h1>
-
-@{
-    if (ViewBag.Conteo == 0)
-    {
-        <div class="d-flex justify-content-center">
-            <div class="card" style="width: 50%;">
-                <div class="card-body">
-                    <div class="alert autenticado text-center">
-                        <div class="autenticado">
-                            <p>No hay preguntas por el momento.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    }
-    else
-    {
-        @if (ViewBag.YaContesto != null && (bool)ViewBag.YaContesto)
-        {
-            <div class="d-flex justify-content-center">
-                <div class="card" style="width: 50%;">
-                    <div class="card-body">
-                        <div class="alert alert-info text-center">
-                            <p>Ya has completado este cuestionario.</p>
-                            <form asp-action="Llenar" asp-controller="Cuestionario" method="get">
-                                <button type="submit" name="repetir" value="true" class="btn btn-primary">Repetir Cuestionario</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cuestionario de Vialidad</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            font-family: Arial, sans-serif;
         }
-        else
-        {
 
-            <div class="d-flex justify-content-center">
-                <div class="card" style="width: 50%;">
-                    <div class="card-body">
-                        <form id="cuestionarioForm" asp-action="Llenar" method="post">
-                            @for (int i = 0; i < Model.Count(); i++)
-                            {
-                                var pregunta = Model.ElementAt(i);
-                                <div class="form-group">
-                                    <label>@pregunta.Nombre</label>
-                                    @if (pregunta.Tipo == "Seleccion")
-                                    {
-                                        <select class="form-control" name="respuestas[@i].idOpcion" required>
-                                            <option value="">Seleccione una opción</option>
-                                            @foreach (var opcion in pregunta.Opciones)
-                                            {
-                                                <option value="@opcion.ID">@opcion.Texto</option>
-                                            }
-                                        </select>
-                                        <input type="hidden" name="respuestas[@i].idPregunta" value="@pregunta.ID" />
-                                    }
-                                    else if (pregunta.Tipo == "Radio")
-                                    {
-                                        @foreach (var opcion in pregunta.Opciones)
-                                        {
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="respuestas[@i].idOpcion" value="@opcion.ID" required>
-                                                <input type="hidden" ame="respuestas[@i].Respuesta" value="@opcion.Texto" />
-                                                <label class="form-check-label">@opcion.Texto</label>
-                                            </div>
-                                        }
-                                        <input type="hidden" name="respuestas[@i].idPregunta" value="@pregunta.ID" />
-                                    }
-                                </div>
-                            }
-                            <button type="submit" class="btn btn-primary">Enviar</button>
+        .containerk {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .card-custom {
+            background: #fff;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+        }
+
+            .card-custom h1 {
+                font-size: 2.5rem;
+                color: #333;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+        .alert-custom {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .btn-custom {
+            background-color: #007bff;
+            border-color: #007bff;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s, border-color 0.3s;
+            display: block;
+            width: 100%;
+        }
+
+            .btn-custom:hover {
+                background-color: #0056b3;
+                border-color: #004085;
+            }
+
+        .form-check-input:invalid ~ .form-check-label {
+            color: #e74c3c;
+        }
+
+        .form-group label {
+            font-weight: 500;
+        }
+
+        .form-select, .form-check-input {
+            margin-top: 10px;
+        }
+
+        .form-check {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="containerk">
+        <div class="card card-custom">
+            <h1>Cuestionario de Mecánica</h1>
+
+            @if (ViewBag.Conteo == 0)
+            {
+                <div class="alert alert-custom">
+                    <p>No hay preguntas por el momento.</p>
+                </div>
+            }
+            else
+            {
+                if (ViewBag.YaContesto != null && (bool)ViewBag.YaContesto)
+                {
+                    <div class="alert alert-info text-center">
+                        <p>Ya has completado este cuestionario.</p>
+                        <form asp-action="Llenar" asp-controller="Cuestionario" method="get">
+                            <button type="submit" name="repetir" value="true" class="btn btn-custom">Repetir Cuestionario</button>
                         </form>
                     </div>
-                </div>
-            </div>
-        }
-    }
-}
+                }
+                else
+                {
+                    <form id="cuestionarioForm" asp-action="Llenar" method="post">
+                        @for (int i = 0; i < Model.Count(); i++)
+                        {
+                            var pregunta = Model.ElementAt(i);
+                            <div class="form-group mb-4">
+                                <label>@pregunta.Nombre</label>
+                                @if (pregunta.Tipo == "Seleccion")
+                                {
+                                    <select class="form-select" name="respuestas[@i].idOpcion" required>
+                                        <option value="">Seleccione una opción</option>
+                                        @foreach (var opcion in pregunta.Opciones)
+                                        {
+                                            <option value="@opcion.ID">@opcion.Texto</option>
+                                        }
+                                    </select>
+                                    <input type="hidden" name="respuestas[@i].idPregunta" value="@pregunta.ID" />
+                                }
+                                else if (pregunta.Tipo == "Radio")
+                                {
+                                    @foreach (var opcion in pregunta.Opciones)
+                                    {
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="respuestas[@i].idOpcion" value="@opcion.ID" required>
+                                            <label class="form-check-label">@opcion.Texto</label>
+                                        </div>
+                                    }
+                                    <input type="hidden" name="respuestas[@i].idPregunta" value="@pregunta.ID" />
+                                }
+                            </div>
+                        }
+                        <button type="submit" class="btn btn-custom">Enviar</button>
+                    </form>
+                }
+            }
+        </div>
+    </div>
 
-@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
     <script>
         document.getElementById("cuestionarioForm").addEventListener("submit", function (event) {
             let valid = true;
@@ -134,4 +183,5 @@
             }
         });
     </script>
-}
+</body>
+</html>

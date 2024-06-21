@@ -6,12 +6,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar Sesión</title>
+    <title>Cambiar Contraseña</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #999;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #2e2e2e, #1c1c1c);
             color: #fff;
             margin: 0;
             padding: 0;
@@ -22,50 +22,66 @@
         }
 
         .login-container {
-            background-color: #333;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 400px;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            width: 100%;
+            max-width: 400px;
             margin: auto;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
+
+            .login-container:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            }
 
             .login-container h2 {
                 text-align: center;
                 color: #fff;
+                margin-bottom: 30px;
             }
 
         .form-group {
-            margin-bottom: 15px;
+            margin-bottom: 20px;
         }
 
             .form-group label {
                 display: block;
-                margin-bottom: 5px;
-                color: #fff;
+                margin-bottom: 10px;
+                color: #aaa;
             }
 
             .form-group input {
                 width: 100%;
-                padding: 10px;
-                border: 1px solid #ddd;
-                border-radius: 5px;
-                background-color: #555;
+                padding: 12px;
+                border: none;
+                border-radius: 8px;
+                background-color: #444;
                 color: #fff;
+                transition: background-color 0.3s ease;
             }
+
+                .form-group input:focus {
+                    background-color: #555;
+                    outline: none;
+                }
 
             .form-group button {
                 width: 100%;
-                padding: 10px;
+                padding: 12px;
                 border: none;
                 background-color: #555;
                 color: #fff;
-                border-radius: 5px;
+                border-radius: 8px;
                 cursor: pointer;
+                transition: background-color 0.3s ease, transform 0.3s ease;
             }
 
                 .form-group button:hover {
-                    background-color: #444;
+                    background-color: #666;
+                    transform: translateY(-2px);
                 }
 
         .footer {
@@ -75,7 +91,7 @@
             color: #777;
             background-color: #222;
             padding: 10px;
-            border-radius: 5px;
+            border-radius: 8px;
         }
 
         .button-container {
@@ -90,20 +106,20 @@
 </head>
 <body>
     <div class="login-container">
-        <h2>Recuperar Contraseña</h2>
+        <h2>Cambiar Contraseña</h2>
         <form asp-action="CambiarContrasena" asp-controller="Home" method="post">
             <div class="form-group">
                 <label for="password">Nueva Contraseña</label>
                 <input type="password" id="password" name="Contrasena" required>
             </div>
             <div class="form-group">
-                <label for="password">Repite la Contraseña</label>
+                <label for="password2">Repite la Contraseña</label>
                 <input type="password" id="password2" name="Contrasena2" required>
             </div>
             <div class="form-group">
-                <button type="submit">Cambia la contraseña</button>
+                <button type="submit">Cambiar la contraseña</button>
             </div>
-            <input type="hidden" name="Corre" value="@ViewBag.Correo"/>
+            <input type="hidden" name="Correo" value="@ViewBag.Correo" />
         </form>
         <h1 class="text-black">@ViewBag.Mensaje</h1>
     </div>
