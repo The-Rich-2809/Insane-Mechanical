@@ -9,12 +9,12 @@ namespace Insane_Mechanical.Services
 
         public async void SendVerificationCode(string toWhatsAppNumber, string verificationCode)
         {
-            var url = "https://api.ultramsg.com/instance88186/messages/chat";
+            var url = "https://api.ultramsg.com/instance88434/messages/chat";
             var client = new RestClient(url);
 
             var request = new RestRequest(url, Method.Post);
             request.AddHeader("content-type", "application/x-www-form-urlencoded");
-            request.AddParameter("token", "rm37yibboqrgj0iz");
+            request.AddParameter("token", "8bop9eylei1uw1g5");
             request.AddParameter("to", $"{toWhatsAppNumber}");
             request.AddParameter("body", $"Su codigo de verificacion es {verificationCode}");
 

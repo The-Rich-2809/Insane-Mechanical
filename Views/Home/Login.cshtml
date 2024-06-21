@@ -72,7 +72,7 @@
                             <div class="col-lg-7">
                                 <label for="username">Correo electronico</label>
                                 <br />
-                                <input type="text" id="username" name="Correo" required>
+                                <input type="email" id="username" name="Correo" required>
                             </div>
                         </div>
                         <div class="form-row form-group">
@@ -89,7 +89,7 @@
                             </div>
                         </div>
                         <p>¿No tienes cuenta?, <a href="@Url.Action("Register", "Home")">Registrate aqui</a></p>
-                        <p>¿Olvidaste tu contraseña?, <a href="@Url.Action("ContrasenaOlvidada", "Home")"></a></p>
+                        <p>¿Olvidaste tu contraseña?, <a href="@Url.Action("ContrasenaOlvidada", "Home")">Recuperala aqui!</a></p>
                         <br>
                         <br>
                         <h1 class="text-black">@ViewBag.Mensaje</h1>

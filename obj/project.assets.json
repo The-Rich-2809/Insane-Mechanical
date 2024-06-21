@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    "net8.0": {
       "Azure.Core/1.35.0": {
         "type": "package",
         "dependencies": {
@@ -656,12 +656,12 @@
       "RestSharp/111.3.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/RestSharp.dll": {
+          "lib/net8.0/RestSharp.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/RestSharp.dll": {
+          "lib/net8.0/RestSharp.dll": {
             "related": ".xml"
           }
         }
@@ -4177,7 +4177,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
+    "net8.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.19",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.19",
       "RestSharp >= 111.3.0",
@@ -4201,15 +4201,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -4225,8 +4225,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
@@ -4266,7 +4266,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -17,65 +17,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+          integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="shortcut icon" href="minecraft.png">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <title>Document</title>
-
     <style>
-        .autenticado {
-            text-align: center;
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+        }
+
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("https://i.pinimg.com/736x/d0/d2/f4/d0d2f41ee102a2c21c1fbb4eac275747.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            filter: blur(5px);
+            z-index: -1;
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
             padding: 20px;
-            background-color: #f8d7da;
-            color: #721c24;
-            border: 1px solid #f5c6cb;
-            border-radius: 5px;
+        }
+
+            .content h1 {
+                color: #ffffff;
+                text-align: center;
+                font-size: 3rem;
+                margin-bottom: 40px;
+            }
+
+        .card {
+            background-color: rgba(0, 0, 0, 0.7);
+            border: none;
+            border-radius: 10px;
+            color: #ffffff;
             margin-bottom: 20px;
+            transition: transform 0.3s;
+        }
+
+            .card:hover {
+                transform: scale(1.05);
+            }
+
+            .card img {
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+        }
+
+        .album {
+            background-color: transparent;
         }
     </style>
-
 </head>
 <body>
-    <div class="album py-5 bg-light">
+    <div class="background"></div>
+    <div class="album py-5">
         <div class="container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 d-flex justify-content-center align-items-center">
-                @{
-                    if (ViewBag.cookie == null)
+            <div class="content">
+                <h1>Categorias</h1>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    @foreach (var i in Model)
                     {
-                        <div class="card" style="width: 80%;">
-                            <div class="card-body">
-                                <div class="autenticado">
-                                    <p>Por favor, <a asp-controller="Home" asp-action="Login">inicia sesión</a> o <a asp-controller="Home" asp-action="Register">regístrate</a> para ver los articulos.</p>
-                                </div>
-                            </div>
-                        </div>
-                    }
-                    else
-                    {
-                        @foreach (var i in Model)
+                        if (i.CategoriaId == ViewBag.CategoriaId)
                         {
-                            if (i.CategoriaId == ViewBag.CategoriaId)
-                            {
-                                <form method="get">
-                                    <input name="RutaHtml" type="hidden" value="@i.RutaHTML">
-                                    <input name="IdArticulo" type="hidden" value="@i.ID">
-                                    <button asp-action="Articulo" method="Get" style="padding: 0; border: none;background: none;">
-                                        <div class="col">
-                                            <div class="card shadow-sm">
-
-                                                <div style="height: 30vh; width: 50vh; background: url(@i.RutaImagen); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
-
-                                                <div class="card-body">
-                                                    <h3 class="card-title">@i.Titulo</h3>
-                                                    <p class="card-text">
-                                                        @i.Descripcion
-                                                    </p>
-                                                </div>
-                                            </div>
+                            <div class="col">
+                                <a href="@Url.Action("Articulo", new { RutaHtml = i.RutaHTML, IdArticulo = i.ID })" style="text-decoration: none; color: inherit;">
+                                    <div class="card shadow-sm">
+                                        <img src="@i.RutaImagen" class="card-img-top" alt="@i.Descripcion">
+                                        <div class="card-body">
+                                            <h5 class="card-title">@i.Titulo</h5>
+                                            <p class="card-text">@i.Descripcion</p>
                                         </div>
-                                    </button>
-                                </form>
-                            }
+                                    </div>
+                                </a>
+                            </div>
                         }
                     }
-                }
+                </div>
             </div>
         </div>
     </div>
