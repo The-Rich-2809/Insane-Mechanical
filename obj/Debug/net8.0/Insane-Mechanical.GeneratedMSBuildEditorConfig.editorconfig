@@ -9,235 +9,235 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Insane_Mechanical
 build_property.RootNamespace = Insane_Mechanical
-build_property.ProjectDir = C:\Github\Kapicentro\Insane-Mechanical\
+build_property.ProjectDir = C:\Users\Manuel\Documents\GitHub\Insane-Mechanical\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Github\Kapicentro\Insane-Mechanical
+build_property.MSBuildProjectDirectory = C:\Users\Manuel\Documents\GitHub\Insane-Mechanical
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/AgregarArticulos.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Admin/AgregarArticulos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWdyZWdhckFydGljdWxvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/Articulos.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Admin/Articulos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXJ0aWN1bG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/CrearOpcion.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Admin/CrearOpcion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXJPcGNpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/CrearPregunta.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Admin/CrearPregunta.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXJQcmVndW50YS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/EditarArticulo.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Admin/EditarArticulo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdGFyQXJ0aWN1bG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/EditarOpcion.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Admin/EditarOpcion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdGFyT3BjaW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/EditarPregunta.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Admin/EditarPregunta.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdGFyUHJlZ3VudGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/EditarUsuarios.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Admin/EditarUsuarios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdGFyVXN1YXJpb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/EliminarArticulo.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Admin/EliminarArticulo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWxpbWluYXJBcnRpY3Vsby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/Graficas.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Admin/Graficas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR3JhZmljYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/Index.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/ListarPreguntas.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Admin/ListarPreguntas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTGlzdGFyUHJlZ3VudGFzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/NuevaCategoria.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Admin/NuevaCategoria.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTnVldmFDYXRlZ29yaWEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/Usuarios.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Admin/Usuarios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXN1YXJpb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Articulo/Articulo.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Articulo/Articulo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWN1bG9cQXJ0aWN1bG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Articulo/Categorias.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Articulo/Categorias.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWN1bG9cQ2F0ZWdvcmlhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Cuestionario/Gracias.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Cuestionario/Gracias.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vlc3Rpb25hcmlvXEdyYWNpYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Cuestionario/Llenar.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Cuestionario/Llenar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vlc3Rpb25hcmlvXExsZW5hci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Home/Buscar.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Home/Buscar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCdXNjYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Home/CambiarContrasena.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Home/CambiarContrasena.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYW1iaWFyQ29udHJhc2VuYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Home/ContrasenaOlvidada.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Home/ContrasenaOlvidada.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250cmFzZW5hT2x2aWRhZGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Home/Cuestionario.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Home/Cuestionario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDdWVzdGlvbmFyaW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Home/Index.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Home/IndexLogeado.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Home/IndexLogeado.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleExvZ2VhZG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Home/Login.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Home/Register.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Home/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Home/VerificacionExitosa.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Home/VerificacionExitosa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJpZmljYWNpb25FeGl0b3NhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Home/VerificacionFallida.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Home/VerificacionFallida.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJpZmljYWNpb25GYWxsaWRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Home/Verificar.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Home/Verificar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJpZmljYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Ho/Index1.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Ho/Index1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9cSW5kZXgxLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Ho/Index2.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Ho/Index2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9cSW5kZXgyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Ho/Index3.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Ho/Index3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9cSW5kZXgzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Ho/Index4.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Ho/Index4.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9cSW5kZXg0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Ho/Index5.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Ho/Index5.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9cSW5kZXg1LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_1_Hola.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/HTML/1_1_Hola.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzFfSG9sYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_2Cambio una Bujía de Coche.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/HTML/1_2Cambio una Bujía de Coche.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzJDYW1iaW8gdW5hIEJ1asOtYSBkZSBDb2NoZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_3Frenos.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/HTML/1_3Frenos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzNGcmVub3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_3Guía para Cambiar una Bujía de Coche.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/HTML/1_3Guía para Cambiar una Bujía de Coche.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzNHdcOtYSBwYXJhIENhbWJpYXIgdW5hIEJ1asOtYSBkZSBDb2NoZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_7Como cambiar el filtro de combustible.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/HTML/1_7Como cambiar el filtro de combustible.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzdDb21vIGNhbWJpYXIgZWwgZmlsdHJvIGRlIGNvbWJ1c3RpYmxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/2_4Como cambiar la bateria de tu vehículo..cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/HTML/2_4Como cambiar la bateria de tu vehículo..cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwyXzRDb21vIGNhbWJpYXIgbGEgYmF0ZXJpYSBkZSB0dSB2ZWjDrWN1bG8uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/2_5Cambio de cojinete de rueda en un coche.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/HTML/2_5Cambio de cojinete de rueda en un coche.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwyXzVDYW1iaW8gZGUgY29qaW5ldGUgZGUgcnVlZGEgZW4gdW4gY29jaGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Shared/Comentarios.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Shared/Comentarios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbWVudGFyaW9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Shared/Error.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Usuario/Cotizador.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Usuario/Cotizador.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDb3RpemFkb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Usuario/Editar.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Usuario/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Usuario/Index.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Usuario/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/_ViewImports.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/_ViewStart.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Shared/_Layout.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-z81dr3jlta
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Shared/_LayoutAdmin.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Shared/_LayoutAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-q7b9en38z5
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Shared/_LayoutAdmin2.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Shared/_LayoutAdmin2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbjIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-5hix78xtwt
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Shared/_LayoutCliente.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Shared/_LayoutCliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRDbGllbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-e5352w7yic
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Shared/_LayoutLoginRegister.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Shared/_LayoutLoginRegister.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2dpblJlZ2lzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-965k8ywt28
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Shared/_LayoutUsuario.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Shared/_LayoutUsuario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRVc3VhcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-6gakr1ljx1
 
-[C:/Github/Kapicentro/Insane-Mechanical/Views/Shared/_LayoutV.cshtml]
+[C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Shared/_LayoutV.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRWLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-7km6nnks0c
