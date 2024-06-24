@@ -137,22 +137,113 @@
             .carousel img {
                 max-height: 300px;
             }
+
+
+        /*bloque de imagenes wuuwuwuwuwuwuuwuwuwuwuwuwuwuwuwuwuuw*/
+        .section-image {
+            position: relative;
+            width: 30%; /* Ajusta este valor según el tamaño deseado */
+            height: 200px; /* Ajusta este valor según el tamaño máximo deseado */
+            margin: 10px;
+            overflow: hidden;
+            border-radius: 10px; /* Opcional: añade bordes redondeados */
+            transition: transform 0.3s ease-in-out; /* Efecto de transición al hacer hover */
+            cursor: pointer; /* Cambia el cursor al pasar sobre la imagen */
+        }
+
+            .section-image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 10px; /* Opcional: añade bordes redondeados */
+                transition: transform 0.3s ease-in-out; /* Efecto de transición al hacer hover */
+            }
+
+                .section-image img:hover {
+                    transform: scale(1.1); /* Efecto de escala al hacer hover */
+                }
+
+        .overlay-text {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            color: white;
+            font-size: 18px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejor visibilidad del texto */
+            padding: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            backdrop-filter: blur(5px); /* Difumina el fondo del texto */
+            -webkit-backdrop-filter: blur(5px); /* Difumina el fondo del texto para Safari */
+        }
+
+        .texto
+        {
+           text-align: center;
+        }
+
     </style>
 </head>
 <body>
-    <h1>Insane Mechanical</h1>
-    <div class="content-all">
+    <div class="container">
+        <h1>Insane Mechanical</h1>
+
+      
+
         <div class="section">
-            <div class="section-content">
-                <h2>¿Cómo funcionan los motores de los automóviles?</h2>
-                <p>“El motor de combustión interna consta de cilindros, pistones, inyectores de combustible y bujías. Combinados, estos componentes queman combustible y dejan salir los gases de escape de los cilindros. Al repetir el proceso, crea energía que impulsa el automóvil.”</p>
-            </div>
-            <div class="section-image">
-                <img src="~/Motor.png" alt="Motor de automóvil">
+            <div class="texto">
+            <h2>Bienvenido</h2>
+             <br />
+            <p>Esperemos y tu estancia en la plataforma sea de tu agrado
+                <br />
+                en la parte de abajo tendras accesos directos a informacion quie posiblemente te agrade
+            </p>
             </div>
         </div>
-        <img src="~/Carrofordummies.jpg" class="d-block mx-auto" />
+
+     
+
+        <div class="section">
+            <div class="texto">
+            <h2>Mantente informado</h2>
+            <br />
+            <p>Visítanos regularmente para mantenerte informado sobre las últimas noticias y consejos relacionados con el mundo de los autos.</p>
+        </div>
+        </div>
     </div>
+
+    <!-- Bloques de imágenes (sin afectar la parte de abajo) -->
+    
+    <div class="section">
+        <div class="section-image">
+            <a href="http://localhost:5231/Articulo/Categorias?CategoriaId=1">
+                <img src="~/Images/inicio/auto.jpg" alt="Bloque 1">
+                <div class="overlay-text">Cómo funciona un auto</div>
+            </a>
+        </div>
+        <div class="section-image">
+            <a href="http://localhost:5231/Articulo/Articulo?RutaHtml=..%2FHTML%2F3_16Verificaci%C3%B3n%20vehicular.cshtml&IdArticulo=14l">
+                <img src="~/Images/inicio/verificacion.jpg" alt="Bloque 2">
+                <div class="overlay-text">Lo que debes saber de la verificación</div>
+            </a>
+        </div>
+        <div class="section-image">
+            <a href="http://localhost:5231/Articulo/Articulo?RutaHtml=..%2FHTML%2F3_29Modificaciones%20al%20reglamento%20de%20tr%C3%A1nsito.cshtml&IdArticulo=29">
+                <img src="~/Images/inicio/Nuevo reglamento de tRANSITO.jpg" alt="Bloque 3">
+                <div class="overlay-text">Modificaciones al reglamento de tránsito</div>
+            </a>
+        </div>
+        <div class="section-image">
+            <a href="http://localhost:5231/Articulo/Categorias?CategoriaId=2">
+                <img src="~/Images/Cuidado y prevencion/CuidadoEst.jpg" alt="Bloque 4">
+                <div class="overlay-text">Cuidado y Prevención</div>
+            </a>
+        </div>
+    </div>
+     -->
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

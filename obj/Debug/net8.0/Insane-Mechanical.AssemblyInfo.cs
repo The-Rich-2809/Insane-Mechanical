@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Insane-Mechanical")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf3b4e8b5233db4b30772df359f93f758234f13e")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2043ab242963bb7687eac7997bcd84bce6df1665")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("Insane-Mechanical")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Insane-Mechanical")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

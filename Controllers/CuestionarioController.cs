@@ -115,46 +115,43 @@ namespace Insane_Mechanical.Controllers
                 }
             }
 
-            if (respuestasIncorrectas.Any())
+            var totalpreguntas = respuestas.Count;
+            var totalcorrectas = respuestasCorrectas.Count;
+            var totalincorrectas = respuestasIncorrectas.Count;
+            var emailBody = $"Preguntas: {totalpreguntas}.<br>Correctas: {totalcorrectas} correctas.<br>Incorrectas: {totalincorrectas}.<br> Aqui se muestran cuales fueron tus respuestas:<br><br>";
+            foreach (var respuesta in respuestas)
             {
-                var totalpreguntas = respuestas.Count;
-                var totalcorrectas = respuestasCorrectas.Count;
-                var totalincorrectas = respuestasIncorrectas.Count;
-                var emailBody = $"Preguntas: {totalpreguntas}.<br>Correctas: {totalcorrectas} correctas.<br>Incorrectas: {totalincorrectas}.<br> Aqui se muestran cuales fueron tus respuestas:<br><br>";
-                foreach (var respuesta in respuestas)
+                var pregunta = await _contextDB.Preguntas
+                    .Include(p => p.Opciones)
+                    .FirstOrDefaultAsync(p => p.ID == respuesta.idPregunta);
+
+                var opcionSeleccionada = pregunta.Opciones.FirstOrDefault(o => o.ID == respuesta.idOpcion);
+
+                emailBody += $"<strong>{pregunta.Nombre}</strong><br>";
+                foreach (var opcion in pregunta.Opciones)
                 {
-                    var pregunta = await _contextDB.Preguntas
-                        .Include(p => p.Opciones)
-                        .FirstOrDefaultAsync(p => p.ID == respuesta.idPregunta);
-
-                    var opcionSeleccionada = pregunta.Opciones.FirstOrDefault(o => o.ID == respuesta.idOpcion);
-
-                    emailBody += $"<strong>{pregunta.Nombre}</strong><br>";
-                    foreach (var opcion in pregunta.Opciones)
-                    {
-                        emailBody += $"{(opcion.ID == respuesta.idOpcion ? (opcion.EsCorrecta ? "<b style='color:green;'>" : "<b style='color:red;'>") : "")}{opcion.Texto}{(opcion.ID == respuesta.idOpcion ? "</b>" : "")}<br>";
-                    }
-                    emailBody += "<br>";
+                    emailBody += $"{(opcion.ID == respuesta.idOpcion ? (opcion.EsCorrecta ? "<b style='color:green;'>" : "<b style='color:red;'>") : "")}{opcion.Texto}{(opcion.ID == respuesta.idOpcion ? "</b>" : "")}<br>";
                 }
-
-                var smtpClient = new SmtpClient("smtp.gmail.com")
-                {
-                    Port = 587,
-                    Credentials = new NetworkCredential("insanusmechanica@gmail.com", "kgfzujdveakfnlip"),
-                    EnableSsl = true,
-                };
-
-                var mailMessage = new MailMessage
-                {
-                    From = new MailAddress("insanusmechanica@gmail.com"),
-                    Subject = "Resultados del Cuestionario",
-                    Body = emailBody,
-                    IsBodyHtml = true,
-                };
-                mailMessage.To.Add($"{Correo}");
-
-                smtpClient.Send(mailMessage);
+                emailBody += "<br>";
             }
+
+            var smtpClient = new SmtpClient("smtp.gmail.com")
+            {
+                Port = 587,
+                Credentials = new NetworkCredential("insanusmechanica@gmail.com", "kgfzujdveakfnlip"),
+                EnableSsl = true,
+            };
+
+            var mailMessage = new MailMessage
+            {
+                From = new MailAddress("insanusmechanica@gmail.com"),
+                Subject = "Resultados del Cuestionario",
+                Body = emailBody,
+                IsBodyHtml = true,
+            };
+            mailMessage.To.Add($"{Correo}");
+
+            smtpClient.Send(mailMessage);
 
             return RedirectToAction("Gracias");
         }

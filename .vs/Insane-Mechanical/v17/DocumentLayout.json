@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{B3C7DF5A-6F11-410D-AA31-A7C1BFCAD4DB}|Insane-Mechanical.csproj|c:\\users\\manuel\\documents\\github\\insane-mechanical\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3C7DF5A-6F11-410D-AA31-A7C1BFCAD4DB}|Insane-Mechanical.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -37,6 +38,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{B3C7DF5A-6F11-410D-AA31-A7C1BFCAD4DB}|Insane-Mechanical.csproj|c:\\users\\manuel\\documents\\github\\insane-mechanical\\views\\shared\\_layoutcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B3C7DF5A-6F11-410D-AA31-A7C1BFCAD4DB}|Insane-Mechanical.csproj|solutionrelative:views\\shared\\_layoutcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+=======
+      "AbsoluteMoniker": "D:0:0:{B3C7DF5A-6F11-410D-AA31-A7C1BFCAD4DB}|Insane-Mechanical.csproj|c:\\github\\kapicentro\\insane-mechanical\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3C7DF5A-6F11-410D-AA31-A7C1BFCAD4DB}|Insane-Mechanical.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -46,6 +51,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 6,
           "Children": [
             {
@@ -101,9 +107,19 @@
               "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\Views\\Home\\Index.cshtml",
+=======
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Github\\Kapicentro\\Insane-Mechanical\\Views\\Home\\Index.cshtml",
+>>>>>>> Stashed changes
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
+<<<<<<< Updated upstream
               "ViewState": "AQIAAKgAAAAAAAAAAAAAANIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-21T10:51:47.194Z",
@@ -158,6 +174,12 @@
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-21T10:27:47.621Z"
+=======
+              "ViewState": "AQIAAK4AAAAAAAAAAAAAAK8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T08:55:04.973Z",
+              "EditorCaption": ""
+>>>>>>> Stashed changes
             }
           ]
         }

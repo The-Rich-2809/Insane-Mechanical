@@ -19,56 +19,33 @@
     <link rel="stylesheet" href="css/site.css">
     <style>
         body {
-            background-color: grey;
-            background-image: url(https://st2.depositphotos.com/1175677/12327/v/450/depositphotos_123277816-stock-illustration-black-wood-background-wallpaper-backdrop.jpg);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            color: white;
-            font-family: Arial, sans-serif;
+            background-color: #121212; /* Fondo oscuro */
+            color: #ffffff; /* Texto blanco */
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
         }
 
+        /* Estilo del título principal */
         h1 {
             text-align: center;
-            font-size: 60px;
-            font-family: 'Poppins', sans-serif;
-            margin-top: 80px;
+            font-size: 48px;
             font-weight: 600;
+            margin-top: 80px;
             animation: fadeIn 3s ease-in-out;
         }
 
-        @@keyframes fadeIn {
-            0% {
-                opacity: 0;
-                transform: translateY(-20px);
-            }
-
-            100% {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .content-all {
-            width: 90%;
-            max-width: 1200px;
-            margin: auto;
-            margin-top: 50px;
-            padding: 20px;
-            box-sizing: border-box;
-        }
-
+        /* Estilo de las secciones */
         .section {
             display: flex;
             align-items: center;
             justify-content: center;
             margin-bottom: 50px;
             flex-wrap: wrap;
-            background-color: rgba(255, 255, 255, 0.1);
+            background-color: rgba(255, 255, 255, 0.05); /* Fondo semitransparente */
             padding: 20px;
             border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
         }
 
         .section-content {
@@ -83,6 +60,7 @@
             margin-top: 20px;
         }
 
+            /* Estilo de las imágenes dentro de las secciones */
             .section-image img {
                 max-width: 100%;
                 height: auto;
@@ -95,6 +73,13 @@
                     transform: scale(1.1);
                 }
 
+        /* Estilo de la sección de bienvenida */
+        .welcome-text {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        /* Estilo de la sección de multimedia */
         .media-section {
             display: flex;
             justify-content: center;
@@ -119,16 +104,7 @@
                     transform: scale(1.1);
                 }
 
-            .media-section video {
-                max-height: 300px;
-                border-radius: 10px;
-            }
-
-        .welcome-text {
-            text-align: center;
-            margin-bottom: 50px;
-        }
-
+        /* Estilo del carousel */
         .carousel {
             max-width: 600px;
             margin: auto;
@@ -137,12 +113,66 @@
             .carousel img {
                 max-height: 300px;
             }
+
+
+        /*bloque de imagenes wuuwuwuwuwuwuuwuwuwuwuwuwuwuwuwuwuuw*/
+        .section-image {
+            position: relative;
+            width: 30%; /* Ajusta este valor según el tamaño deseado */
+            height: 180px; /* Ajusta este valor según el tamaño máximo deseado */
+            margin: 10px;
+            overflow: hidden;
+            border-radius: 10px; /* Opcional: añade bordes redondeados */
+            transition: transform 0.3s ease-in-out; /* Efecto de transición al hacer hover */
+            cursor: pointer; /* Cambia el cursor al pasar sobre la imagen */
+        }
+
+            .section-image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 10px; /* Opcional: añade bordes redondeados */
+                transition: transform 0.3s ease-in-out; /* Efecto de transición al hacer hover */
+            }
+
+                .section-image img:hover {
+                    transform: scale(1.1); /* Efecto de escala al hacer hover */
+                }
+
+        .overlay-text {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            color: white;
+            font-size: 18px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejor visibilidad del texto */
+            padding: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            backdrop-filter: blur(5px); /* Difumina el fondo del texto */
+            -webkit-backdrop-filter: blur(5px); /* Difumina el fondo del texto para Safari */
+        }
+
+
+        .pendejo {
+            text-align: center;
+            align-content: center;
+        }
     </style>
+
 </head>
+
+
 <body>
     @if (ViewBag.cookie == null)
     {
-        <h1>Si quieres aprender como funciona tu auto estas en el lugar correcto</h1>
+
+        <h1>Bienvenido a Insanus Mechanica</h1>
+        <p class="pendejo">Aprende todo sobre mecánica básica con nuestros tutoriales, imágenes y videos. Ya sea que seas un principiante o un experto, tenemos algo para ti.</p>
+
+
         <div class="content-all">
             <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -151,11 +181,6 @@
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -173,21 +198,6 @@
                     <div class="carousel-item">
                         <img src="https://i.pinimg.com/736x/ab/d2/7b/abd27b17644efe81e45aa96fe4f20e35.jpg" class="d-block w-100" alt="Mechanical Image 5">
                     </div>
-                    <div class="carousel-item">
-                        <img src="https://i.pinimg.com/564x/e9/22/eb/e922eb41c63a0e1606ffb16189189afc.jpg" class="d-block w-100" alt="Mechanical Image 6">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://st2.depositphotos.com/1158226/8299/i/450/depositphotos_82993766-stock-photo-vintage-mechanical-engineer-desk-at.jpg" class="d-block w-100" alt="Mechanical Image 7">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://i.pinimg.com/736x/44/1f/d6/441fd6f14b4ff9c8e9ddee1487af7a28.jpg" class="d-block w-100" alt="Mechanical Image 8">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://www.tierrafuerte.mx/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-01-at-10.22.18-780x470.jpeg" class="d-block w-100" alt="Mechanical Image 9">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://img.freepik.com/fotos-premium/tecnico-manos-mecanico-automoviles-trabajando-reparacion-automoviles_45041-152.jpg?w=360" class="d-block w-100" alt="Mechanical Image 10">
-                    </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -200,71 +210,77 @@
             </div>
             <br /> <br /> <br /> <br /> <br />
 
+            <!-- Sección de 5 bloques con imágenes y enlaces -->
             <div class="section">
                 <div class="section-image">
-                    <img src="https://cdn-icons-png.flaticon.com/512/2638/2638649.png" alt="Objetivo">
+                    <a href="http://localhost:5231/Home/Login?IniciarSesion=Iniciar+Sesion">
+                        <img src="~/Images/inicio/auto.jpg" alt="Bloque 1">
+                        <div class="overlay-text">Cómo funciona un auto</div>
+                    </a>
                 </div>
-                <div class="section-content">
-                    <h2>Objetivo de la página</h2>
-                    <p>Nuestro objetivo es proporcionar una plataforma educativa donde cualquier persona interesada en la mecánica básica pueda aprender y mejorar sus habilidades. Queremos hacer que el aprendizaje sea accesible, práctico y divertido.</p>
-                </div>
-            </div>
-
-            <div class="section">
                 <div class="section-image">
-                    <img src="https://cdn-icons-png.flaticon.com/512/5661/5661172.png" alt="Solución">
+                    <a href="http://localhost:5231/Home/Login?IniciarSesion=Iniciar+Sesion">
+                        <img src="~/Images/inicio/verificacion.jpg" alt="Bloque 2">
+                        <div class="overlay-text">Lo que debes saber de la verificación</div>
+                    </a>
                 </div>
-                <div class="section-content">
-                    <h2>Solución al problema</h2>
-                    <p>La creación de una aplicación web para la facilitación de adquirir conocimientos de mecánica básica.</p>
+                <div class="section-image">
+                    <a href="http://localhost:5231/Home/Login?IniciarSesion=Iniciar+Sesion">
+                        <img src="~/Images/inicio/Nuevo reglamento de tRANSITO.jpg" alt="Bloque 3">
+                        <div class="overlay-text">Modificaciones al reglamento de tránsito</div>
+                    </a>
+                </div>
+                <div class="section-image">
+                    <a href="http://localhost:5231/Home/Login?IniciarSesion=Iniciar+Sesion">
+                        <img src="~/Images/Cuidado y prevencion/CuidadoEst.jpg" alt="Bloque 4">
+                        <div class="overlay-text">Cuidado y Prevención</div>
+                    </a>
                 </div>
             </div>
 
             <div class="welcome-text">
-                <h2>Bienvenido a Insane Mechanical</h2>
-                <p>Aprende todo sobre mecánica básica con nuestros tutoriales, imágenes y videos. Ya sea que seas un principiante o un experto, tenemos algo para ti.</p>
+                <h2>Si quieres aprender cómo funciona tu auto, estás en el lugar correcto</h2>
             </div>
 
             <div class="media-section">
-                <figure>
-                    <img src="https://via.placeholder.com/400x300.png?text=Imagen+de+Mecánica" alt="Imagen de Mecánica">
-                    <figcaption>Imagen de Mecánica</figcaption>
-                </figure>
-                <figure>
-                    <img src="https://via.placeholder.com/400x300.png?text=Otra+Imagen+de+Mecánica" alt="Otra Imagen de Mecánica">
-                    <figcaption>Otra Imagen de Mecánica</figcaption>
-                </figure>
+                <!-- Aquí puedes colocar imágenes o videos adicionales -->
             </div>
         </div>
 
+        <!-- Script de Bootstrap para el carousel -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <!-- Script para inicializar el carousel -->
         <script>
             var myCarousel = document.querySelector('#carouselExampleIndicators');
             var carousel = new bootstrap.Carousel(myCarousel, {
-            interval: 2000,
-            wrap: true
+                interval: 2000,
+                wrap: true
             });
         </script>
     }
     else
     {
-        <body>
-            <h1>Insane Mechanical</h1>
-            <div class="content-all">
-                <div class="section">
-                    <div class="section-content">
-                        <h2>¿Cómo funcionan los motores de los automóviles?</h2>
-                        <p>“El motor de combustión interna consta de cilindros, pistones, inyectores de combustible y bujías. Combinados, estos componentes queman combustible y dejan salir los gases de escape de los cilindros. Al repetir el proceso, crea energía que impulsa el automóvil.”</p>
-                    </div>
-                    <div class="section-image">
-                        <img src="~/Motor.png" alt="Motor de automóvil">
-                    </div>
+     
+        <h1>Insane Mechanical</h1>
+        <div class="content-all">
+            <!-- Contenido específico para cuando ViewBag.cookie no es null -->
+            <div class="section">
+                <div class="section-content">
+                    <h2>¿Cómo funcionan los motores de los automóviles?</h2>
+                    <p>“El motor de combustión interna consta de cilindros, pistones, inyectores de combustible y bujías. Combinados, estos componentes queman combustible y dejan salir los gases de escape de los cilindros. Al repetir el proceso, crea energía que impulsa el automóvil.”</p>
                 </div>
-                <img src="~/Carrofordummies.jpg" class="d-block mx-auto" />
+                <div class="section-image">
+                    <img src="~/Motor.png" alt="Motor de automóvil">
+                </div>
             </div>
 
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        </body>
+            <!-- Imagen adicional -->
+            <img src="~/Carrofordummies.jpg" class="d-block mx-auto" />
+        </div>
+
+        <!-- Script de Bootstrap específico para cuando ViewBag.cookie no es null -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        
     }
 </body>
 </html>

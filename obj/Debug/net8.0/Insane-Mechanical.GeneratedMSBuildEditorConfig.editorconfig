@@ -18,7 +18,15 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Manuel\Documents\GitHub\Insane-Mechanical
 build_property._RazorSourceGeneratorDebug = 
 
+<<<<<<< Updated upstream
 [C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Admin/AgregarArticulos.cshtml]
+=======
+[C:/Github/Kapicentro/Insane-Mechanical/wwwroot/Images/Categorias/3_16Verificación vehicular.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxJbWFnZXNcQ2F0ZWdvcmlhc1wzXzE2VmVyaWZpY2FjacOzbiB2ZWhpY3VsYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/Admin/AgregarArticulos.cshtml]
+>>>>>>> Stashed changes
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWdyZWdhckFydGljdWxvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
@@ -134,7 +142,15 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJpZmljYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< Updated upstream
 [C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Ho/Index1.cshtml]
+=======
+[C:/Github/Kapicentro/Insane-Mechanical/Views/Ho/1_16hola.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9cMV8xNmhvbGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/Ho/Index1.cshtml]
+>>>>>>> Stashed changes
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9cSW5kZXgxLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
@@ -154,6 +170,7 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9cSW5kZXg1LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< Updated upstream
 [C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/HTML/1_1_Hola.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzFfSG9sYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -180,6 +197,134 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/HTML/2_5Cambio de cojinete de rueda en un coche.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwyXzVDYW1iaW8gZGUgY29qaW5ldGUgZGUgcnVlZGEgZW4gdW4gY29jaGUuY3NodG1s
+=======
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_10Funcionamiento básico del chasis.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzEwRnVuY2lvbmFtaWVudG8gYsOhc2ljbyBkZWwgY2hhc2lzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_11Funcionamiento básico de los fusibles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzExRnVuY2lvbmFtaWVudG8gYsOhc2ljbyBkZSBsb3MgZnVzaWJsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_12Funcionamiento básico del alternador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzEyRnVuY2lvbmFtaWVudG8gYsOhc2ljbyBkZWwgYWx0ZXJuYWRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_13Funcionamiento básico del radiador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzEzRnVuY2lvbmFtaWVudG8gYsOhc2ljbyBkZWwgcmFkaWFkb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_14Funcionamiento básico de la dirección.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzE0RnVuY2lvbmFtaWVudG8gYsOhc2ljbyBkZSBsYSBkaXJlY2Npw7NuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_14Válvula de escape.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzE0VsOhbHZ1bGEgZGUgZXNjYXBlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_15Funcionamiento básico de la caja de cambios automatica.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzE1RnVuY2lvbmFtaWVudG8gYsOhc2ljbyBkZSBsYSBjYWphIGRlIGNhbWJpb3MgYXV0b21hdGljYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_15Funcionamiento básico de la suspensión.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzE1RnVuY2lvbmFtaWVudG8gYsOhc2ljbyBkZSBsYSBzdXNwZW5zacOzbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_16asasd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzE2YXNhc2QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_16Funcionamiento básico de los frenos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzE2RnVuY2lvbmFtaWVudG8gYsOhc2ljbyBkZSBsb3MgZnJlbm9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_17Funcionamiento básico de las ruedas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzE3RnVuY2lvbmFtaWVudG8gYsOhc2ljbyBkZSBsYXMgcnVlZGFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_18Funcionamiento básico de la válvula de escape.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzE4RnVuY2lvbmFtaWVudG8gYsOhc2ljbyBkZSBsYSB2w6FsdnVsYSBkZSBlc2NhcGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_1_Hola.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzFfSG9sYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_2Funcionamiento básico del motor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzJGdW5jaW9uYW1pZW50byBiw6FzaWNvIGRlbCBtb3Rvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_8Funcionamiento básico de la batería.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzhGdW5jaW9uYW1pZW50byBiw6FzaWNvIGRlIGxhIGJhdGVyw61hLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/1_9Funcionamiento básico de la caja de cambios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwxXzlGdW5jaW9uYW1pZW50byBiw6FzaWNvIGRlIGxhIGNhamEgZGUgY2FtYmlvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/2_14Válvula de escape.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwyXzE0VsOhbHZ1bGEgZGUgZXNjYXBlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/2_16Cuidado De La Bateria y Mas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwyXzE2Q3VpZGFkbyBEZSBMYSBCYXRlcmlhIHkgTWFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/2_17Cuidado De Tus Frenos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwyXzE3Q3VpZGFkbyBEZSBUdXMgRnJlbm9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/2_19Problemas de alternador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwyXzE5UHJvYmxlbWFzIGRlIGFsdGVybmFkb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/2_19Sobrecalentamiento del radiador .cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwyXzE5U29icmVjYWxlbnRhbWllbnRvIGRlbCByYWRpYWRvciAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/2_20Cambio de bujias.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwyXzIwQ2FtYmlvIGRlIGJ1amlhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/2_21Llantas ponchadas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwyXzIxTGxhbnRhcyBwb25jaGFkYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/3_16Verificación vehicular.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwzXzE2VmVyaWZpY2FjacOzbiB2ZWhpY3VsYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/3_22Reglamento de transito .cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwzXzIyUmVnbGFtZW50byBkZSB0cmFuc2l0byAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/3_23Reglamento de transito .cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwzXzIzUmVnbGFtZW50byBkZSB0cmFuc2l0byAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/3_24Reglamento de transito .cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwzXzI0UmVnbGFtZW50byBkZSB0cmFuc2l0byAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/3_25Reglamento de transito .cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwzXzI1UmVnbGFtZW50byBkZSB0cmFuc2l0byAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/3_26Documentos que siempre debes de cargar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwzXzI2RG9jdW1lbnRvcyBxdWUgc2llbXByZSBkZWJlcyBkZSBjYXJnYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/3_27Seguros Vehiculares.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwzXzI3U2VndXJvcyBWZWhpY3VsYXJlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/3_28Protección del Consumidor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwzXzI4UHJvdGVjY2nDs24gZGVsIENvbnN1bWlkb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/Kapicentro/Insane-Mechanical/Views/HTML/3_29Modificaciones al reglamento de tránsito.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTFwzXzI5TW9kaWZpY2FjaW9uZXMgYWwgcmVnbGFtZW50byBkZSB0csOhbnNpdG8uY3NodG1s
+>>>>>>> Stashed changes
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Manuel/Documents/GitHub/Insane-Mechanical/Views/Shared/Comentarios.cshtml]

@@ -96,7 +96,7 @@
     <div class="album py-5">
         <div class="container">
             <div class="content">
-                <h1>Categorias</h1>
+                <h1>Articulos</h1>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     @foreach (var i in Model)
                     {
@@ -105,7 +105,7 @@
                             <div class="col">
                                 <a href="@Url.Action("Articulo", new { RutaHtml = i.RutaHTML, IdArticulo = i.ID })" style="text-decoration: none; color: inherit;">
                                     <div class="card shadow-sm">
-                                        <img src="@i.RutaImagen" class="card-img-top" alt="@i.Descripcion">
+                                        <img src="@i.RutaImagen" class="card-img-top" alt="@i.Descripcion" height="300" width="480">
                                         <div class="card-body">
                                             <h5 class="card-title">@i.Titulo</h5>
                                             <p class="card-text">@i.Descripcion</p>

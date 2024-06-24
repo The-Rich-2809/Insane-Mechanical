@@ -25,12 +25,13 @@
                 if (i.RutaHTML == ViewBag.RutaHTML)
                 {
                     @Html.Raw(ViewBag.HtmlContent)
-                    @Html.Partial("../Shared/Comentarios.cshtml");
+                    @Html.Partial("../Shared/Comentarios.cshtml")
+                    ;
                     break;
                 }
             }
         </div>
     </div>
-    
+
 </body>
 </html>

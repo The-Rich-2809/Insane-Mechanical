@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\HTML\2_18Sobrecalentamiento.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="Views\HTML\1_1_Hola.cshtml.cs" />
   </ItemGroup>
 
@@ -22,7 +26,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\Images\Articulos\" />
+    <Folder Include="wwwroot\Images\NewFolder\" />
+    <Folder Include="wwwroot\Images\Tramites\" />
   </ItemGroup>
 
 </Project>

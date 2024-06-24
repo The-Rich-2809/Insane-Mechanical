@@ -18,24 +18,26 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            background-color: #e9ecef;
+            background-color: #f0f0f0; /* Fondo gris claro */
+            font-family: Arial, sans-serif;
         }
 
         .cotizador-container {
-            background: white;
+            background: #ffffff; /* Fondo blanco */
             border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
             padding: 30px;
             margin-top: 50px;
         }
 
         .cotizador-header {
-            background-color: #343a40;
-            color: white;
+            background-color: #343a40; /* Gris oscuro */
+            color: #ffffff; /* Texto blanco */
             padding: 15px;
             border-radius: 10px 10px 0 0;
             text-align: center;
             font-weight: bold;
+            margin-bottom: 30px;
         }
 
         .form-group label {
@@ -44,25 +46,32 @@
         }
 
         .form-group {
-            display: flex;
-            align-items: center;
             margin-bottom: 20px;
         }
 
         .select-container {
-            flex-grow: 1;
-        }
-
-        .form-group select {
-            border: 2px solid #343a40;
             width: 100%;
         }
 
         .total-display {
             font-size: 24px;
             font-weight: bold;
-            color: #343a40;
+            color: #343a40; /* Gris oscuro */
         }
+
+        .btn-cotizar {
+            background-color: #343a40; /* Gris oscuro */
+            color: #ffffff; /* Texto blanco */
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            .btn-cotizar:hover {
+                background-color: #23272b; /* Gris oscuro más oscuro */
+            }
     </style>
 </head>
 <body>
@@ -80,6 +89,8 @@
                             <option value="1500">Motor V4 - $1500</option>
                             <option value="2500">Motor V6 - $2500</option>
                             <option value="3500">Motor V8 - $3500</option>
+                            <option value="4000">Motor V10 - $4000</option>
+                            <option value="5000">Motor V12 - $5000</option>
                         </select>
                     </div>
                 </div>
@@ -90,6 +101,8 @@
                             <option value="0">Selecciona una opción</option>
                             <option value="1200">Manual - $1200</option>
                             <option value="2200">Automática - $2200</option>
+                            <option value="3000">Automática de doble embrague - $3000</option>
+                            <option value="3500">CVT - $3500</option>
                         </select>
                     </div>
                 </div>
@@ -100,6 +113,8 @@
                             <option value="0">Selecciona una opción</option>
                             <option value="300">Disco - $300</option>
                             <option value="500">ABS - $500</option>
+                            <option value="800">Carbono - $800</option>
+                            <option value="1000">Cerámicos - $1000</option>
                         </select>
                     </div>
                 </div>
@@ -110,6 +125,8 @@
                             <option value="0">Selecciona una opción</option>
                             <option value="400">Neumáticos estándar - $400</option>
                             <option value="600">Neumáticos deportivos - $600</option>
+                            <option value="800">Neumáticos todo terreno - $800</option>
+                            <option value="1000">Neumáticos de alto rendimiento - $1000</option>
                         </select>
                     </div>
                 </div>
@@ -120,6 +137,8 @@
                             <option value="0">Selecciona una opción</option>
                             <option value="800">Suspensión estándar - $800</option>
                             <option value="1200">Suspensión deportiva - $1200</option>
+                            <option value="1500">Suspensión ajustable - $1500</option>
+                            <option value="1800">Suspensión neumática - $1800</option>
                         </select>
                     </div>
                 </div>
@@ -130,6 +149,8 @@
                             <option value="0">Selecciona una opción</option>
                             <option value="100">Anticongelante estándar - $100</option>
                             <option value="200">Anticongelante de alto rendimiento - $200</option>
+                            <option value="300">Anticongelante orgánico - $300</option>
+                            <option value="400">Anticongelante sintético - $400</option>
                         </select>
                     </div>
                 </div>
@@ -140,6 +161,8 @@
                             <option value="0">Selecciona una opción</option>
                             <option value="50">Bujías estándar - $50</option>
                             <option value="100">Bujías de iridio - $100</option>
+                            <option value="150">Bujías de platino - $150</option>
+                            <option value="200">Bujías de doble platino - $200</option>
                         </select>
                     </div>
                 </div>
@@ -150,6 +173,8 @@
                             <option value="0">Selecciona una opción</option>
                             <option value="30">Aceite mineral - $30</option>
                             <option value="60">Aceite sintético - $60</option>
+                            <option value="90">Aceite semi-sintético - $90</option>
+                            <option value="120">Aceite de alto rendimiento - $120</option>
                         </select>
                     </div>
                 </div>
@@ -160,6 +185,8 @@
                             <option value="0">Selecciona una opción</option>
                             <option value="20">Filtro estándar - $20</option>
                             <option value="40">Filtro de alto rendimiento - $40</option>
+                            <option value="60">Filtro de carbono - $60</option>
+                            <option value="80">Filtro HEPA - $80</option>
                         </select>
                     </div>
                 </div>
@@ -170,6 +197,68 @@
                             <option value="0">Selecciona una opción</option>
                             <option value="100">Batería estándar - $100</option>
                             <option value="200">Batería de alto rendimiento - $200</option>
+                            <option value="300">Batería de litio - $300</option>
+                            <option value="400">Batería de gel - $400</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="parte11">Sistema de escape</label>
+                    <div class="select-container">
+                        <select class="form-control" id="parte11" onchange="actualizarTotal()">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="500">Escape estándar - $500</option>
+                            <option value="800">Escape de alto rendimiento - $800</option>
+                            <option value="1000">Escape de titanio - $1000</option>
+                            <option value="1500">Escape de fibra de carbono - $1500</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="parte12">Faros</label>
+                    <div class="select-container">
+                        <select class="form-control" id="parte12" onchange="actualizarTotal()">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="200">Faros halógenos - $200</option>
+                            <option value="400">Faros LED - $400</option>
+                            <option value="600">Faros xenón - $600</option>
+                            <option value="800">Faros láser - $800</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="parte13">Filtro de aceite</label>
+                    <div class="select-container">
+                        <select class="form-control" id="parte13" onchange="actualizarTotal()">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="20">Filtro estándar - $20</option>
+                            <option value="50">Filtro de alto rendimiento - $50</option>
+                            <option value="80">Filtro de competición - $80</option>
+                            <option value="100">Filtro de microfibra - $100</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="parte14">Amortiguadores</label>
+                    <div class="select-container">
+                        <select class="form-control" id="parte14" onchange="actualizarTotal()">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="300">Amortiguadores estándar - $300</option>
+                            <option value="600">Amortiguadores de alto rendimiento - $600</option>
+                            <option value="900">Amortiguadores ajustables - $900</option>
+                            <option value="1200">Amortiguadores de competición - $1200</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="parte15">Radiador</label>
+                    <div class="select-container">
+                        <select class="form-control" id="parte15" onchange="actualizarTotal()">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="400">Radiador estándar - $400</option>
+                            <option value="700">Radiador de alto rendimiento - $700</option>
+                            <option value="1000">Radiador de aluminio - $1000</option>
+                            <option value="1500">Radiador de cobre - $1500</option>
                         </select>
                     </div>
                 </div>
@@ -192,13 +281,17 @@
             const parte8 = parseInt(document.getElementById('parte8').value);
             const parte9 = parseInt(document.getElementById('parte9').value);
             const parte10 = parseInt(document.getElementById('parte10').value);
+            const parte11 = parseInt(document.getElementById('parte11').value);
+            const parte12 = parseInt(document.getElementById('parte12').value);
+            const parte13 = parseInt(document.getElementById('parte13').value);
+            const parte14 = parseInt(document.getElementById('parte14').value);
+            const parte15 = parseInt(document.getElementById('parte15').value);
 
-            const total = parte1 + parte2 + parte3 + parte4 + parte5 + parte6 + parte7 + parte8 + parte9 + parte10;
+            const total = parte1 + parte2 + parte3 + parte4 + parte5 + parte6 + parte7 + parte8 + parte9 + parte10 + parte11 + parte12 + parte13 + parte14 + parte15;
 
             document.getElementById('total').textContent = total;
         }
     </script>
-
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
