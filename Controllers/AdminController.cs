@@ -327,7 +327,6 @@ namespace Insane_Mechanical.Controllers
         [HttpPost]
         public async Task<IActionResult> EditarPregunta(Pregunta pregunta)
         {
-            Cookies();
             _contextDB.Entry(pregunta).State = EntityState.Modified;
             await _contextDB.SaveChangesAsync();
             return RedirectToAction(nameof(ListarPreguntas));

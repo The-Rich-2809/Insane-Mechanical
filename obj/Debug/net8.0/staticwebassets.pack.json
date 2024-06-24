@@ -1,823 +1,787 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Insane-Mechanical.bundle.scp.css",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Insane-Mechanical.bundle.scp.css",
       "PackagePath": "staticwebassets\\Insane-Mechanical.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Carrofordummies.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Carrofordummies.jpg",
       "PackagePath": "staticwebassets\\Carrofordummies.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\0b19e909-8423-40f0-ad1e-70e9eb7a7c36.png",
-      "PackagePath": "staticwebassets\\Images\\Articulos\\0b19e909-8423-40f0-ad1e-70e9eb7a7c36.png"
-    },
-    {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\28231e4c-7d73-4d63-9ff9-682b9f956c87.png",
-      "PackagePath": "staticwebassets\\Images\\Articulos\\28231e4c-7d73-4d63-9ff9-682b9f956c87.png"
-    },
-    {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\795142d8-55ef-4e2c-92c7-2d71110cd78f.png",
-      "PackagePath": "staticwebassets\\Images\\Articulos\\795142d8-55ef-4e2c-92c7-2d71110cd78f.png"
-    },
-    {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\957ae416-88dc-4b93-bb40-f68b353b0264.png",
-=======
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\0830d145-760c-498b-96e8-27b9a1613b3d.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\0830d145-760c-498b-96e8-27b9a1613b3d.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\0830d145-760c-498b-96e8-27b9a1613b3d.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\094d3a17-49c7-42cd-affe-6357e7202538.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\094d3a17-49c7-42cd-affe-6357e7202538.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\094d3a17-49c7-42cd-affe-6357e7202538.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\0b19e909-8423-40f0-ad1e-70e9eb7a7c36.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\0b19e909-8423-40f0-ad1e-70e9eb7a7c36.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\0b19e909-8423-40f0-ad1e-70e9eb7a7c36.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\0e9646e7-b6a8-492d-ad24-1bd2ada76b22.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\0e9646e7-b6a8-492d-ad24-1bd2ada76b22.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\0e9646e7-b6a8-492d-ad24-1bd2ada76b22.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\1292c35d-1033-4b22-9844-04b542766946.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\1292c35d-1033-4b22-9844-04b542766946.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\1292c35d-1033-4b22-9844-04b542766946.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\1499f850-8910-497e-8475-15667c1d7832.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\1499f850-8910-497e-8475-15667c1d7832.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\1499f850-8910-497e-8475-15667c1d7832.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\22d2617e-fa51-4053-9deb-a669fd19bafa.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\22d2617e-fa51-4053-9deb-a669fd19bafa.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\22d2617e-fa51-4053-9deb-a669fd19bafa.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\236dc260-d8f9-4dcc-b225-682f2a0d875c.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\236dc260-d8f9-4dcc-b225-682f2a0d875c.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\236dc260-d8f9-4dcc-b225-682f2a0d875c.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\2605d1e9-45e4-4d20-9412-aefdb495d4d3.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\2605d1e9-45e4-4d20-9412-aefdb495d4d3.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\2605d1e9-45e4-4d20-9412-aefdb495d4d3.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\28231e4c-7d73-4d63-9ff9-682b9f956c87.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\28231e4c-7d73-4d63-9ff9-682b9f956c87.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\28231e4c-7d73-4d63-9ff9-682b9f956c87.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\2dc932f7-1138-4f57-ac2f-7984b57aa2f3.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\2dc932f7-1138-4f57-ac2f-7984b57aa2f3.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\2dc932f7-1138-4f57-ac2f-7984b57aa2f3.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\2e6280c9-348c-4a8b-ae3e-8bf1dce67f8a.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\2e6280c9-348c-4a8b-ae3e-8bf1dce67f8a.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\2e6280c9-348c-4a8b-ae3e-8bf1dce67f8a.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\330460ab-be6b-465d-82d9-f07aa6513ee2.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\330460ab-be6b-465d-82d9-f07aa6513ee2.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\330460ab-be6b-465d-82d9-f07aa6513ee2.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\34db1c69-1b50-4c71-b850-7253b99883b3.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\34db1c69-1b50-4c71-b850-7253b99883b3.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\34db1c69-1b50-4c71-b850-7253b99883b3.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\5c79fb59-3e13-490f-a487-e622e3423936.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\5c79fb59-3e13-490f-a487-e622e3423936.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\5c79fb59-3e13-490f-a487-e622e3423936.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\67ab60f9-c867-4568-b446-ebf7240941d4.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\67ab60f9-c867-4568-b446-ebf7240941d4.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\67ab60f9-c867-4568-b446-ebf7240941d4.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\6f21f911-b3e4-4a87-bc8c-e86f2cf612e6.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\6f21f911-b3e4-4a87-bc8c-e86f2cf612e6.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\6f21f911-b3e4-4a87-bc8c-e86f2cf612e6.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\74728607-e9b0-4cdc-9a8a-8a0a55f2bdd6.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\74728607-e9b0-4cdc-9a8a-8a0a55f2bdd6.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\74728607-e9b0-4cdc-9a8a-8a0a55f2bdd6.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\760ead6c-038b-4055-a560-15a3f3d78a86.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\760ead6c-038b-4055-a560-15a3f3d78a86.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\760ead6c-038b-4055-a560-15a3f3d78a86.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\795142d8-55ef-4e2c-92c7-2d71110cd78f.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\795142d8-55ef-4e2c-92c7-2d71110cd78f.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\795142d8-55ef-4e2c-92c7-2d71110cd78f.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\79d96b36-74cb-4482-9136-9f85f047d556.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\79d96b36-74cb-4482-9136-9f85f047d556.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\79d96b36-74cb-4482-9136-9f85f047d556.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\7c5e1a8d-7453-4431-a927-1f0ba6619c48.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\7c5e1a8d-7453-4431-a927-1f0ba6619c48.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\7c5e1a8d-7453-4431-a927-1f0ba6619c48.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\7f55d6da-6800-4f90-8169-de5981fc16b4.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\7f55d6da-6800-4f90-8169-de5981fc16b4.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\7f55d6da-6800-4f90-8169-de5981fc16b4.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\87779f68-1f7c-41c6-b96d-861dc3af732f.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\87779f68-1f7c-41c6-b96d-861dc3af732f.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\87779f68-1f7c-41c6-b96d-861dc3af732f.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\8971377b-b084-413f-8bf6-ae05ae8e3886.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\8971377b-b084-413f-8bf6-ae05ae8e3886.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\8971377b-b084-413f-8bf6-ae05ae8e3886.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\90cec55d-9ca9-4aec-81ad-9561dd303384.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\90cec55d-9ca9-4aec-81ad-9561dd303384.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\90cec55d-9ca9-4aec-81ad-9561dd303384.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\929330da-0df1-4b14-b6b7-4330a50f3634.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\929330da-0df1-4b14-b6b7-4330a50f3634.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\929330da-0df1-4b14-b6b7-4330a50f3634.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\957ae416-88dc-4b93-bb40-f68b353b0264.png",
->>>>>>> Stashed changes
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\957ae416-88dc-4b93-bb40-f68b353b0264.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\957ae416-88dc-4b93-bb40-f68b353b0264.png"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\98e5f5cb-814a-40bb-89c3-2cfc859ff1b4.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\98e5f5cb-814a-40bb-89c3-2cfc859ff1b4.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\98e5f5cb-814a-40bb-89c3-2cfc859ff1b4.png"
     },
     {
-<<<<<<< Updated upstream
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\b2456e59-472f-40ee-93f9-df02d0185428.png",
-      "PackagePath": "staticwebassets\\Images\\Articulos\\b2456e59-472f-40ee-93f9-df02d0185428.png"
-    },
-    {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\Categorias\\ImgAuto.jpg",
-      "PackagePath": "staticwebassets\\Images\\Categorias\\ImgAuto.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\FondoTecnologia.jpg",
-=======
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\9d2a987d-df29-455b-8bee-b4a4224d10d8.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\9d2a987d-df29-455b-8bee-b4a4224d10d8.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\9d2a987d-df29-455b-8bee-b4a4224d10d8.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\9ffc68a6-c547-4018-b3b1-63febcdbb297.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\9ffc68a6-c547-4018-b3b1-63febcdbb297.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\9ffc68a6-c547-4018-b3b1-63febcdbb297.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\Alternador-PartesEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\Alternador-PartesEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\Alternador-PartesEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\AlternadorEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\AlternadorEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\AlternadorEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\Bateria-PartesEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\Bateria-PartesEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\Bateria-PartesEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\BateríaEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\BateríaEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\BateríaEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\CajaAutomaticaEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\CajaAutomaticaEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\CajaAutomaticaEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\CajaDeCambios-PartesEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\CajaDeCambios-PartesEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\CajaDeCambios-PartesEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\CajaDeCambiosEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\CajaDeCambiosEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\CajaDeCambiosEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\Chasis-PartesEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\Chasis-PartesEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\Chasis-PartesEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\ChequeoEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\ChequeoEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\ChequeoEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\Dirección-PartesEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\Dirección-PartesEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\Dirección-PartesEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\DirecciónEst - Copia.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\DirecciónEst - Copia.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\DirecciónEst - Copia.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\DirecciónEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\DirecciónEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\DirecciónEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\Frenos-PartesEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\Frenos-PartesEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\Frenos-PartesEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\FrenosEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\FrenosEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\FrenosEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\Fusibles-PartesEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\Fusibles-PartesEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\Fusibles-PartesEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\Motor-PartesEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\Motor-PartesEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\Motor-PartesEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\MotorEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\MotorEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\MotorEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\Radiador-PartesEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\Radiador-PartesEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\Radiador-PartesEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\RadiadorEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\RadiadorEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\RadiadorEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\Rueda-PartesEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\Rueda-PartesEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\Rueda-PartesEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\RuedaEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\RuedaEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\RuedaEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\Suspensión-PartesEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\Suspensión-PartesEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\Suspensión-PartesEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\SuspensiónEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\SuspensiónEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\SuspensiónEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\ValvulaDeEscape-PartesEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\ValvulaDeEscape-PartesEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\ValvulaDeEscape-PartesEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\ValvulaDeEscapeEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\ValvulaDeEscapeEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\ValvulaDeEscapeEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\VeranoEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\VeranoEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\VeranoEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\VerificacionVehicular.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\VerificacionVehicular.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\VerificacionVehicular.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\a04fdbb0-94ae-4f8c-a6af-ce8fc7fe71f7.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\a04fdbb0-94ae-4f8c-a6af-ce8fc7fe71f7.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\a04fdbb0-94ae-4f8c-a6af-ce8fc7fe71f7.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\b2456e59-472f-40ee-93f9-df02d0185428.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\b2456e59-472f-40ee-93f9-df02d0185428.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\b2456e59-472f-40ee-93f9-df02d0185428.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\b3f7b3f4-fd9d-4de3-afdd-78f634b224e8.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\b3f7b3f4-fd9d-4de3-afdd-78f634b224e8.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\b3f7b3f4-fd9d-4de3-afdd-78f634b224e8.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\bbc310b1-34c3-44c9-9d37-5402e6b72abb.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\bbc310b1-34c3-44c9-9d37-5402e6b72abb.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\bbc310b1-34c3-44c9-9d37-5402e6b72abb.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\bc17fbe0-199f-4c47-876e-e77590792fcb.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\bc17fbe0-199f-4c47-876e-e77590792fcb.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\bc17fbe0-199f-4c47-876e-e77590792fcb.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\cambioDeAceiteEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\cambioDeAceiteEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Articulos\\cambioDeAceiteEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\cd927a1d-857f-4b24-a941-d2568750b264.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\cd927a1d-857f-4b24-a941-d2568750b264.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\cd927a1d-857f-4b24-a941-d2568750b264.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\dbb43d92-a69f-42e2-8218-20d090921ab0.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\dbb43d92-a69f-42e2-8218-20d090921ab0.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\dbb43d92-a69f-42e2-8218-20d090921ab0.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\dd492693-e736-4842-9564-3d1d26beca35.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\dd492693-e736-4842-9564-3d1d26beca35.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\dd492693-e736-4842-9564-3d1d26beca35.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\e01e146b-a5cc-4990-9381-d522719ade25.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\e01e146b-a5cc-4990-9381-d522719ade25.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\e01e146b-a5cc-4990-9381-d522719ade25.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\ebbc29ae-325d-4f1e-81e5-914678daf603.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\ebbc29ae-325d-4f1e-81e5-914678daf603.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\ebbc29ae-325d-4f1e-81e5-914678daf603.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\ee4abb69-e115-4a35-adc3-5b6b5a9fbecb.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\ee4abb69-e115-4a35-adc3-5b6b5a9fbecb.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\ee4abb69-e115-4a35-adc3-5b6b5a9fbecb.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\ee53b089-bd72-4bf9-b462-f377ba8ec9a2.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\ee53b089-bd72-4bf9-b462-f377ba8ec9a2.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\ee53b089-bd72-4bf9-b462-f377ba8ec9a2.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\f4de55ef-7314-46f9-ab8c-49a299f903ab.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\f4de55ef-7314-46f9-ab8c-49a299f903ab.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\f4de55ef-7314-46f9-ab8c-49a299f903ab.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\f6d09c91-7ce9-4ac7-9d91-367b25fd3f53.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\f6d09c91-7ce9-4ac7-9d91-367b25fd3f53.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\f6d09c91-7ce9-4ac7-9d91-367b25fd3f53.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\f7304333-2be2-40cf-b22f-14ee575c94b7.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\f7304333-2be2-40cf-b22f-14ee575c94b7.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\f7304333-2be2-40cf-b22f-14ee575c94b7.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Articulos\\fa0e97df-ef17-4acc-95aa-8298e7419947.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Articulos\\fa0e97df-ef17-4acc-95aa-8298e7419947.png",
       "PackagePath": "staticwebassets\\Images\\Articulos\\fa0e97df-ef17-4acc-95aa-8298e7419947.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Categorias\\ImgAuto.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Categorias\\ImgAuto.jpg",
       "PackagePath": "staticwebassets\\Images\\Categorias\\ImgAuto.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Cuidado y prevencion\\AlternadorEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Cuidado y prevencion\\AlternadorEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Cuidado y prevencion\\AlternadorEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Cuidado y prevencion\\Art3Est.jpeg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Cuidado y prevencion\\Art3Est.jpeg",
       "PackagePath": "staticwebassets\\Images\\Cuidado y prevencion\\Art3Est.jpeg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Cuidado y prevencion\\Art4Est.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Cuidado y prevencion\\Art4Est.jpg",
       "PackagePath": "staticwebassets\\Images\\Cuidado y prevencion\\Art4Est.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Cuidado y prevencion\\BateriaEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Cuidado y prevencion\\BateriaEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Cuidado y prevencion\\BateriaEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Cuidado y prevencion\\BateriaEst.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Cuidado y prevencion\\BateriaEst.png",
       "PackagePath": "staticwebassets\\Images\\Cuidado y prevencion\\BateriaEst.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Cuidado y prevencion\\CajaAutomaticaEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Cuidado y prevencion\\CajaAutomaticaEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Cuidado y prevencion\\CajaAutomaticaEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Cuidado y prevencion\\CambioDeLlantaEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Cuidado y prevencion\\CambioDeLlantaEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Cuidado y prevencion\\CambioDeLlantaEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Cuidado y prevencion\\ChasisEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Cuidado y prevencion\\ChasisEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Cuidado y prevencion\\ChasisEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Cuidado y prevencion\\CuidadoDeFrenosEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Cuidado y prevencion\\CuidadoDeFrenosEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Cuidado y prevencion\\CuidadoDeFrenosEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Cuidado y prevencion\\CuidadoEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Cuidado y prevencion\\CuidadoEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Cuidado y prevencion\\CuidadoEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Cuidado y prevencion\\Decoloracion.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Cuidado y prevencion\\Decoloracion.jpg",
       "PackagePath": "staticwebassets\\Images\\Cuidado y prevencion\\Decoloracion.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Cuidado y prevencion\\DocumentacionEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Cuidado y prevencion\\DocumentacionEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Cuidado y prevencion\\DocumentacionEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Cuidado y prevencion\\FugaDelRadiadorEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Cuidado y prevencion\\FugaDelRadiadorEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Cuidado y prevencion\\FugaDelRadiadorEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Cuidado y prevencion\\FusiblesEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Cuidado y prevencion\\FusiblesEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Cuidado y prevencion\\FusiblesEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Cuidado y prevencion\\MotorSobreCalentado.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Cuidado y prevencion\\MotorSobreCalentado.jpg",
       "PackagePath": "staticwebassets\\Images\\Cuidado y prevencion\\MotorSobreCalentado.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Cuidado y prevencion\\No arranca.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Cuidado y prevencion\\No arranca.png",
       "PackagePath": "staticwebassets\\Images\\Cuidado y prevencion\\No arranca.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Cuidado y prevencion\\Nuevo reglamento de tRANSITO.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Cuidado y prevencion\\Nuevo reglamento de tRANSITO.jpg",
       "PackagePath": "staticwebassets\\Images\\Cuidado y prevencion\\Nuevo reglamento de tRANSITO.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Cuidado y prevencion\\PoliciaDeTransito.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Cuidado y prevencion\\PoliciaDeTransito.jpg",
       "PackagePath": "staticwebassets\\Images\\Cuidado y prevencion\\PoliciaDeTransito.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Cuidado y prevencion\\ReglamentoEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Cuidado y prevencion\\ReglamentoEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Cuidado y prevencion\\ReglamentoEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Cuidado y prevencion\\SeguroEst.jpeg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Cuidado y prevencion\\SeguroEst.jpeg",
       "PackagePath": "staticwebassets\\Images\\Cuidado y prevencion\\SeguroEst.jpeg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Cuidado y prevencion\\VerificacionEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Cuidado y prevencion\\VerificacionEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Cuidado y prevencion\\VerificacionEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Cuidado y prevencion\\bujiasEst.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Cuidado y prevencion\\bujiasEst.jpg",
       "PackagePath": "staticwebassets\\Images\\Cuidado y prevencion\\bujiasEst.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Cuidado y prevencion\\proteccion-al-consumidorEst.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Cuidado y prevencion\\proteccion-al-consumidorEst.png",
       "PackagePath": "staticwebassets\\Images\\Cuidado y prevencion\\proteccion-al-consumidorEst.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Cuidado y prevencion\\radiadorDañado.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Cuidado y prevencion\\radiadorDañado.jpg",
       "PackagePath": "staticwebassets\\Images\\Cuidado y prevencion\\radiadorDañado.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\FondoTecnologia.jpg",
->>>>>>> Stashed changes
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\FondoTecnologia.jpg",
       "PackagePath": "staticwebassets\\Images\\FondoTecnologia.jpg"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\HtmlLogo (2).jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\HtmlLogo (2).jpg",
       "PackagePath": "staticwebassets\\Images\\HtmlLogo (2).jpg"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\HtmlLogo.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\HtmlLogo.jpg",
       "PackagePath": "staticwebassets\\Images\\HtmlLogo.jpg"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\Imagen_1.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Imagen_1.jpg",
       "PackagePath": "staticwebassets\\Images\\Imagen_1.jpg"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\ImgAcuaman.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\ImgAcuaman.jpg",
       "PackagePath": "staticwebassets\\Images\\ImgAcuaman.jpg"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\ImgAstronauta.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\ImgAstronauta.jpg",
       "PackagePath": "staticwebassets\\Images\\ImgAstronauta.jpg"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\ImgBatman.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\ImgBatman.jpg",
       "PackagePath": "staticwebassets\\Images\\ImgBatman.jpg"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\ImgDeadPool2.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\ImgDeadPool2.jpg",
       "PackagePath": "staticwebassets\\Images\\ImgDeadPool2.jpg"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\ImgIronMan.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\ImgIronMan.jpg",
       "PackagePath": "staticwebassets\\Images\\ImgIronMan.jpg"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\ImgPaisajeChino.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\ImgPaisajeChino.jpg",
       "PackagePath": "staticwebassets\\Images\\ImgPaisajeChino.jpg"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\ImgPlaneta.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\ImgPlaneta.jpg",
       "PackagePath": "staticwebassets\\Images\\ImgPlaneta.jpg"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\ImgSpiderMan.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\ImgSpiderMan.jpg",
       "PackagePath": "staticwebassets\\Images\\ImgSpiderMan.jpg"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\Insane-Mechanical.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Insane-Mechanical.jpg",
       "PackagePath": "staticwebassets\\Images\\Insane-Mechanical.jpg"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\Tal.webp",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Tal.webp",
       "PackagePath": "staticwebassets\\Images\\Tal.webp"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\Taller.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Taller.jpg",
       "PackagePath": "staticwebassets\\Images\\Taller.jpg"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\Usuarios\\Alejandro.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Usuarios\\Alejandro.jpg",
       "PackagePath": "staticwebassets\\Images\\Usuarios\\Alejandro.jpg"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\Usuarios\\Rich.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Usuarios\\Rich.jpg",
       "PackagePath": "staticwebassets\\Images\\Usuarios\\Rich.jpg"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\Usuarios\\aserranoacosta841@gmail.comDiagramaKarpicentro.drawio.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Usuarios\\aserranoacosta841@gmail.comDiagramaKarpicentro.drawio.png",
       "PackagePath": "staticwebassets\\Images\\Usuarios\\aserranoacosta841@gmail.comDiagramaKarpicentro.drawio.png"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\Usuarios\\aserranoacosta841@gmail.comDiseñoKarpicentro.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Usuarios\\aserranoacosta841@gmail.comDiseñoKarpicentro.png",
       "PackagePath": "staticwebassets\\Images\\Usuarios\\aserranoacosta841@gmail.comDiseñoKarpicentro.png"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\Usuarios\\aserranoacosta841@gmail.comNimrod.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Usuarios\\aserranoacosta841@gmail.comNimrod.jpg",
       "PackagePath": "staticwebassets\\Images\\Usuarios\\aserranoacosta841@gmail.comNimrod.jpg"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\Usuarios\\aserranoacosta841@gmail.comQue chingue su madre el america.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Usuarios\\aserranoacosta841@gmail.comQue chingue su madre el america.jpg",
       "PackagePath": "staticwebassets\\Images\\Usuarios\\aserranoacosta841@gmail.comQue chingue su madre el america.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\Usuarios\\robert.pg556@gmail.comNimrod.png",
-=======
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Usuarios\\raniuri1010@gmail.comaserranoacosta841@gmail.comDiseñoKarpicentro.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Usuarios\\raniuri1010@gmail.comaserranoacosta841@gmail.comDiseñoKarpicentro.png",
       "PackagePath": "staticwebassets\\Images\\Usuarios\\raniuri1010@gmail.comaserranoacosta841@gmail.comDiseñoKarpicentro.png"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Usuarios\\raniuri1010@gmail.comaserranoacosta841@gmail.comQue chingue su madre el america.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Usuarios\\raniuri1010@gmail.comaserranoacosta841@gmail.comQue chingue su madre el america.jpg",
       "PackagePath": "staticwebassets\\Images\\Usuarios\\raniuri1010@gmail.comaserranoacosta841@gmail.comQue chingue su madre el america.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\Usuarios\\robert.pg556@gmail.comNimrod.png",
->>>>>>> Stashed changes
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Usuarios\\robert.pg556@gmail.comNimrod.png",
       "PackagePath": "staticwebassets\\Images\\Usuarios\\robert.pg556@gmail.comNimrod.png"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Images\\Usuarios\\usuario.png",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\Usuarios\\usuario.png",
       "PackagePath": "staticwebassets\\Images\\Usuarios\\usuario.png"
     },
     {
-<<<<<<< Updated upstream
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\Motor.png",
-=======
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\inicio\\CajaAutomatica.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\inicio\\CajaAutomatica.jpg",
       "PackagePath": "staticwebassets\\Images\\inicio\\CajaAutomatica.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\inicio\\Nuevo reglamento de tRANSITO.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\inicio\\Nuevo reglamento de tRANSITO.jpg",
       "PackagePath": "staticwebassets\\Images\\inicio\\Nuevo reglamento de tRANSITO.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\inicio\\auto.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\inicio\\auto.jpg",
       "PackagePath": "staticwebassets\\Images\\inicio\\auto.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Images\\inicio\\verificacion.jpg",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Images\\inicio\\verificacion.jpg",
       "PackagePath": "staticwebassets\\Images\\inicio\\verificacion.jpg"
     },
     {
-      "Id": "C:\\Github\\Kapicentro\\Insane-Mechanical\\wwwroot\\Motor.png",
->>>>>>> Stashed changes
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\Motor.png",
       "PackagePath": "staticwebassets\\Motor.png"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\css\\UsarioIndex.css",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\css\\UsarioIndex.css",
       "PackagePath": "staticwebassets\\css\\UsarioIndex.css"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\js\\form-validation.js",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\js\\form-validation.js",
       "PackagePath": "staticwebassets\\js\\form-validation.js"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\js\\mercado.js",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\js\\mercado.js",
       "PackagePath": "staticwebassets\\js\\mercado.js"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

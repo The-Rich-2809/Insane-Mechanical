@@ -336,8 +336,6 @@ C:\Users\Manuel\Documents\GitHub\Insane-Mechanical\obj\Debug\net8.0\refint\Insan
 C:\Users\Manuel\Documents\GitHub\Insane-Mechanical\obj\Debug\net8.0\Insane-Mechanical.pdb
 C:\Users\Manuel\Documents\GitHub\Insane-Mechanical\obj\Debug\net8.0\Insane-Mechanical.genruntimeconfig.cache
 C:\Users\Manuel\Documents\GitHub\Insane-Mechanical\obj\Debug\net8.0\ref\Insane-Mechanical.dll
-<<<<<<< Updated upstream
-=======
 C:\Users\Manuel\Documents\GitHub\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Manuel\Documents\GitHub\bin\Debug\net8.0\appsettings.json
 C:\Users\Manuel\Documents\GitHub\bin\Debug\net8.0\Insane-Mechanical.staticwebassets.runtime.json
@@ -508,4 +506,3 @@ C:\Users\alexa\OneDrive\Documentos\Karpicentro\GitHub\obj\Debug\net8.0\refint\In
 C:\Users\alexa\OneDrive\Documentos\Karpicentro\GitHub\obj\Debug\net8.0\Insane-Mechanical.pdb
 C:\Users\alexa\OneDrive\Documentos\Karpicentro\GitHub\obj\Debug\net8.0\Insane-Mechanical.genruntimeconfig.cache
 C:\Users\alexa\OneDrive\Documentos\Karpicentro\GitHub\obj\Debug\net8.0\ref\Insane-Mechanical.dll
->>>>>>> Stashed changes

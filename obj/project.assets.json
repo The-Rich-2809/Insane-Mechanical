@@ -4185,19 +4185,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Manuel\\.nuget\\packages\\": {}
+    "C:\\Users\\alexa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\Insane-Mechanical.csproj",
+      "projectUniqueName": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\Insane-Mechanical.csproj",
       "projectName": "Insane-Mechanical",
-      "projectPath": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\Insane-Mechanical.csproj",
-      "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Manuel\\Documents\\GitHub\\Insane-Mechanical\\obj\\",
+      "projectPath": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\Insane-Mechanical.csproj",
+      "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alexa\\OneDrive\\Documentos\\Karpicentro\\GitHub\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Manuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4205,7 +4205,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4267,7 +4266,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
